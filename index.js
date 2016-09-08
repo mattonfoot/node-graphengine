@@ -11,13 +11,7 @@ var N3GraphWriter = require('./lib/graphs/N3GraphWriter');
 var JsonldGraphWriter = require('./lib/graphs/./JsonldGraphWriter');
 var HtmlGraphWriter = require('./lib/graphs/./HtmlGraphWriter');
 
-var config = {
-  src: './artifacts/dwp/*.ttl',
-  vocab:  'http://dwp.data.gov.uk/',
-
-  dest: './.data',
-  store: './.store',
-};
+var config = require('./config.json');
 
 var distributer = new Distributer();
 
@@ -39,7 +33,7 @@ glob(config.src, function (err, paths) {
     return;
   }
 
-  paths.push('./artifacts/dwp/ontology.ttl');
+  paths.push(config.ontology);
 
   loadFiles(paths);
 });

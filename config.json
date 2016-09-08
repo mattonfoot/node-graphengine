@@ -1,0 +1,9 @@
+{
+  "src": "./artifacts/dwp/*.ttl",
+  "vocab":  "http://dwp.data.gov.uk/",
+
+  "ontology" : "./artifacts/dwp/ontology.ttl",
+
+  "dest": "./.data",
+  "store": "./.store"
+}
