@@ -1,0 +1,895 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/parenteral-feeding/PHP187> nicebnf:hasDitaContent """<sectiondiv outputclass=\"energyNotes\">
+  <p>1000 kcal = 4200kJ; 1000 kJ = 238.8 kcal. All entries are Prescription-only medicines.</p>
+  <p>Excludes protein- or amino acid-derived energy</p>
+</sectiondiv>"""^^<rdf:XMLLiteral>;
+                                                   nicebnf:hasPreparation [rdfs:label "aminoven 25 (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "25.7 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £19.72</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £19.72
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "clinimix n9g20e (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "4.6 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "1680 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "30.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "35.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "50.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2.3 mmol, phosphate 15 mmol, anhydrous glucose 100 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(dual compartment bag of amino acids with electrolytes 1000 mL and glucose 20% with calcium 1000 mL)</ph> 2 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (dual compartment bag of amino acids with electrolytes 1000 mL and glucose 20% with calcium 1000 mL) 2 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "clinimix n14g30e (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "7.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "2520 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "30.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "35.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "70.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2.3 mmol, phosphate 15 mmol, anhydrous glucose 150 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(dual compartment bag of amino acids with electrolytes 1000 mL and glucose 30% with calcium 1000 mL)</ph> 2 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (dual compartment bag of amino acids with electrolytes 1000 mL and glucose 30% with calcium 1000 mL) 2 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "clinoleic 20% (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "8360 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "purified olive and soya oil 200 g, glycerol 22.5 g, egg phosphatides 12 g"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 250 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 250 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "hyperamine 30 (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "30.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "5.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "intralipid 10% (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4600 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "soya oil 100 g, glycerol 22 g, purified egg phospholipids 12 g, phosphate 15 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml = £4.12</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml = £4.12
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £9.01</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £9.01
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "intralipid 20% (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "8400 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "soya oil 200 g, glycerol 22 g, purified egg phospholipids 12 g, phosphate 15 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml = £6.21</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml = £6.21
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 250 ml = £10.16</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 250 ml = £10.16
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £13.52</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £13.52
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "intralipid 30% (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "12600 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "soya oil 300 g, glycerol 16.7 g, purified egg phospholipids 12 g, phosphate 15 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 333 ml = £17.80</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 333 ml = £17.80
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "kabiven (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "5.3 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3275 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "23.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "4.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "31.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "38.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "45.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2 mmol, phosphate 9.7 mmol, anhydrous glucose 97 g, soya oil 39 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids and electrolytes 300 mL, 450 mL, 600 mL, or 750 mL; glucose 526 mL, 790 mL, 1053 mL, or 1316 mL; lipid emulsion 200 mL, 300 mL, 400 mL, or 500 mL)</ph> 1.026 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids and electrolytes 300 mL, 450 mL, 600 mL, or 750 mL; glucose 526 mL, 790 mL, 1053 mL, or 1316 mL; lipid emulsion 200 mL, 300 mL, 400 mL, or 500 mL) 1.026 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.54 litre = £44.09</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.54 litre = £44.09
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.053 litre = £57.42</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.053 litre = £57.42
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.566 litre = £59.92</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.566 litre = £59.92
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "kabiven peripheral (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "3.75 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "2625 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "17.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.8 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "22.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "27.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "33.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 1.4 mmol, phosphate 7.5 mmol, anhydrous glucose 67.5 g, soya oil 35.4 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids and electrolytes 300 mL, 400 mL, or 500 mL; glucose 885 mL, 1180 mL, or 1475 mL; lipid emulsion 255 mL, 340 mL, or 425 mL)</ph> 1.44 litre = £30.77</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids and electrolytes 300 mL, 400 mL, or 500 mL; glucose 885 mL, 1180 mL, or 1475 mL; lipid emulsion 255 mL, 340 mL, or 425 mL) 1.44 litre = £30.77
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.92 litre = £44.09</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.92 litre = £44.09
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.4 litre = £55.72</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.4 litre = £55.72
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "lipidem (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "7900 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "omega-3-acid triglycerides 20 g, soya oil 80 g, medium chain triglycerides 100 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml = £19.11</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml = £19.11
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 250 ml = £31.85</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 250 ml = £31.85
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £40.34</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £40.34
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "lipofundin mct/lct 10% (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4430 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "soya oil 50 g, medium-chain triglycerides 50 g"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £13.70</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £13.70
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "lipofundin mct/lct 20% (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "8000 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "soya oil 100 g, medium-chain triglycerides 100 g"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml = £13.28</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml = £13.28
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 250 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 250 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £20.36</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £20.36
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex basal (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "4.6 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "2095 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "30.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "5.7 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "49.9 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "35.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "50.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 3.6 mmol, acid phosphate 12.8 mmol, anhydrous glucose 125 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(dual compartment bag of amino acids 400 mL or 800 mL; glucose 600 mL or 1200 mL)</ph> 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (dual compartment bag of amino acids 400 mL or 800 mL; glucose 600 mL or 1200 mL) 1 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2 litre = £29.20</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2 litre = £29.20
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex peri (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "5.7 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "1340 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "15.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "4.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "27.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "19.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "31.6 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2.5 mmol, acid phosphate 5.7 mmol, anhydrous glucose 80 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(dual compartment bag of amino acids 400 mL or 800 mL; glucose 600 mL or 1200 mL)</ph> 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (dual compartment bag of amino acids 400 mL or 800 mL; glucose 600 mL or 1200 mL) 1 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2 litre = £30.47</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2 litre = £30.47
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex plus (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "6.8 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "2510 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "25.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "5.7 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "37.2 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "22.9 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "35.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 3.6 mmol, acid phosphate 20 mmol, anhydrous glucose 150 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(dual compartment bag of amino acids 400 mL or 800 mL; glucose 600 mL or 1200 mL)</ph> 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (dual compartment bag of amino acids 400 mL or 800 mL; glucose 600 mL or 1200 mL) 1 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2 litre = £33.02</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2 litre = £33.02
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex special (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "10.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4020 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "25.7 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "5.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "40.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "22.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "49.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 4.1 mmol, acid phosphate 14.7 mmol, anhydrous glucose 240 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(dual compartment bag of amino acids 500 mL or 750 mL; glucose 500 mL or 750 mL)</ph> 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (dual compartment bag of amino acids 500 mL or 750 mL; glucose 500 mL or 750 mL) 1 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.5 litre = £27.60</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.5 litre = £27.60
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex lipid peri (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "4.56 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "2664 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "24.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.4 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "32.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "38.4 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2.4 mmol, Zn2+ 24 micromol, phosphate 6 mmol, anhydrous glucose 64 g, soya oil 20 g, medium-chain triglycerides 20 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL)</ph> 1.25 litre = £42.83</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL) 1.25 litre = £42.83
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.875 litre = £54.37</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.875 litre = £54.37
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre = £64.22</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre = £64.22
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex lipid plus (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "5.44 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3600 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "28.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "3.2 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "36.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 3.2 mmol, Zn2+ 24 micromol, phosphate 12 mmol, anhydrous glucose 120 g, soya oil 20 g, medium-chain triglycerides 20 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL)</ph> 1.25 litre = £46.56</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL) 1.25 litre = £46.56
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.875 litre = £59.46</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.875 litre = £59.46
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre = £68.39</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre = £68.39
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex lipid plus without electrolytes (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "5.44 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3600 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "anhydrous glucose 120 g, soya oil 20 g, medium-chain triglycerides 20 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL)</ph> 1.25 litre = £46.56</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL) 1.25 litre = £46.56
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.875 litre = £59.45</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.875 litre = £59.45
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre = £68.39</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre = £68.39
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex lipid special (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "8.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4004 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "37.6 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "4.24 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "53.6 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "48.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 4.24 mmol, Zn2+ 32 micromol, phosphate 16 mmol, anhydrous glucose 144 g, soya oil 20 g, medium-chain triglycerides 20 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL)</ph> 1.25 litre = £56.96</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL) 1.25 litre = £56.96
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.875 litre = £74.62</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.875 litre = £74.62
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex lipid special without electrolytes (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "8.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4004 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "anhydrous glucose 144 g, soya oil 20 g, medium-chain triglycerides 20 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL)</ph> 1.25 litre = £56.96</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 20% 250 mL, 375 mL or 500 mL) 1.25 litre = £56.96
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.875 litre = £74.62</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.875 litre = £74.62
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex omega plus (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "5.4 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3600 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "28.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "3.2 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "36.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 3.2 mmol, Zn2+ 24 micromol, phosphate 12 mmol, anhydrous glucose 120 g, refined soya oil 16 g, medium-chain triglycerides 20 g, omega-3-acid triglycerides 4 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 250 mL, 375 mL or 500 mL)</ph> 1.25 litre = £47.43</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 500 mL, 750 mL or 1000 mL; glucose 500 mL, 750 mL or 1000 mL; lipid emulsion 250 mL, 375 mL or 500 mL) 1.25 litre = £47.43
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.875 litre = £60.57</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.875 litre = £60.57
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre = £69.66</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre = £69.66
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "nutriflex omega special (b.braun medical ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(B.Braun Medical Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "8.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4004 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "37.6 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "4.24 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "53.6 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "48.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 4.24 mmol, Zn2+ 30 micromol, phosphate 16 mmol, anhydrous glucose 144 g, refined soya oil 16 g, medium-chain triglycerides 20 g, omega-3-acid triglycerides 4 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 250 mL, 500 mL, 750 mL or 1000 mL; glucose 250 mL, 500 mL, 750 mL or 1000 mL; lipid emulsion 125 mL, 250 mL, 375 mL or 500 mL)</ph> 625 ml = £43.62</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 250 mL, 500 mL, 750 mL or 1000 mL; glucose 250 mL, 500 mL, 750 mL or 1000 mL; lipid emulsion 125 mL, 250 mL, 375 mL or 500 mL) 625 ml = £43.62
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.25 litre = £58.01</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.25 litre = £58.01
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1.875 litre = £76.01</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1.875 litre = £76.01
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre = £89.71</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre = £89.71
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "oliclinomel n4-550e (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "3.6 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "2184 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "16.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.2 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "21.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "30.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "33.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2 mmol, phosphate 8.5 mmol, refined olive and soya oil 20 g, anhydrous glucose 80 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids with electrolytes 1000 mL; glucose 20% 1000 mL; lipid emulsion 10% 500 mL)</ph> 2.5 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids with electrolytes 1000 mL; glucose 20% 1000 mL; lipid emulsion 10% 500 mL) 2.5 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "oliclinomel n4-720e (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "3.64 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3024 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "24.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "28.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 1.8 mmol, phosphate 8 mmol, refined olive and soya oil 40 g, anhydrous glucose 80 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids with electrolytes 1000 mL; glucose 20% 1000 mL; lipid emulsion 20% 500 mL)</ph> 2.5 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids with electrolytes 1000 mL; glucose 20% 1000 mL; lipid emulsion 20% 500 mL) 2.5 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "oliclinomel n5-800e (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "4.6 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3360 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "24.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.2 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "32.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "49.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "44.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2 mmol, phosphate 10 mmol, refined olive and soya oil 40 g, anhydrous glucose 100 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids with electrolytes 800 mL or 1000 mL; glucose 25% 800 mL or 1000 mL; lipid emulsion 20% 400 mL or 500 mL)</ph> 2 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids with electrolytes 800 mL or 1000 mL; glucose 25% 800 mL or 1000 mL; lipid emulsion 20% 400 mL or 500 mL) 2 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "oliclinomel n6-900e (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "5.6 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3696 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "24.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.2 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "32.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "53.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "46.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2 mmol, phosphate 10 mmol, refined olive and soya oil 40 g, anhydrous glucose 120 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids with electrolytes 800 mL or 1000 mL; glucose 30% 800 mL or 1000 mL; lipid emulsion 20% 400 mL or 500 mL)</ph> 2 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids with electrolytes 800 mL or 1000 mL; glucose 30% 800 mL or 1000 mL; lipid emulsion 20% 400 mL or 500 mL) 2 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 2.5 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 2.5 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "oliclinomel n7-1000 (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "6.6 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4368 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "37.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "16.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "phosphate 3 mmol, refined olive and soya oil 40 g, anhydrous glucose 160 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 600 mL; glucose 40% 600 mL; lipid emulsion 20% 300 mL)</ph> 1.5 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 600 mL; glucose 40% 600 mL; lipid emulsion 20% 300 mL) 1.5 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "oliclinomel n7-1000e (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "6.6 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4368 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "24.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "2.2 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "32.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "57.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "48.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2 mmol, phosphate 10 mmol, refined olive and soya oil 40 g, anhydrous glucose 160 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids with electrolytes 800 mL; glucose 40% 800 mL; lipid emulsion 20% 400 mL)</ph> 2 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids with electrolytes 800 mL; glucose 40% 800 mL; lipid emulsion 20% 400 mL) 2 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "oliclinomel n8-800 (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "8.25 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "3360 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "42.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "20.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "phosphate 2.25 mmol, refined olive and soya oil 30 g, anhydrous glucose 125 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price <ph outputclass=\"netPriceDescription\">(triple compartment bag of amino acids 800 mL; glucose 31.25% 800 mL; lipid emulsion 15% 400 mL)</ph> 2 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price (triple compartment bag of amino acids 800 mL; glucose 31.25% 800 mL; lipid emulsion 15% 400 mL) 2 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "omegaven (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "4700 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "highly refined fish oil 100 g, glycerol 25 g, egg phosphatide 12 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "plasma-lyte 148 (water) (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "5.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "1.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "140.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "27.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "98.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "gluconate 23 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "plasma-lyte 148 (dextrose 5%) (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "840 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "5.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "1.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "140.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "27.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "98.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "gluconate 23 mmol, anhydrous glucose 50 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "plasma-lyte m (dextrose 5%) (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "840 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "16.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "1.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "12.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "Ca2+ 2.5 mmol, lactate 12 mmol, anhydrous glucose 50 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "primene 10% (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "15.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "19.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 250 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 250 ml: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "smoflipid (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "nil."^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "8400 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "fish oil 30 g, olive oil 50 g, soya oil 60 g, medium-chain triglycerides 60 g"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £174.30</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £174.30
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "synthamin 9 (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "9.1 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "60.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "5.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "70.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "100.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "70.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "acid phosphate 30 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "synthamin 9 ef (electrolyte-free) (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "9.1 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "44.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "22.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "synthamin 14 (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "14.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "60.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "5.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "70.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "140.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "70.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "acid phosphate 30 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 3 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 3 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "synthamin 14 ef (electrolyte-free) (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "14.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "68.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "34.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "synthamin 17 (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "16.5 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "60.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "5.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "70.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "150.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "70.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "acid phosphate 30 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "synthamin 17 ef (electrolyte-free) (baxter healthcare ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Baxter Healthcare Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "16.5 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "82.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "40.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml: no price available
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 3 litre: no price available</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 3 litre: no price available
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "vamin 9 glucose (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "9.4 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "1700 kJ/litre"^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "20.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "1.5 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "50.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "50.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "CA2+ 2.5 mmol, anhydrous glucose 100 g"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml = £3.90</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml = £3.90
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £7.95</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £7.95
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre = £13.80</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre = £13.80
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "vamin 14 (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "13.5 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "50.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "8.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasSodium "100.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "135.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "100.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasOthercomponentsperlitre "CA2+ 5 mmol, SO42- 8 mmol"^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £9.48</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £9.48
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre = £16.02</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre = £16.02
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "vamin 14 (electrolyte-free) (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "13.5 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "90.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £9.48</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £9.48
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre = £16.02</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre = £16.02
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "vamin 18 (electrolyte-free) (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "18.0 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "110.0 mmol/litre"^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £11.99</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £11.99
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 1 litre = £23.38</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 1 litre = £23.38
+
+"""^^xsd:string]],
+                                                                          [rdfs:label "vaminolact (fresenius kabi ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasManufacturer "(Fresenius Kabi Ltd)"^^xsd:string ; 
+                                                                           nicebnf:hasNitrogen "9.3 g/litre"^^xsd:string ; 
+                                                                           nicebnf:hasEnergy "nil."^^xsd:string ; 
+                                                                           nicebnf:hasPotassium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasMagnesium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasSodium "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAcetate "nil."^^xsd:string ; 
+                                                                           nicebnf:hasAdultonly "True"^^xsd:string ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 100 ml = £3.70</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 100 ml = £3.70
+
+"""^^xsd:string] ; 
+                                                                           nicebnf:hasPack [nicebnf:hasDitaContent """<p outputclass=\"netPrice\">Net price 500 ml = £8.50</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                            nicebnf:hasTextContent """Net price 500 ml = £8.50
+
+"""^^xsd:string]];
+                                                   nicebnf:hasTextContent """1000 kcal = 4200kJ; 1000 kJ = 238.8 kcal. All entries are Prescription-only medicines.
+
+Excludes protein- or amino acid-derived energy
+
+"""^^xsd:string.
+

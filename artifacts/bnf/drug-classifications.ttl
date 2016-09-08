@@ -1,0 +1,515 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://ld.nice.org.uk/ns/bnf/Classification#_848193368> <http://www.w3.org/2000/01/rdf-schema#label> "oestrogens"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_122248764> <http://www.w3.org/2000/01/rdf-schema#label> "astringents"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_779447034> <http://www.w3.org/2000/01/rdf-schema#label> "drugs acting on the renin-angiotensin system"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_241907176> <http://www.w3.org/2000/01/rdf-schema#label> "ace inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_389723518> <http://www.w3.org/2000/01/rdf-schema#label> "angiotensin ii receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_389989988> <http://www.w3.org/2000/01/rdf-schema#label> "renin inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_458736354> <http://www.w3.org/2000/01/rdf-schema#label> "immune sera and immunoglobulins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_446001726> <http://www.w3.org/2000/01/rdf-schema#label> "antitoxins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_122504636> <http://www.w3.org/2000/01/rdf-schema#label> "immunoglobulins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_768586137> <http://www.w3.org/2000/01/rdf-schema#label> "respiratory stimulants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_829370369> <http://www.w3.org/2000/01/rdf-schema#label> "antiemetics and antinauseants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_172224324> <http://www.w3.org/2000/01/rdf-schema#label> "cannibinoids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_225690438> <http://www.w3.org/2000/01/rdf-schema#label> "antihistamines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_734866010> <http://www.w3.org/2000/01/rdf-schema#label> "serotonin (5ht3) receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_680928460> <http://www.w3.org/2000/01/rdf-schema#label> "dopamine receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_334763401> <http://www.w3.org/2000/01/rdf-schema#label> "neurokinin receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_792042222> <http://www.w3.org/2000/01/rdf-schema#label> "dopaminergic drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_157437168> <http://www.w3.org/2000/01/rdf-schema#label> "dopamine receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_542523390> <http://www.w3.org/2000/01/rdf-schema#label> "nmda receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_900456814> <http://www.w3.org/2000/01/rdf-schema#label> "monoamine-oxidase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_537383730> <http://www.w3.org/2000/01/rdf-schema#label> "monoamine-oxidase b inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_743470528> <http://www.w3.org/2000/01/rdf-schema#label> "catechol-o-methyltransferase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_314874326> <http://www.w3.org/2000/01/rdf-schema#label> "dopamine precursors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_980037117> <http://www.w3.org/2000/01/rdf-schema#label> "hypodermic equipment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_450377269> <http://www.w3.org/2000/01/rdf-schema#label> "laxatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_441829608> <http://www.w3.org/2000/01/rdf-schema#label> "antispasmodics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_225188636> <http://www.w3.org/2000/01/rdf-schema#label> "bulk-forming laxatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_581331277> <http://www.w3.org/2000/01/rdf-schema#label> "osmotic laxatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_778338257> <http://www.w3.org/2000/01/rdf-schema#label> "guanylate cyclase-c receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_790742780> <http://www.w3.org/2000/01/rdf-schema#label> "stimulant laxatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_877026258> <http://www.w3.org/2000/01/rdf-schema#label> "chloride-channel agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_784191406> <http://www.w3.org/2000/01/rdf-schema#label> "selective 5-ht4 receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_633080335> <http://www.w3.org/2000/01/rdf-schema#label> "stimulants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_864943093> <http://www.w3.org/2000/01/rdf-schema#label> "softening drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_593681972> <http://www.w3.org/2000/01/rdf-schema#label> "electrolytes and minerals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_576667290> <http://www.w3.org/2000/01/rdf-schema#label> "potassium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_452411074> <http://www.w3.org/2000/01/rdf-schema#label> "sodium chloride"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_182370403> <http://www.w3.org/2000/01/rdf-schema#label> "calcium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_908223275> <http://www.w3.org/2000/01/rdf-schema#label> "zinc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_979370732> <http://www.w3.org/2000/01/rdf-schema#label> "magnesium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_350825416> <http://www.w3.org/2000/01/rdf-schema#label> "aluminium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_973917623> <http://www.w3.org/2000/01/rdf-schema#label> "uricosurics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_892003441> <http://www.w3.org/2000/01/rdf-schema#label> "antithyroid drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_734044472> <http://www.w3.org/2000/01/rdf-schema#label> "sulfur-containing imidazoles"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_447253688> <http://www.w3.org/2000/01/rdf-schema#label> "thiouracils"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_715647011> <http://www.w3.org/2000/01/rdf-schema#label> "nitrates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_993983701> <http://www.w3.org/2000/01/rdf-schema#label> "calcium regulating drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_285452703> <http://www.w3.org/2000/01/rdf-schema#label> "bone resorption inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_400337305> <http://www.w3.org/2000/01/rdf-schema#label> "parathyroid hormones and analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_714510582> <http://www.w3.org/2000/01/rdf-schema#label> "lipids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_239308288> <http://www.w3.org/2000/01/rdf-schema#label> "sterols"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_824554999> <http://www.w3.org/2000/01/rdf-schema#label> "drugs for respiratory diseases"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_805434570> <http://www.w3.org/2000/01/rdf-schema#label> "monoclonal antibodies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_933303311> <http://www.w3.org/2000/01/rdf-schema#label> "antineovascularisation drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_961812892> <http://www.w3.org/2000/01/rdf-schema#label> "vascular endothelial growth factor inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_613648210> <http://www.w3.org/2000/01/rdf-schema#label> "beta-adrenoceptor blockers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_459237349> <http://www.w3.org/2000/01/rdf-schema#label> "alpha- and beta-adrenoceptor blockers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_918663535> <http://www.w3.org/2000/01/rdf-schema#label> "beta blocking agents, non-selective"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_711396982> <http://www.w3.org/2000/01/rdf-schema#label> "beta blocking agents, selective"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_694751163> <http://www.w3.org/2000/01/rdf-schema#label> "antifoaming drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_459331769> <http://www.w3.org/2000/01/rdf-schema#label> "mast-cell stabilisers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_803040282> <http://www.w3.org/2000/01/rdf-schema#label> "diuretics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_624118328> <http://www.w3.org/2000/01/rdf-schema#label> "osmotic diuretics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_654179066> <http://www.w3.org/2000/01/rdf-schema#label> "selective vasopressin v2-receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_815255469> <http://www.w3.org/2000/01/rdf-schema#label> "potassium-sparing diuretics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_834379454> <http://www.w3.org/2000/01/rdf-schema#label> "aldosterone antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_805691491> <http://www.w3.org/2000/01/rdf-schema#label> "loop diuretics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_396265530> <http://www.w3.org/2000/01/rdf-schema#label> "thiazides and related diuretics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_974043057> <http://www.w3.org/2000/01/rdf-schema#label> "carbonic anhydrase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_990299580> <http://www.w3.org/2000/01/rdf-schema#label> "antidepressants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_450228407> <http://www.w3.org/2000/01/rdf-schema#label> "monoamine-oxidase a and b inhibitors, irreversible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_188080690> <http://www.w3.org/2000/01/rdf-schema#label> "monoamine-oxidase a inhibitors, reversible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_590573378> <http://www.w3.org/2000/01/rdf-schema#label> "tricyclic antidepressants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_327089533> <http://www.w3.org/2000/01/rdf-schema#label> "serotonin receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_937329745> <http://www.w3.org/2000/01/rdf-schema#label> "serotonin uptake inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_751741595> <http://www.w3.org/2000/01/rdf-schema#label> "noradrenaline reuptake inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_834633408> <http://www.w3.org/2000/01/rdf-schema#label> "serotonin and noradrenaline re-uptake inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_701693972> <http://www.w3.org/2000/01/rdf-schema#label> "melatonin receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_971539422> <http://www.w3.org/2000/01/rdf-schema#label> "tetracyclic antidepressants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_259964361> <http://www.w3.org/2000/01/rdf-schema#label> "selective serotonin re-uptake inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_876869900> <http://www.w3.org/2000/01/rdf-schema#label> "antacids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_466651653> <http://www.w3.org/2000/01/rdf-schema#label> "alginate antacids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_164665569> <http://www.w3.org/2000/01/rdf-schema#label> "aluminium antacids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_605043350> <http://www.w3.org/2000/01/rdf-schema#label> "aluminium and magnesium antacids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_701650836> <http://www.w3.org/2000/01/rdf-schema#label> "magnesium antacids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_668154464> <http://www.w3.org/2000/01/rdf-schema#label> "methyl donors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_308759379> <http://www.w3.org/2000/01/rdf-schema#label> "disease-modifying anti-rheumatic drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_653612104> <http://www.w3.org/2000/01/rdf-schema#label> "cholinergic receptor stimulating drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_762273848> <http://www.w3.org/2000/01/rdf-schema#label> "calcium-channel blockers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_823750458> <http://www.w3.org/2000/01/rdf-schema#label> "benzothiazepine derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_589589963> <http://www.w3.org/2000/01/rdf-schema#label> "dihydropyridine derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_941444325> <http://www.w3.org/2000/01/rdf-schema#label> "phenylalkylamine derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_474269260> <http://www.w3.org/2000/01/rdf-schema#label> "xanthines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_526398615> <http://www.w3.org/2000/01/rdf-schema#label> "cns stimulants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_628895206> <http://www.w3.org/2000/01/rdf-schema#label> "centrally acting sympathomimetics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_883517715> <http://www.w3.org/2000/01/rdf-schema#label> "amfetamines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_196497339> <http://www.w3.org/2000/01/rdf-schema#label> "pharmacokinetic enhancers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_819087817> <http://www.w3.org/2000/01/rdf-schema#label> "bisphosphonates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_223000861> <http://www.w3.org/2000/01/rdf-schema#label> "antivirals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_376161398> <http://www.w3.org/2000/01/rdf-schema#label> "antivirals, influenza"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_669526819> <http://www.w3.org/2000/01/rdf-schema#label> "neuraminidase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_917472709> <http://www.w3.org/2000/01/rdf-schema#label> "protease inhibitors, hepatitis"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_643762552> <http://www.w3.org/2000/01/rdf-schema#label> "protease inhibitors (hiv)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_245009279> <http://www.w3.org/2000/01/rdf-schema#label> "immune response modifiers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_645223670> <http://www.w3.org/2000/01/rdf-schema#label> "non-nucleoside reverse transcriptase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_865673208> <http://www.w3.org/2000/01/rdf-schema#label> "hiv-fusion inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_161305912> <http://www.w3.org/2000/01/rdf-schema#label> "non-structural protein 5a inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_149321041> <http://www.w3.org/2000/01/rdf-schema#label> "nucleoside reverse transcriptase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_767153576> <http://www.w3.org/2000/01/rdf-schema#label> "protease inhibitors, hiv"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_298642086> <http://www.w3.org/2000/01/rdf-schema#label> "nucleoside analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_533554879> <http://www.w3.org/2000/01/rdf-schema#label> "antivirals, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_432836609> <http://www.w3.org/2000/01/rdf-schema#label> "hiv-integrase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_708418908> <http://www.w3.org/2000/01/rdf-schema#label> "nucleotide analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_808360588> <http://www.w3.org/2000/01/rdf-schema#label> "inosine complexes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_383679001> <http://www.w3.org/2000/01/rdf-schema#label> "thyroid hormones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_224050719> <http://www.w3.org/2000/01/rdf-schema#label> "immunosuppressants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_699299946> <http://www.w3.org/2000/01/rdf-schema#label> "antimetabolites"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_792531064> <http://www.w3.org/2000/01/rdf-schema#label> "thalidomide and related anologues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_516316933> <http://www.w3.org/2000/01/rdf-schema#label> "purine synthesis inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_732340950> <http://www.w3.org/2000/01/rdf-schema#label> "immunomodulating drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_142469186> <http://www.w3.org/2000/01/rdf-schema#label> "anti-lymphocyte monoclonal antibodies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_649595817> <http://www.w3.org/2000/01/rdf-schema#label> "interleukin inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_258158465> <http://www.w3.org/2000/01/rdf-schema#label> "pyrimidine synthesis inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_876737053> <http://www.w3.org/2000/01/rdf-schema#label> "t-cell activation inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_295286686> <http://www.w3.org/2000/01/rdf-schema#label> "tumor necrosis factor alpha (tnf-a) inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_729481638> <http://www.w3.org/2000/01/rdf-schema#label> "calcineurin inhibitors and related drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_252514551> <http://www.w3.org/2000/01/rdf-schema#label> "antiarrhythmics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_610647255> <http://www.w3.org/2000/01/rdf-schema#label> "antiarrhythmics, class iii"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_678681706> <http://www.w3.org/2000/01/rdf-schema#label> "antiarrhythmics, class ic"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_110439717> <http://www.w3.org/2000/01/rdf-schema#label> "antiarrhythmics, class ib"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_893674946> <http://www.w3.org/2000/01/rdf-schema#label> "antiarrhythmics, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_757200800> <http://www.w3.org/2000/01/rdf-schema#label> "antiarrhythmics, class ia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_162468297> <http://www.w3.org/2000/01/rdf-schema#label> "triptans"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_888902966> <http://www.w3.org/2000/01/rdf-schema#label> "peak flow meters"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_389169120> <http://www.w3.org/2000/01/rdf-schema#label> "h2-receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_402582362> <http://www.w3.org/2000/01/rdf-schema#label> "alkalising drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_877227387> <http://www.w3.org/2000/01/rdf-schema#label> "alkalising drugs, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_201291181> <http://www.w3.org/2000/01/rdf-schema#label> "alkalising drugs, urinary"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_927048982> <http://www.w3.org/2000/01/rdf-schema#label> "contraceptive devices"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_561519329> <http://www.w3.org/2000/01/rdf-schema#label> "leukotriene receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_650424618> <http://www.w3.org/2000/01/rdf-schema#label> "drug delivery devices"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_888692148> <http://www.w3.org/2000/01/rdf-schema#label> "piperazine derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_252425805> <http://www.w3.org/2000/01/rdf-schema#label> "phosphodiesterase type-3 inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_987628809> <http://www.w3.org/2000/01/rdf-schema#label> "gloves"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_948538538> <http://www.w3.org/2000/01/rdf-schema#label> "xanthine oxidase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_407627730> <http://www.w3.org/2000/01/rdf-schema#label> "progesterone receptor modulators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_570905405> <http://www.w3.org/2000/01/rdf-schema#label> "sex hormones and modulators of the genital system"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_795336604> <http://www.w3.org/2000/01/rdf-schema#label> "oestrogens combined with progestogens"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_782589079> <http://www.w3.org/2000/01/rdf-schema#label> "antracen derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_378820762> <http://www.w3.org/2000/01/rdf-schema#label> "chondroprotective drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_578946896> <http://www.w3.org/2000/01/rdf-schema#label> "drugs for metabolic disorders"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_445172605> <http://www.w3.org/2000/01/rdf-schema#label> "acetic acids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_605713445> <http://www.w3.org/2000/01/rdf-schema#label> "ammonia lowering drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_242884851> <http://www.w3.org/2000/01/rdf-schema#label> "tetrahydrobiopterin and derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_365487807> <http://www.w3.org/2000/01/rdf-schema#label> "antipruritics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_480906446> <http://www.w3.org/2000/01/rdf-schema#label> "vasodilators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_979407671> <http://www.w3.org/2000/01/rdf-schema#label> "flavonoids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_229801417> <http://www.w3.org/2000/01/rdf-schema#label> "peripheral vasodilators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_288333643> <http://www.w3.org/2000/01/rdf-schema#label> "potassium-channel openers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_216716786> <http://www.w3.org/2000/01/rdf-schema#label> "vasodilator antihypertensives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_572288991> <http://www.w3.org/2000/01/rdf-schema#label> "spermicidals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_268691867> <http://www.w3.org/2000/01/rdf-schema#label> "monoamine depleting drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_581448509> <http://www.w3.org/2000/01/rdf-schema#label> "vaccines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_219306845> <http://www.w3.org/2000/01/rdf-schema#label> "allergen-type vaccines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_234466511> <http://www.w3.org/2000/01/rdf-schema#label> "bacterial and viral vaccines, combined"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_192129870> <http://www.w3.org/2000/01/rdf-schema#label> "bacterial vaccines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_866867133> <http://www.w3.org/2000/01/rdf-schema#label> "viral vaccines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_448101428> <http://www.w3.org/2000/01/rdf-schema#label> "vitamins and trace elements"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_313655355> <http://www.w3.org/2000/01/rdf-schema#label> "multivitamins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_909289521> <http://www.w3.org/2000/01/rdf-schema#label> "vitamin c"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_616977678> <http://www.w3.org/2000/01/rdf-schema#label> "vitamin d and analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_825333057> <http://www.w3.org/2000/01/rdf-schema#label> "vitamin k"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_251481106> <http://www.w3.org/2000/01/rdf-schema#label> "folates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_308488832> <http://www.w3.org/2000/01/rdf-schema#label> "vitamin e"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_476401761> <http://www.w3.org/2000/01/rdf-schema#label> "vitamin b group"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_952803532> <http://www.w3.org/2000/01/rdf-schema#label> "vitamin a"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_536967193> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_654406860> <http://www.w3.org/2000/01/rdf-schema#label> "insulins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_659329460> <http://www.w3.org/2000/01/rdf-schema#label> "insulins, fast-acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_383576781> <http://www.w3.org/2000/01/rdf-schema#label> "insulins, intermediate-acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_114809332> <http://www.w3.org/2000/01/rdf-schema#label> "insulins, intermediate-acting combined with fast-acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_296840980> <http://www.w3.org/2000/01/rdf-schema#label> "insulins, long-acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_203813864> <http://www.w3.org/2000/01/rdf-schema#label> "progestogens"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_316565847> <http://www.w3.org/2000/01/rdf-schema#label> "neuroprotective drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_747633116> <http://www.w3.org/2000/01/rdf-schema#label> "gonadotrophins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_554899795> <http://www.w3.org/2000/01/rdf-schema#label> "wound care products"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_103670685> <http://www.w3.org/2000/01/rdf-schema#label> "anaesthetics, local"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_722923987> <http://www.w3.org/2000/01/rdf-schema#label> "amides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_667082337> <http://www.w3.org/2000/01/rdf-schema#label> "esters of aminobenzoic acid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_168902911> <http://www.w3.org/2000/01/rdf-schema#label> "other local anaesthetics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_177849246> <http://www.w3.org/2000/01/rdf-schema#label> "drugs used in hereditary angioedema"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_760013261> <http://www.w3.org/2000/01/rdf-schema#label> "complement regulatory proteins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_132898046> <http://www.w3.org/2000/01/rdf-schema#label> "selective bradykinin b2 antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_433433561> <http://www.w3.org/2000/01/rdf-schema#label> "detoxifying drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_435565309> <http://www.w3.org/2000/01/rdf-schema#label> "recombinant human keratinocyte growth factors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_605657976> <http://www.w3.org/2000/01/rdf-schema#label> "urate oxidases"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_983616736> <http://www.w3.org/2000/01/rdf-schema#label> "uroprotective drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_574205566> <http://www.w3.org/2000/01/rdf-schema#label> "antimycobacterials"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_495149790> <http://www.w3.org/2000/01/rdf-schema#label> "antimycobacterials, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_467467039> <http://www.w3.org/2000/01/rdf-schema#label> "rifamycins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_794871746> <http://www.w3.org/2000/01/rdf-schema#label> "5α-reductase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_153412058> <http://www.w3.org/2000/01/rdf-schema#label> "bicarbonate"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_316553690> <http://www.w3.org/2000/01/rdf-schema#label> "pituitary and hypothalamic hormones and analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_428998452> <http://www.w3.org/2000/01/rdf-schema#label> "growth hormone receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_829365481> <http://www.w3.org/2000/01/rdf-schema#label> "gonadotropin-releasing hormones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_100645593> <http://www.w3.org/2000/01/rdf-schema#label> "anti-gonadotrophin-releasing hormones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_271818969> <http://www.w3.org/2000/01/rdf-schema#label> "corticotrophins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_911541864> <http://www.w3.org/2000/01/rdf-schema#label> "vasopressin and analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_862928143> <http://www.w3.org/2000/01/rdf-schema#label> "thyroid stimulating hormones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_946978684> <http://www.w3.org/2000/01/rdf-schema#label> "somatostatin analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_461212134> <http://www.w3.org/2000/01/rdf-schema#label> "human growth hormones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_551780090> <http://www.w3.org/2000/01/rdf-schema#label> "somatomedins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_614052146> <http://www.w3.org/2000/01/rdf-schema#label> "ergot alkaloids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_965883627> <http://www.w3.org/2000/01/rdf-schema#label> "antihypertensives, centrally acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_255587637> <http://www.w3.org/2000/01/rdf-schema#label> "gastroprotective complexes and chelators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_591028228> <http://www.w3.org/2000/01/rdf-schema#label> "menthol and derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_961754276> <http://www.w3.org/2000/01/rdf-schema#label> "ovulation stimulants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_846260828> <http://www.w3.org/2000/01/rdf-schema#label> "benzoates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_189805470> <http://www.w3.org/2000/01/rdf-schema#label> "diagnostic and monitoring devices"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_398650772> <http://www.w3.org/2000/01/rdf-schema#label> "phosphodiesterase type-5 inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_942350331> <http://www.w3.org/2000/01/rdf-schema#label> "nebuliser solutions"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_611176104> <http://www.w3.org/2000/01/rdf-schema#label> "antidotes and chelators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_322571566> <http://www.w3.org/2000/01/rdf-schema#label> "copper chelators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_441568498> <http://www.w3.org/2000/01/rdf-schema#label> "opioid receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_645143129> <http://www.w3.org/2000/01/rdf-schema#label> "copper absorption inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_963954975> <http://www.w3.org/2000/01/rdf-schema#label> "antibodies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_305588059> <http://www.w3.org/2000/01/rdf-schema#label> "antidotes and chelators, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_347375586> <http://www.w3.org/2000/01/rdf-schema#label> "opioid receptor antagonists, peripheral"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_833487594> <http://www.w3.org/2000/01/rdf-schema#label> "intestinal adsorbents"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_423130415> <http://www.w3.org/2000/01/rdf-schema#label> "benzodiazepine antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_438513127> <http://www.w3.org/2000/01/rdf-schema#label> "cation exchange resins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_271958104> <http://www.w3.org/2000/01/rdf-schema#label> "iron chelators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_416014635> <http://www.w3.org/2000/01/rdf-schema#label> "protein kinase c activators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_675611665> <http://www.w3.org/2000/01/rdf-schema#label> "neuromuscular blocking drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_223678877> <http://www.w3.org/2000/01/rdf-schema#label> "neuromuscular blocking drugs, depolarising"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_337805836> <http://www.w3.org/2000/01/rdf-schema#label> "neuromuscular blocking drugs, non-depolarising"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_967628684> <http://www.w3.org/2000/01/rdf-schema#label> "hypnotics, sedatives and anxiolytics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_882653840> <http://www.w3.org/2000/01/rdf-schema#label> "benzodiazepines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_532624791> <http://www.w3.org/2000/01/rdf-schema#label> "non-benzodiazepine hypnotics and sedatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_329331136> <http://www.w3.org/2000/01/rdf-schema#label> "alpha2-adrenoceptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_820738816> <http://www.w3.org/2000/01/rdf-schema#label> "carbamates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_734789496> <http://www.w3.org/2000/01/rdf-schema#label> "antiprotozoals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_718108815> <http://www.w3.org/2000/01/rdf-schema#label> "antimalarials"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_411875228> <http://www.w3.org/2000/01/rdf-schema#label> "artemisinin and derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_347407165> <http://www.w3.org/2000/01/rdf-schema#label> "diaminopyrimidines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_338097499> <http://www.w3.org/2000/01/rdf-schema#label> "methanolquinolines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_505214748> <http://www.w3.org/2000/01/rdf-schema#label> "aminoquinolines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_506743140> <http://www.w3.org/2000/01/rdf-schema#label> "hydroxynaphthoquinones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_709441655> <http://www.w3.org/2000/01/rdf-schema#label> "biguanides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_633126906> <http://www.w3.org/2000/01/rdf-schema#label> "antiprotozoals, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_251823321> <http://www.w3.org/2000/01/rdf-schema#label> "antimony compounds"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_316563450> <http://www.w3.org/2000/01/rdf-schema#label> "benzamidines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_590652316> <http://www.w3.org/2000/01/rdf-schema#label> "ornithine decarboxylase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_268152196> <http://www.w3.org/2000/01/rdf-schema#label> "nitroimidazole derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_598059038> <http://www.w3.org/2000/01/rdf-schema#label> "dichloroacetamide derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_658662261> <http://www.w3.org/2000/01/rdf-schema#label> "alpha-adrenoceptor blockers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_871130604> <http://www.w3.org/2000/01/rdf-schema#label> "epoetins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_797301540> <http://www.w3.org/2000/01/rdf-schema#label> "phosphodiesterase type-4 inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_504851610> <http://www.w3.org/2000/01/rdf-schema#label> "phosphate binders"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_801070824> <http://www.w3.org/2000/01/rdf-schema#label> "selective sinus node if inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_366170470> <http://www.w3.org/2000/01/rdf-schema#label> "immunostimulants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_120494376> <http://www.w3.org/2000/01/rdf-schema#label> "immunostimulants, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_346211596> <http://www.w3.org/2000/01/rdf-schema#label> "chemokine receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_998292074> <http://www.w3.org/2000/01/rdf-schema#label> "interferons"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_857996914> <http://www.w3.org/2000/01/rdf-schema#label> "granulocyte-colony stimulating factors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_324797905> <http://www.w3.org/2000/01/rdf-schema#label> "interleukins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_645790124> <http://www.w3.org/2000/01/rdf-schema#label> "antiadrenergic agents, peripherally acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_783682953> <http://www.w3.org/2000/01/rdf-schema#label> "drugs used in alcohol dependence"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_672409334> <http://www.w3.org/2000/01/rdf-schema#label> "aldehyde dehydrogenase inhibitor"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_511175266> <http://www.w3.org/2000/01/rdf-schema#label> "gamma-aminobutyric acid analogues and derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_734477422> <http://www.w3.org/2000/01/rdf-schema#label> "lipid modifying drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_616638065> <http://www.w3.org/2000/01/rdf-schema#label> "fibrates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_937866073> <http://www.w3.org/2000/01/rdf-schema#label> "lipid modifying drugs, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_356467032> <http://www.w3.org/2000/01/rdf-schema#label> "nicotinic acid derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_757641530> <http://www.w3.org/2000/01/rdf-schema#label> "cholesterol absorption inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_957233137> <http://www.w3.org/2000/01/rdf-schema#label> "statins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_591996686> <http://www.w3.org/2000/01/rdf-schema#label> "bile acid sequestrants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_169048746> <http://www.w3.org/2000/01/rdf-schema#label> "central nervous system depressants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_496991852> <http://www.w3.org/2000/01/rdf-schema#label> "enzyme inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_294616066> <http://www.w3.org/2000/01/rdf-schema#label> "4-hydroxyphenylpyruvate dioxygenase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_267632469> <http://www.w3.org/2000/01/rdf-schema#label> "glucosylceramide synthase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_451380871> <http://www.w3.org/2000/01/rdf-schema#label> "antifungals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_344448643> <http://www.w3.org/2000/01/rdf-schema#label> "antifungals, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_357255295> <http://www.w3.org/2000/01/rdf-schema#label> "polyene antifungals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_299159061> <http://www.w3.org/2000/01/rdf-schema#label> "echinocandin antifungals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_490018555> <http://www.w3.org/2000/01/rdf-schema#label> "imidazole antifungals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_107866011> <http://www.w3.org/2000/01/rdf-schema#label> "triazole antifungals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_772995579> <http://www.w3.org/2000/01/rdf-schema#label> "prostaglandin analogues and prostamides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_698698569> <http://www.w3.org/2000/01/rdf-schema#label> "prostaglandins, erectile dysfunction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_207341379> <http://www.w3.org/2000/01/rdf-schema#label> "prostaglandins, gastroprotective"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_226205537> <http://www.w3.org/2000/01/rdf-schema#label> "sclerosants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_509606827> <http://www.w3.org/2000/01/rdf-schema#label> "antipsychotics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_254803415> <http://www.w3.org/2000/01/rdf-schema#label> "antipsychotics, second-generation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_485956135> <http://www.w3.org/2000/01/rdf-schema#label> "indole derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_242978064> <http://www.w3.org/2000/01/rdf-schema#label> "benzamides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_127401708> <http://www.w3.org/2000/01/rdf-schema#label> "diazepines, oxazepines, thiazepines and oxepines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_787751551> <http://www.w3.org/2000/01/rdf-schema#label> "benzisoxazole derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_688897281> <http://www.w3.org/2000/01/rdf-schema#label> "dihydrocarbostyril derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_783113995> <http://www.w3.org/2000/01/rdf-schema#label> "antipsychotics, first-generation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_633131689> <http://www.w3.org/2000/01/rdf-schema#label> "phenothiazines with piperidine structure"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_752322787> <http://www.w3.org/2000/01/rdf-schema#label> "butyrophenone derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_161233395> <http://www.w3.org/2000/01/rdf-schema#label> "diphenylbutylpiperidine derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_378600405> <http://www.w3.org/2000/01/rdf-schema#label> "thioxanthene derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_391556996> <http://www.w3.org/2000/01/rdf-schema#label> "phenothiazines with aliphatic side-chain"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_540711362> <http://www.w3.org/2000/01/rdf-schema#label> "phenothiazines with piperazine structure"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_684795318> <http://www.w3.org/2000/01/rdf-schema#label> "antipsychotics, second-generation (depot injections)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_269205711> <http://www.w3.org/2000/01/rdf-schema#label> "lithium salts"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_820668177> <http://www.w3.org/2000/01/rdf-schema#label> "antipsychotics, first-generation (depot injections)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_120219287> <http://www.w3.org/2000/01/rdf-schema#label> "oxytocin receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_885885280> <http://www.w3.org/2000/01/rdf-schema#label> "enzymes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_884391639> <http://www.w3.org/2000/01/rdf-schema#label> "drugs used in nicotine dependence"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_178233510> <http://www.w3.org/2000/01/rdf-schema#label> "nicotinic receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_598600718> <http://www.w3.org/2000/01/rdf-schema#label> "camouflages"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_435207013> <http://www.w3.org/2000/01/rdf-schema#label> "photosensitisers"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_832374428> <http://www.w3.org/2000/01/rdf-schema#label> "corticosteroids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_788321899> <http://www.w3.org/2000/01/rdf-schema#label> "corticosteroid combinations with anti-infectives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_527806575> <http://www.w3.org/2000/01/rdf-schema#label> "diagnostic agents"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_263903288> <http://www.w3.org/2000/01/rdf-schema#label> "diagnostic agents, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_125911660> <http://www.w3.org/2000/01/rdf-schema#label> "dyes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_400083934> <http://www.w3.org/2000/01/rdf-schema#label> "radiographic contrast media"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_438434956> <http://www.w3.org/2000/01/rdf-schema#label> "anthelmintics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_194861758> <http://www.w3.org/2000/01/rdf-schema#label> "beta-2-adrenoceptor agonists, selective"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_768519518> <http://www.w3.org/2000/01/rdf-schema#label> "selective beta2-agonists (long-acting)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_918474686> <http://www.w3.org/2000/01/rdf-schema#label> "selective beta2-agonists (short-acting)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_217782653> <http://www.w3.org/2000/01/rdf-schema#label> "recombinant proteolytic enzymes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_222173039> <http://www.w3.org/2000/01/rdf-schema#label> "plasma substitutes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_354209452> <http://www.w3.org/2000/01/rdf-schema#label> "ocular lubricants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_527690857> <http://www.w3.org/2000/01/rdf-schema#label> "retinoid and related drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_827916312> <http://www.w3.org/2000/01/rdf-schema#label> "muscle relaxants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_127554748> <http://www.w3.org/2000/01/rdf-schema#label> "muscle relaxants, centrally acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_289473442> <http://www.w3.org/2000/01/rdf-schema#label> "muscle relaxants, directly acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_220879423> <http://www.w3.org/2000/01/rdf-schema#label> "muscle relaxants, peripherally acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_712934067> <http://www.w3.org/2000/01/rdf-schema#label> "neurotoxins (botulinum toxins)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_126257276> <http://www.w3.org/2000/01/rdf-schema#label> "anticholinesterases"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_786646164> <http://www.w3.org/2000/01/rdf-schema#label> "anticholinesterases, centrally acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_644933565> <http://www.w3.org/2000/01/rdf-schema#label> "anticholinesterases, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_520313869> <http://www.w3.org/2000/01/rdf-schema#label> "irrigating solutions"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_412277496> <http://www.w3.org/2000/01/rdf-schema#label> "cough and cold preparations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_424858144> <http://www.w3.org/2000/01/rdf-schema#label> "cough preparations, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_750230103> <http://www.w3.org/2000/01/rdf-schema#label> "cough suppressants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_110392128> <http://www.w3.org/2000/01/rdf-schema#label> "opioids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_600901575> <http://www.w3.org/2000/01/rdf-schema#label> "terpenes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_636911096> <http://www.w3.org/2000/01/rdf-schema#label> "salicylic acid and derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_371735263> <http://www.w3.org/2000/01/rdf-schema#label> "catheter maintenance solutions"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_536304395> <http://www.w3.org/2000/01/rdf-schema#label> "antibacterials"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_341352686> <http://www.w3.org/2000/01/rdf-schema#label> "cephalosporins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_890345205> <http://www.w3.org/2000/01/rdf-schema#label> "first-generation cephalosporins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_173687793> <http://www.w3.org/2000/01/rdf-schema#label> "other cephalosporins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_229618672> <http://www.w3.org/2000/01/rdf-schema#label> "second-generation cephalosporins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_894715484> <http://www.w3.org/2000/01/rdf-schema#label> "third-generation cephalosporins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_989544180> <http://www.w3.org/2000/01/rdf-schema#label> "penicillins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_569876752> <http://www.w3.org/2000/01/rdf-schema#label> "penicillins, antipseudomonal with beta-lactamase inhibitor"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_494772095> <http://www.w3.org/2000/01/rdf-schema#label> "penicillins, broad-spectrum"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_255109480> <http://www.w3.org/2000/01/rdf-schema#label> "penicillins, penicillinase-resistant"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_755540094> <http://www.w3.org/2000/01/rdf-schema#label> "penicillins, broad-spectrum with beta-lactamase inhibitor"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_924460212> <http://www.w3.org/2000/01/rdf-schema#label> "penicillins, beta-lactamase sensitive"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_189300205> <http://www.w3.org/2000/01/rdf-schema#label> "penicillins, mecillinam-type"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_296174173> <http://www.w3.org/2000/01/rdf-schema#label> "aminoglycosides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_923696017> <http://www.w3.org/2000/01/rdf-schema#label> "polymyxins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_483814348> <http://www.w3.org/2000/01/rdf-schema#label> "macrolides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_485769715> <http://www.w3.org/2000/01/rdf-schema#label> "tetracyclines and related drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_800167874> <http://www.w3.org/2000/01/rdf-schema#label> "quinolones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_821628472> <http://www.w3.org/2000/01/rdf-schema#label> "sulfonamides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_937401035> <http://www.w3.org/2000/01/rdf-schema#label> "monobactams"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_605908832> <http://www.w3.org/2000/01/rdf-schema#label> "carbapenems"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_402452436> <http://www.w3.org/2000/01/rdf-schema#label> "glycopeptide antibacterials"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_109653427> <http://www.w3.org/2000/01/rdf-schema#label> "lincosamides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_649873193> <http://www.w3.org/2000/01/rdf-schema#label> "antibacterials, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_819509136> <http://www.w3.org/2000/01/rdf-schema#label> "antithrombotic drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_144736724> <http://www.w3.org/2000/01/rdf-schema#label> "thombin inhibitors, direct"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_431464079> <http://www.w3.org/2000/01/rdf-schema#label> "tissue plasminogen activators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_541694731> <http://www.w3.org/2000/01/rdf-schema#label> "factor xa inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_872314852> <http://www.w3.org/2000/01/rdf-schema#label> "glycoprotein iib/iiia inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_502671253> <http://www.w3.org/2000/01/rdf-schema#label> "heparins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_638421883> <http://www.w3.org/2000/01/rdf-schema#label> "antiplatelet drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_135909486> <http://www.w3.org/2000/01/rdf-schema#label> "cyclic amp phosphodiesterase iii inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_412666521> <http://www.w3.org/2000/01/rdf-schema#label> "vitamin k antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_585732664> <http://www.w3.org/2000/01/rdf-schema#label> "coumarins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_894507372> <http://www.w3.org/2000/01/rdf-schema#label> "indanediones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_668507728> <http://www.w3.org/2000/01/rdf-schema#label> "heparinoids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_384259759> <http://www.w3.org/2000/01/rdf-schema#label> "prostaglandins, cardiovascular"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_819175722> <http://www.w3.org/2000/01/rdf-schema#label> "aminosalicylates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_926692410> <http://www.w3.org/2000/01/rdf-schema#label> "antiepileptics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_805164730> <http://www.w3.org/2000/01/rdf-schema#label> "antiepileptics, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_441758852> <http://www.w3.org/2000/01/rdf-schema#label> "carboxamide derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_524429348> <http://www.w3.org/2000/01/rdf-schema#label> "succinimide derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_326581630> <http://www.w3.org/2000/01/rdf-schema#label> "aldehydes and derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_355698497> <http://www.w3.org/2000/01/rdf-schema#label> "hydantoin derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_598318136> <http://www.w3.org/2000/01/rdf-schema#label> "fatty acid derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_700688723> <http://www.w3.org/2000/01/rdf-schema#label> "barbiturates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_326806054> <http://www.w3.org/2000/01/rdf-schema#label> "guanylate cyclase stimulators"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_608145677> <http://www.w3.org/2000/01/rdf-schema#label> "androgens"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_922424261> <http://www.w3.org/2000/01/rdf-schema#label> "histamine analogues"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_468933035> <http://www.w3.org/2000/01/rdf-schema#label> "nutrients"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_871257294> <http://www.w3.org/2000/01/rdf-schema#label> "parenteral nutrition"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_301079668> <http://www.w3.org/2000/01/rdf-schema#label> "sugars"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_289527544> <http://www.w3.org/2000/01/rdf-schema#label> "cardiac glycosides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_625056185> <http://www.w3.org/2000/01/rdf-schema#label> "urological anti-inflammatory drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_627310713> <http://www.w3.org/2000/01/rdf-schema#label> "mucolytics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_567112641> <http://www.w3.org/2000/01/rdf-schema#label> "antimuscarinics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_696250038> <http://www.w3.org/2000/01/rdf-schema#label> "antimuscarinics, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_900754529> <http://www.w3.org/2000/01/rdf-schema#label> "antimuscarinics, urinary"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_364246653> <http://www.w3.org/2000/01/rdf-schema#label> "minerals and trace elements"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_853211969> <http://www.w3.org/2000/01/rdf-schema#label> "iron"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_426605985> <http://www.w3.org/2000/01/rdf-schema#label> "iron, injectable"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_121489031> <http://www.w3.org/2000/01/rdf-schema#label> "iron, oral"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_902761741> <http://www.w3.org/2000/01/rdf-schema#label> "antifibrotics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_528793212> <http://www.w3.org/2000/01/rdf-schema#label> "prostaglandins and oxytocics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_633107392> <http://www.w3.org/2000/01/rdf-schema#label> "antineoplastic drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_780680770> <http://www.w3.org/2000/01/rdf-schema#label> "taxanes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_505029110> <http://www.w3.org/2000/01/rdf-schema#label> "anti-oestrogens"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_563429787> <http://www.w3.org/2000/01/rdf-schema#label> "vinca alkaloids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_208007314> <http://www.w3.org/2000/01/rdf-schema#label> "protein kinase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_862877034> <http://www.w3.org/2000/01/rdf-schema#label> "anthracyclines and related drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_231115054> <http://www.w3.org/2000/01/rdf-schema#label> "antineoplastics, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_348581499> <http://www.w3.org/2000/01/rdf-schema#label> "alkylating agents"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_322466783> <http://www.w3.org/2000/01/rdf-schema#label> "cytotoxic antibiotics and related substances"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_782928075> <http://www.w3.org/2000/01/rdf-schema#label> "podophyllotixin derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_215732037> <http://www.w3.org/2000/01/rdf-schema#label> "topoisomerase i inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_677939183> <http://www.w3.org/2000/01/rdf-schema#label> "anti-androgens"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_782175151> <http://www.w3.org/2000/01/rdf-schema#label> "platinum compounds"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_593080080> <http://www.w3.org/2000/01/rdf-schema#label> "plant alkaloids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_295998349> <http://www.w3.org/2000/01/rdf-schema#label> "bile acids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_985536249> <http://www.w3.org/2000/01/rdf-schema#label> "blood and related products"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_492768122> <http://www.w3.org/2000/01/rdf-schema#label> "coagulation proteins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_887506940> <http://www.w3.org/2000/01/rdf-schema#label> "haem derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_503646651> <http://www.w3.org/2000/01/rdf-schema#label> "haemostatic products"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_306932717> <http://www.w3.org/2000/01/rdf-schema#label> "plasma products"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_973610315> <http://www.w3.org/2000/01/rdf-schema#label> "drugs for treatment of hypoglycaemia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_592348357> <http://www.w3.org/2000/01/rdf-schema#label> "amino acids and derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_545076136> <http://www.w3.org/2000/01/rdf-schema#label> "miotics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_800674618> <http://www.w3.org/2000/01/rdf-schema#label> "parasympathomimetics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_375115052> <http://www.w3.org/2000/01/rdf-schema#label> "drugs affecting bone structure and mineralisation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_462230100> <http://www.w3.org/2000/01/rdf-schema#label> "antihaemorrhagics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_463346206> <http://www.w3.org/2000/01/rdf-schema#label> "antifibrinolytics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_663984413> <http://www.w3.org/2000/01/rdf-schema#label> "haemostatics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_192538753> <http://www.w3.org/2000/01/rdf-schema#label> "thrombopoietin receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_510218963> <http://www.w3.org/2000/01/rdf-schema#label> "hormone antagonists and related agents"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_391294538> <http://www.w3.org/2000/01/rdf-schema#label> "aromatase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_579055083> <http://www.w3.org/2000/01/rdf-schema#label> "carboxylic acids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_686150434> <http://www.w3.org/2000/01/rdf-schema#label> "sympathomimetics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_343075216> <http://www.w3.org/2000/01/rdf-schema#label> "sympathomimetics, vasoconstrictor"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_411296825> <http://www.w3.org/2000/01/rdf-schema#label> "sympathomimetics (vasoconstrictor)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_438613699> <http://www.w3.org/2000/01/rdf-schema#label> "sympathomimetics, inotropic"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_305323621> <http://www.w3.org/2000/01/rdf-schema#label> "sympathomimetics, indirectly acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_842626241> <http://www.w3.org/2000/01/rdf-schema#label> "antidiarrhoeals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_730975603> <http://www.w3.org/2000/01/rdf-schema#label> "antipropulsives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_429593282> <http://www.w3.org/2000/01/rdf-schema#label> "enkephalinase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_152794021> <http://www.w3.org/2000/01/rdf-schema#label> "antihistamines, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_769049001> <http://www.w3.org/2000/01/rdf-schema#label> "non-sedating antihistamines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_195920731> <http://www.w3.org/2000/01/rdf-schema#label> "sedating antihistamines"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_849716287> <http://www.w3.org/2000/01/rdf-schema#label> "sedating antihistamines, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_601647258> <http://www.w3.org/2000/01/rdf-schema#label> "anaesthetics, general"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_233325822> <http://www.w3.org/2000/01/rdf-schema#label> "intravenous anaesthetics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_971912260> <http://www.w3.org/2000/01/rdf-schema#label> "volatile liquid anaesthetics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_731198283> <http://www.w3.org/2000/01/rdf-schema#label> "pancreatic enzymes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_414682741> <http://www.w3.org/2000/01/rdf-schema#label> "analgesics"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_322611837> <http://www.w3.org/2000/01/rdf-schema#label> "non-steroidal anti-inflammatory drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_904822154> <http://www.w3.org/2000/01/rdf-schema#label> "salicylates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_158282927> <http://www.w3.org/2000/01/rdf-schema#label> "oxicams"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_248495929> <http://www.w3.org/2000/01/rdf-schema#label> "propionic acid derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_896202849> <http://www.w3.org/2000/01/rdf-schema#label> "acetic acid derivatives and related substances"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_481977484> <http://www.w3.org/2000/01/rdf-schema#label> "coxibs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_613865430> <http://www.w3.org/2000/01/rdf-schema#label> "non-steroidal anti-inflammatory drugs, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_676194987> <http://www.w3.org/2000/01/rdf-schema#label> "fenamates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_446837474> <http://www.w3.org/2000/01/rdf-schema#label> "cox-2 inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_447357749> <http://www.w3.org/2000/01/rdf-schema#label> "analgesics, non-opioid, centrally acting"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_240988743> <http://www.w3.org/2000/01/rdf-schema#label> "analgesics, non-opioid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_259171949> <http://www.w3.org/2000/01/rdf-schema#label> "parasiticides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_663283150> <http://www.w3.org/2000/01/rdf-schema#label> "blood glucose lowering drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_122421340> <http://www.w3.org/2000/01/rdf-schema#label> "meglitinides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_387708906> <http://www.w3.org/2000/01/rdf-schema#label> "sodium glucose co-transporter 2 inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_198132768> <http://www.w3.org/2000/01/rdf-schema#label> "thiazolidinediones"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_798882457> <http://www.w3.org/2000/01/rdf-schema#label> "glucagon-like peptide-1 receptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_606020038> <http://www.w3.org/2000/01/rdf-schema#label> "sulfonylureas"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_617518759> <http://www.w3.org/2000/01/rdf-schema#label> "dipeptidylpeptidase-4 inhibitors (gliptins)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_944533222> <http://www.w3.org/2000/01/rdf-schema#label> "alpha glucosidase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_698686673> <http://www.w3.org/2000/01/rdf-schema#label> "oral rehydration salts"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_813814996> <http://www.w3.org/2000/01/rdf-schema#label> "choline esters"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_690187893> <http://www.w3.org/2000/01/rdf-schema#label> "drugs used in opioid dependence"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_723090465> <http://www.w3.org/2000/01/rdf-schema#label> "pulmonary surfactants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_352533000> <http://www.w3.org/2000/01/rdf-schema#label> "defoaming drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_697162995> <http://www.w3.org/2000/01/rdf-schema#label> "alkaloids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_425141143> <http://www.w3.org/2000/01/rdf-schema#label> "antiseptics and disinfectants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_543916215> <http://www.w3.org/2000/01/rdf-schema#label> "iodine products"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_324936590> <http://www.w3.org/2000/01/rdf-schema#label> "antiseptics and disinfectants, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_818731984> <http://www.w3.org/2000/01/rdf-schema#label> "undecenoates"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_392994676> <http://www.w3.org/2000/01/rdf-schema#label> "peroxides"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_728493307> <http://www.w3.org/2000/01/rdf-schema#label> "alcohol disinfectants"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_104003650> <http://www.w3.org/2000/01/rdf-schema#label> "proton pump inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_391841474> <http://www.w3.org/2000/01/rdf-schema#label> "dermatological drugs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_219184260> <http://www.w3.org/2000/01/rdf-schema#label> "tars"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_275334537> <http://www.w3.org/2000/01/rdf-schema#label> "collodions"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_752391715> <http://www.w3.org/2000/01/rdf-schema#label> "emollients"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_518343898> <http://www.w3.org/2000/01/rdf-schema#label> "paraffins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_702652954> <http://www.w3.org/2000/01/rdf-schema#label> "anticomedonals"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_350344367> <http://www.w3.org/2000/01/rdf-schema#label> "barrier preparations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_947202787> <http://www.w3.org/2000/01/rdf-schema#label> "astringents, topical"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_532482207> <http://www.w3.org/2000/01/rdf-schema#label> "anti-infectives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_434903285> <http://www.w3.org/2000/01/rdf-schema#label> "abrasive agents"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_194994992> <http://www.w3.org/2000/01/rdf-schema#label> "resins"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_306824104> <http://www.w3.org/2000/01/rdf-schema#label> "beta3-adrenoceptor agonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_163403027> <http://www.w3.org/2000/01/rdf-schema#label> "peripherally acting antiobesity products"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_811468475> <http://www.w3.org/2000/01/rdf-schema#label> "lipase inhibitors"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_302856726> <http://www.w3.org/2000/01/rdf-schema#label> "anabolic steroids"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_858646161> <http://www.w3.org/2000/01/rdf-schema#label> "anabolic steroids, other"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_304072834> <http://www.w3.org/2000/01/rdf-schema#label> "androstan derivatives"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://ld.nice.org.uk/ns/bnf/Classification#_859186560> <http://www.w3.org/2000/01/rdf-schema#label> "endothelin receptor antagonists"^^<http://www.w3.org/2001/XMLSchema#string>.
+

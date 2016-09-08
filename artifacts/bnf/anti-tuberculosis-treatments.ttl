@@ -1,0 +1,217 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/anti-tuberculosis-treatments/PHP186> nicebnf:hasTherapy [nicebnf:hasSupervision "Unsupervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Combination"^^xsd:string ; 
+                                                                                 rdfs:label "rifampicin with isoniazid and pyrazinamide (for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeightUpTo40Kg> ; 
+                                                                                                    nicebnf:hasDitaContent """<p>3 tablets daily for 2 months (initial phase), use <i>Rifater</i><tm tmtype=\"reg\" /> Tablets, preferably taken before breakfast.</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """3 tablets daily for 2 months (initial phase), use Rifater Tablets, preferably taken before breakfast.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight4049Kg> ; 
+                                                                                                    nicebnf:hasDitaContent """<p>4 tablets daily for 2 months (initial phase), use <i>Rifater</i><tm tmtype=\"reg\" /> Tablets, preferably taken before breakfast.</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """4 tablets daily for 2 months (initial phase), use Rifater Tablets, preferably taken before breakfast.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight5064Kg> ; 
+                                                                                                    nicebnf:hasDitaContent """<p>5 tablets daily for 2 months (initial phase), use <i>Rifater</i><tm tmtype=\"reg\" /> Tablets, preferably taken before breakfast.</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """5 tablets daily for 2 months (initial phase), use Rifater Tablets, preferably taken before breakfast.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight65KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent """<p>6 tablets daily for 2 months (initial phase), use <i>Rifater</i><tm tmtype=\"reg\" /> Tablets, preferably taken before breakfast.</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """6 tablets daily for 2 months (initial phase), use Rifater Tablets, preferably taken before breakfast.
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Unsupervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Combination"^^xsd:string ; 
+                                                                                 rdfs:label "ethambutol hydrochloride (for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>15 mg/kg once daily for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """15 mg/kg once daily for 2 months (initial phase).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Unsupervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Combination"^^xsd:string ; 
+                                                                                 rdfs:label "rifampicin with isoniazid (for months 3 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 3 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeightUpTo50Kg> ; 
+                                                                                                    nicebnf:hasDitaContent """<p>450/300 mg daily for 4 months (continuation phase after 2-month initial phase), use <i>Rifinah</i><tm tmtype=\"reg\" /><i>150/100</i> Tablets, preferably taken before breakfast.</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """450/300 mg daily for 4 months (continuation phase after 2-month initial phase), use Rifinah150/100 Tablets, preferably taken before breakfast.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight50KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent """<p>600/300 mg daily for 4 months (continuation phase after 2-month initial phase), use <i>Rifinah</i><tm tmtype=\"reg\" /><i>300/150</i> Tablets, preferably taken before breakfast.</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """600/300 mg daily for 4 months (continuation phase after 2-month initial phase), use Rifinah300/150 Tablets, preferably taken before breakfast.
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Unsupervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "isoniazid (for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#child> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>10 mg/kg once daily (max. per dose 300 mg) for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """10 mg/kg once daily (max. per dose 300 mg) for 6 months (initial and continuation phases).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>300 mg daily for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """300 mg daily for 6 months (initial and continuation phases).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Unsupervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "rifampicin (for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeightUpTo50Kg> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>15 mg/kg once daily for 6 months (initial and continuation phases); maximum 450 mg per day.</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """15 mg/kg once daily for 6 months (initial and continuation phases); maximum 450 mg per day.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeight50KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>15 mg/kg daily for 6 months (initial and continuation phases); maximum 600 mg per day.</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """15 mg/kg daily for 6 months (initial and continuation phases); maximum 600 mg per day.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeightUpTo50Kg> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>450 mg daily for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """450 mg daily for 6 months (initial and continuation phases).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight50KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>600 mg daily for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """600 mg daily for 6 months (initial and continuation phases).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Unsupervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "pyrazinamide (for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeightUpTo50Kg> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>35 mg/kg once daily for 2 months (initial phase); maximum 1.5 g per day.</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """35 mg/kg once daily for 2 months (initial phase); maximum 1.5 g per day.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeight50KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>35 mg/kg once daily for 2 months (initial phase); maximum 2 g per day.</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """35 mg/kg once daily for 2 months (initial phase); maximum 2 g per day.
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeightUpTo50Kg> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>1.5 g once daily for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """1.5 g once daily for 2 months (initial phase).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight50KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>2 g once daily for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """2 g once daily for 2 months (initial phase).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Unsupervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "ethambutol hydrochloride (for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#child> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>20 mg/kg once daily for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """20 mg/kg once daily for 2 months (initial phase).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>15 mg/kg once daily for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """15 mg/kg once daily for 2 months (initial phase).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Supervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "isoniazid (for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#child> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Supervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "rifampicin (for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 6)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#child> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>600–900 mg 3 times a week for 6 months (initial and continuation phases).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """600–900 mg 3 times a week for 6 months (initial and continuation phases).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Supervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "pyrazinamide (for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeightUpTo50Kg> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>50 mg/kg 3 times a week (max. per dose 2 g 3 times a week) for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """50 mg/kg 3 times a week (max. per dose 2 g 3 times a week) for 2 months (initial phase).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeight50KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>50 mg/kg 3 times a week (max. per dose 2.5 g 3 times a week) for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """50 mg/kg 3 times a week (max. per dose 2.5 g 3 times a week) for 2 months (initial phase).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeightUpTo50Kg> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>2 g 3 times a week for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """2 g 3 times a week for 2 months (initial phase).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight50KgAndAbove> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>2.5 g 3 times a week for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """2.5 g 3 times a week for 2 months (initial phase).
+
+"""^^xsd:string]],
+                                                                                [nicebnf:hasSupervision "Supervised"^^xsd:string ; 
+                                                                                 nicebnf:hasTherapytype "Single"^^xsd:string ; 
+                                                                                 rdfs:label "ethambutol hydrochloride (for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasTakeninmonths "(for months 1 to 2)"^^xsd:string ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#child> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>30 mg/kg 3 times a week for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """30 mg/kg 3 times a week for 2 months (initial phase).
+
+"""^^xsd:string] ; 
+                                                                                 nicebnf:hasDosage [nicebnf:hasPatientGroup <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult> ; 
+                                                                                                    nicebnf:hasDitaContent "<p>30 mg/kg 3 times a week for 2 months (initial phase).</p>"^^<rdf:XMLLiteral> ; 
+                                                                                                    nicebnf:hasTextContent """30 mg/kg 3 times a week for 2 months (initial phase).
+
+"""^^xsd:string]];
+                                                             rdfs:label "antituberculosis drugs"^^xsd:string.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#adult> rdfs:label "adult"^^xsd:string;
+                                                  rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight4049Kg> rdfs:label "adult (body-weight 40–49 kg)"^^xsd:string;
+                                                                  rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight5064Kg> rdfs:label "adult (body-weight 50–64 kg)"^^xsd:string;
+                                                                  rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight50KgAndAbove> rdfs:label "adult (body-weight 50 kg and above)"^^xsd:string;
+                                                                        rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeight65KgAndAbove> rdfs:label "adult (body-weight 65 kg and above)"^^xsd:string;
+                                                                        rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeightUpTo40Kg> rdfs:label "adult (body-weight up to 40 kg)"^^xsd:string;
+                                                                    rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#adultBodyWeightUpTo50Kg> rdfs:label "adult (body-weight up to 50 kg)"^^xsd:string;
+                                                                    rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#adult>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#child> rdfs:label "child"^^xsd:string;
+                                                  rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#child>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeight50KgAndAbove> rdfs:label "child (body-weight 50 kg and above)"^^xsd:string;
+                                                                        rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#child>.
+<http://ld.nice.org.uk/ns/bnf/PatientGroup#childBodyWeightUpTo50Kg> rdfs:label "child (body-weight up to 50 kg)"^^xsd:string;
+                                                                    rdfs:subClassOf <http://ld.nice.org.uk/ns/bnf/PatientGroup#child>.
+

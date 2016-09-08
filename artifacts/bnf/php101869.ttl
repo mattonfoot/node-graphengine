@@ -1,0 +1,151 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/NursePrescribersFormulary/PHP101869> nicebnf:hasContent [nicebnf:hasTargetAudience "general"^^xsd:string ; 
+                                                                                 nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p outputclass=\"title\">Nurse Prescribers’ Formulary for Community Practitioners</p>
+    <p>List of preparations approved by the Secretary of State which may be prescribed on form FP10P (form HS21(N) in Northern Ireland, form GP10(N) in Scotland, forms WP10CN and WP10PN in Wales) by Nurses for National Health Service patients.</p>
+    <p>Community practitioners who have completed the necessary training may only prescribe items appearing in the nurse prescribers’ list set out below. Community Practitioner Nurse Prescribers are recommended to prescribe generically, except where this would not be clinically appropriate or where there is no approved generic name.</p>
+    <sectiondiv>
+      <p outputclass=\"title\">Medicinal Preparations</p>
+      <ul>
+        <li>Almond Oil Ear Drops, BP</li>
+        <li>Arachis Oil Enema, NPF</li>
+        <li>Aspirin Tablets, Dispersible, 300 mg, BP (max. 96 tablets; max. pack size 32 tablets)</li>
+        <li>Bisacodyl Suppositories, BP (includes 5-mg and 10-mg strengths)</li>
+        <li>Bisacodyl Tablets, BP</li>
+        <li>Catheter Maintenance Solution, Sodium Chloride, NPF</li>
+        <li>Catheter Maintenance Solution, ‘Solution G’, NPF</li>
+        <li>Catheter Maintenance Solution, ‘Solution R’, NPF</li>
+        <li>Chlorhexidine Gluconate Alcoholic Solutions containing at least 0.05%</li>
+        <li>Chlorhexidine Gluconate Aqueous Solutions containing at least 0.05%</li>
+        <li>Choline Salicylate Dental Gel, BP</li>
+        <li>Clotrimazole Cream 1%, BP</li>
+        <li>Co-danthramer Capsules, NPF</li>
+        <li>Co-danthramer Capsules, Strong, NPF</li>
+        <li>Co-danthramer Oral Suspension, NPF</li>
+        <li>Co-danthramer Oral Suspension, Strong, NPF</li>
+        <li>Co-danthrusate Capsules, BP</li>
+        <li>Co-danthrusate Oral Suspension, NPF</li>
+        <li>Crotamiton Cream, BP</li>
+        <li>Crotamiton Lotion, BP</li>
+        <li>Dimeticone barrier creams containing at least 10%</li>
+        <li>Dimeticone Lotion, NPF</li>
+        <li>Docusate Capsules, BP</li>
+        <li>Docusate Enema, NPF</li>
+        <li>Docusate Oral Solution, BP</li>
+        <li>Docusate Oral Solution, Paediatric, BP</li>
+        <li>Econazole Cream 1%, BP</li>
+        <li>Emollients as listed below:<ul><li>Aquadrate<tm tmtype=\"reg\" /> 10% w/w Cream</li><li>Arachis Oil, BP</li><li>Balneum<tm tmtype=\"reg\" /> Plus Cream</li><li>Cetraben<tm tmtype=\"reg\" /> Emollient Cream</li><li>Dermamist<tm tmtype=\"reg\" /></li><li>Diprobase<tm tmtype=\"reg\" /> Cream</li><li>Diprobase<tm tmtype=\"reg\" /> Ointment</li><li>Doublebase<tm tmtype=\"reg\" /></li><li>Doublebase<tm tmtype=\"reg\" /> Dayleve Gel</li><li>E45<tm tmtype=\"reg\" /> Cream</li><li>E45<tm tmtype=\"reg\" /> Itch Relief Cream</li><li>Emulsifying Ointment, BP</li><li>Eucerin<tm tmtype=\"reg\" /> Intensive 10% w/w Urea Treatment Cream</li><li>Eucerin<tm tmtype=\"reg\" /> Intensive 10% w/w Urea Treatment Lotion</li><li>Hydromol<tm tmtype=\"reg\" /> Cream</li><li>Hydromol<tm tmtype=\"reg\" /> Intensive</li><li>Hydrous Ointment, BP</li><li>Lipobase<tm tmtype=\"reg\" /></li><li>Liquid and White Soft Paraffin Ointment, NPF</li><li>Neutrogena<tm tmtype=\"reg\" /> Norwegian Formula Dermatological Cream</li><li>Nutraplus<tm tmtype=\"reg\" /> Cream</li><li>Oilatum<tm tmtype=\"reg\" /> Cream</li><li>Oilatum<tm tmtype=\"reg\" /> Junior Cream</li><li>Paraffin, White Soft, BP</li><li>Paraffin, Yellow Soft, BP</li><li>Ultrabase<tm tmtype=\"reg\" /></li><li>Unguentum M<tm tmtype=\"reg\" /></li></ul></li>
+        <li>Emollient Bath and Shower Preparations as listed below:<ul><li>Aqueous Cream, BP</li><li>Balneum<tm tmtype=\"reg\" /> (except pack sizes that are not to be prescribed under the NHS (see Part XVIIIA of the Drug Tariff, Part XI of the Northern Ireland Drug Tariff))</li><li>Balneum Plus<tm tmtype=\"reg\" /> Bath Oil (except pack sizes that are not to be prescribed under the NHS (see Part XVIIIA of the Drug Tariff, Part XI of the Northern Ireland Drug Tariff))</li><li>Cetraben<tm tmtype=\"reg\" /> Emollient Bath Additive</li><li>Dermalo<tm tmtype=\"reg\" /> Bath Emollient</li><li>Doublebase<tm tmtype=\"reg\" /> Emollient Bath Additive</li><li>Doublebase<tm tmtype=\"reg\" /> Emollient Shower Gel</li><li>Doublebase<tm tmtype=\"reg\" /> Emollient Wash Gel</li><li>Hydromol<tm tmtype=\"reg\" /> Bath and Shower Emollient</li><li>Oilatum<tm tmtype=\"reg\" /> Emollient</li><li>Oilatum<tm tmtype=\"reg\" /> Gel</li><li>Oilatum<tm tmtype=\"reg\" /> Junior Bath Additive</li><li>Zerolatum<tm tmtype=\"reg\" /> Emollient Medicinal Bath Oil</li></ul></li>
+        <li>Folic Acid Tablets 400 micrograms, BP</li>
+        <li>Glycerol Suppositories, BP</li>
+        <li>Ibuprofen Oral Suspension, BP (except for indications and doses that are prescription-only)</li>
+        <li>Ibuprofen Tablets, BP (except for indications and doses that are prescription-only)</li>
+        <li>Ispaghula Husk Granules, BP</li>
+        <li>Ispaghula Husk Granules, Effervescent, BP</li>
+        <li>Ispaghula Husk Oral Powder, BP</li>
+        <li>Lactulose Solution, BP</li>
+        <li>Lidocaine Ointment, BP</li>
+        <li>Lidocaine and Chlorhexidine Gel, BP</li>
+        <li>Macrogol Oral Liquid, Compound, NPF</li>
+        <li>Macrogol Oral Powder, Compound, NPF</li>
+        <li>Macrogol Oral Powder, Compound, Half-strength, NPF</li>
+        <li>Magnesium Hydroxide Mixture, BP</li>
+        <li>Magnesium Sulfate Paste, BP</li>
+        <li>Malathion aqueous lotions containing at least 0.5%</li>
+        <li>Mebendazole Oral Suspension, NPF</li>
+        <li>Mebendazole Tablets, NPF</li>
+        <li>Methylcellulose Tablets, BP</li>
+        <li>Miconazole Cream 2%, BP</li>
+        <li>Miconazole Oromucosal Gel, BP</li>
+        <li>Mouthwash Solution-tablets, NPF</li>
+        <li>Nicotine Inhalation Cartridge for Oromucosal Use, NPF</li>
+        <li>Nicotine Lozenge, NPF</li>
+        <li>Nicotine Medicated Chewing Gum, NPF</li>
+        <li>Nicotine Nasal Spray, NPF</li>
+        <li>Nicotine Oral Spray, NPF</li>
+        <li>Nicotine Sublingual Tablets, NPF</li>
+        <li>Nicotine Transdermal Patches, NPF</li>
+        <li>Nystatin Oral Suspension, BP</li>
+        <li>Olive Oil Ear Drops, BP</li>
+        <li>Paracetamol Oral Suspension, BP (includes 120 mg/5 mL and 250 mg/5 mL strengths—both of which are available as sugar-free formulations)</li>
+        <li>Paracetamol Tablets, BP (max. 96 tablets; max. pack size 32 tablets)</li>
+        <li>Paracetamol Tablets, Soluble, BP (includes 120-mg and 500-mg tablets; max. 96 tablets; max. pack size 32 tablets)</li>
+        <li>Permethrin Cream, NPF</li>
+        <li>Phosphates Enema, BP</li>
+        <li>Povidone–Iodine Solution, BP</li>
+        <li>Senna Oral Solution, NPF</li>
+        <li>Senna Tablets, BP</li>
+        <li>Senna and Ispaghula Granules, NPF</li>
+        <li>Sodium Chloride Solution, Sterile, BP</li>
+        <li>Sodium Citrate Compound Enema, NPF</li>
+        <li>Sodium Picosulfate Capsules, NPF</li>
+        <li>Sodium Picosulfate Elixir, NPF</li>
+        <li>Spermicidal contraceptives as listed below:<ul><li>Gygel<tm tmtype=\"reg\" /> Contraceptive Jelly</li></ul></li>
+        <li>Sterculia Granules, NPF</li>
+        <li>Sterculia and Frangula Granules, NPF</li>
+        <li>Titanium Ointment, BP</li>
+        <li>Water for Injections, BP</li>
+        <li>Zinc and Castor Oil Ointment, BP</li>
+        <li>Zinc Oxide and Dimeticone Spray, NPF</li>
+        <li>Zinc Oxide Impregnated Medicated Bandage, NPF</li>
+        <li>Zinc Oxide Impregnated Medicated Stocking, NPF</li>
+        <li>Zinc Paste Bandage, BP 1993</li>
+        <li>Zinc Paste and Ichthammol Bandage, BP 1993</li>
+      </ul>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Appliances and Reagents (including Wound Management Products)</p>
+      <p>Community Practitioner Nurse Prescribers in England, Wales and Northern Ireland can prescribe any appliance or reagent in the relevant Drug Tariff. In the Scottish Drug Tariff, Appliances and Reagents which may <b>not</b> be prescribed by Nurses are annotated <b>Nx</b>.</p>
+      <p>
+        <b>Appliances</b> (including Contraceptive Devices) as listed in Part IXA of the Drug Tariff (Part III of the Northern Ireland Drug Tariff, Part 3 (Appliances) and Part 2 (Dressings) of the Scottish Drug Tariff). (Where it is not appropriate for nurse prescribers in family planning clinics to prescribe contraceptive devices using form FP10(P) (forms WP10CN and WP10PN in Wales), they may prescribe using the same system as doctors in the clinic.)</p>
+      <p>
+        <b>Incontinence Appliances</b> as listed in Part IXB of the Drug Tariff (Part III of the Northern Ireland Drug Tariff, Part 5 of the Scottish Drug Tariff).</p>
+      <p>
+        <b>Stoma Appliances and Associated Products</b> as listed in Part IXC of the Drug Tariff (Part III of the Northern Ireland Drug Tariff, Part 6 of the Scottish Drug Tariff).</p>
+      <p>
+        <b>Chemical Reagents</b> as listed in Part IXR of the Drug Tariff (Part II of the Northern Ireland Drug Tariff, Part 9 of the Scottish Drug Tariff).</p>
+    </sectiondiv>
+    <p>The Drug Tariffs can be accessed online at:</p>
+    <p>National Health Service Drug Tariff for England and Wales:<xref format=\"html\" href=\"http://www.ppa.org.uk/ppa/edt_intro.htm\">www.ppa.org.uk/ppa/edt_intro.htm</xref></p>
+    <p>Health and Personal Social Services for Northern Ireland Drug Tariff:<xref format=\"html\" href=\"http://www.dhsspsni.gov.uk/pas-tariff\">www.dhsspsni.gov.uk/pas-tariff</xref></p>
+    <p>Scottish Drug Tariff:<xref format=\"html\" href=\"http://www.isdscotland.org/Health-topics/Prescribing-and-Medicines/Scottish-Drug-Tariff/\">www.isdscotland.org/Health-topics/Prescribing-and-Medicines/Scottish-Drug-Tariff/</xref></p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasTextContent """Nurse Prescribers’ Formulary for Community Practitioners
+
+List of preparations approved by the Secretary of State which may be prescribed on form FP10P (form HS21(N) in Northern Ireland, form GP10(N) in Scotland, forms WP10CN and WP10PN in Wales) by Nurses for National Health Service patients.
+
+Community practitioners who have completed the necessary training may only prescribe items appearing in the nurse prescribers’ list set out below. Community Practitioner Nurse Prescribers are recommended to prescribe generically, except where this would not be clinically appropriate or where there is no approved generic name.
+
+Medicinal Preparations
+
+Almond Oil Ear Drops, BPArachis Oil Enema, NPFAspirin Tablets, Dispersible, 300 mg, BP (max. 96 tablets; max. pack size 32 tablets)Bisacodyl Suppositories, BP (includes 5-mg and 10-mg strengths)Bisacodyl Tablets, BPCatheter Maintenance Solution, Sodium Chloride, NPFCatheter Maintenance Solution, ‘Solution G’, NPFCatheter Maintenance Solution, ‘Solution R’, NPFChlorhexidine Gluconate Alcoholic Solutions containing at least 0.05%Chlorhexidine Gluconate Aqueous Solutions containing at least 0.05%Choline Salicylate Dental Gel, BPClotrimazole Cream 1%, BPCo-danthramer Capsules, NPFCo-danthramer Capsules, Strong, NPFCo-danthramer Oral Suspension, NPFCo-danthramer Oral Suspension, Strong, NPFCo-danthrusate Capsules, BPCo-danthrusate Oral Suspension, NPFCrotamiton Cream, BPCrotamiton Lotion, BPDimeticone barrier creams containing at least 10%Dimeticone Lotion, NPFDocusate Capsules, BPDocusate Enema, NPFDocusate Oral Solution, BPDocusate Oral Solution, Paediatric, BPEconazole Cream 1%, BPEmollients as listed below:Aquadrate 10% w/w CreamArachis Oil, BPBalneum Plus CreamCetraben Emollient CreamDermamistDiprobase CreamDiprobase OintmentDoublebaseDoublebase Dayleve GelE45 CreamE45 Itch Relief CreamEmulsifying Ointment, BPEucerin Intensive 10% w/w Urea Treatment CreamEucerin Intensive 10% w/w Urea Treatment LotionHydromol CreamHydromol IntensiveHydrous Ointment, BPLipobaseLiquid and White Soft Paraffin Ointment, NPFNeutrogena Norwegian Formula Dermatological CreamNutraplus CreamOilatum CreamOilatum Junior CreamParaffin, White Soft, BPParaffin, Yellow Soft, BPUltrabaseUnguentum MEmollient Bath and Shower Preparations as listed below:Aqueous Cream, BPBalneum (except pack sizes that are not to be prescribed under the NHS (see Part XVIIIA of the Drug Tariff, Part XI of the Northern Ireland Drug Tariff))Balneum Plus Bath Oil (except pack sizes that are not to be prescribed under the NHS (see Part XVIIIA of the Drug Tariff, Part XI of the Northern Ireland Drug Tariff))Cetraben Emollient Bath AdditiveDermalo Bath EmollientDoublebase Emollient Bath AdditiveDoublebase Emollient Shower GelDoublebase Emollient Wash GelHydromol Bath and Shower EmollientOilatum EmollientOilatum GelOilatum Junior Bath AdditiveZerolatum Emollient Medicinal Bath OilFolic Acid Tablets 400 micrograms, BPGlycerol Suppositories, BPIbuprofen Oral Suspension, BP (except for indications and doses that are prescription-only)Ibuprofen Tablets, BP (except for indications and doses that are prescription-only)Ispaghula Husk Granules, BPIspaghula Husk Granules, Effervescent, BPIspaghula Husk Oral Powder, BPLactulose Solution, BPLidocaine Ointment, BPLidocaine and Chlorhexidine Gel, BPMacrogol Oral Liquid, Compound, NPFMacrogol Oral Powder, Compound, NPFMacrogol Oral Powder, Compound, Half-strength, NPFMagnesium Hydroxide Mixture, BPMagnesium Sulfate Paste, BPMalathion aqueous lotions containing at least 0.5%Mebendazole Oral Suspension, NPFMebendazole Tablets, NPFMethylcellulose Tablets, BPMiconazole Cream 2%, BPMiconazole Oromucosal Gel, BPMouthwash Solution-tablets, NPFNicotine Inhalation Cartridge for Oromucosal Use, NPFNicotine Lozenge, NPFNicotine Medicated Chewing Gum, NPFNicotine Nasal Spray, NPFNicotine Oral Spray, NPFNicotine Sublingual Tablets, NPFNicotine Transdermal Patches, NPFNystatin Oral Suspension, BPOlive Oil Ear Drops, BPParacetamol Oral Suspension, BP (includes 120 mg/5 mL and 250 mg/5 mL strengths—both of which are available as sugar-free formulations)Paracetamol Tablets, BP (max. 96 tablets; max. pack size 32 tablets)Paracetamol Tablets, Soluble, BP (includes 120-mg and 500-mg tablets; max. 96 tablets; max. pack size 32 tablets)Permethrin Cream, NPFPhosphates Enema, BPPovidone–Iodine Solution, BPSenna Oral Solution, NPFSenna Tablets, BPSenna and Ispaghula Granules, NPFSodium Chloride Solution, Sterile, BPSodium Citrate Compound Enema, NPFSodium Picosulfate Capsules, NPFSodium Picosulfate Elixir, NPFSpermicidal contraceptives as listed below:Gygel Contraceptive JellySterculia Granules, NPFSterculia and Frangula Granules, NPFTitanium Ointment, BPWater for Injections, BPZinc and Castor Oil Ointment, BPZinc Oxide and Dimeticone Spray, NPFZinc Oxide Impregnated Medicated Bandage, NPFZinc Oxide Impregnated Medicated Stocking, NPFZinc Paste Bandage, BP 1993Zinc Paste and Ichthammol Bandage, BP 1993Appliances and Reagents (including Wound Management Products)
+
+Community Practitioner Nurse Prescribers in England, Wales and Northern Ireland can prescribe any appliance or reagent in the relevant Drug Tariff. In the Scottish Drug Tariff, Appliances and Reagents which may not be prescribed by Nurses are annotated Nx.
+
+Appliances (including Contraceptive Devices) as listed in Part IXA of the Drug Tariff (Part III of the Northern Ireland Drug Tariff, Part 3 (Appliances) and Part 2 (Dressings) of the Scottish Drug Tariff). (Where it is not appropriate for nurse prescribers in family planning clinics to prescribe contraceptive devices using form FP10(P) (forms WP10CN and WP10PN in Wales), they may prescribe using the same system as doctors in the clinic.)
+
+Incontinence Appliances as listed in Part IXB of the Drug Tariff (Part III of the Northern Ireland Drug Tariff, Part 5 of the Scottish Drug Tariff).
+
+Stoma Appliances and Associated Products as listed in Part IXC of the Drug Tariff (Part III of the Northern Ireland Drug Tariff, Part 6 of the Scottish Drug Tariff).
+
+Chemical Reagents as listed in Part IXR of the Drug Tariff (Part II of the Northern Ireland Drug Tariff, Part 9 of the Scottish Drug Tariff).
+
+The Drug Tariffs can be accessed online at:
+
+National Health Service Drug Tariff for England and Wales:www.ppa.org.uk/ppa/edt_intro.htm
+
+Health and Personal Social Services for Northern Ireland Drug Tariff:www.dhsspsni.gov.uk/pas-tariff
+
+Scottish Drug Tariff:www.isdscotland.org/Health-topics/Prescribing-and-Medicines/Scottish-Drug-Tariff/
+
+"""^^xsd:string];
+                                                             a nicebnf:NursePrescribersFormulary;
+                                                             rdfs:label "nurse prescribers’ formulary"^^xsd:string.
+

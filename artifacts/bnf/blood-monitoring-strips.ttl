@@ -1,0 +1,602 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/blood-monitoring-strips/PHP189> nicebnf:hasBloodMonitoringStrip [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoMen<tm tmtype=\"reg\" /> GM</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoMen GM
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "A Menarini Diagnostics Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucomen gm"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.95"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoMen<tm tmtype=\"reg\" /> LX</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoMen LX
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "A Menarini Diagnostics Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucomen lx sensor"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.59"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoMen<tm tmtype=\"reg\" /> LX Plus</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoMen LX Plus
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "A Menarini Diagnostics Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucomen lx sensor"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.59"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoMen<tm tmtype=\"reg\" /> LX Plus</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoMen LX Plus
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood ketones"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0</ph>–<ph outputclass=\"to\">0.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "A Menarini Diagnostics Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucomen lx ketone"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "10 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "20.84"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoMen<tm tmtype=\"reg\" /> Visio</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoMen Visio
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "A Menarini Diagnostics Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucomen visio sensor"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.60"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Accu-Chek<tm tmtype=\"reg\" /> Active</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Accu-Chek Active
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "active"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.95"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoRx<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoRx
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "GlucoRx Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucorx"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.45"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoRx Nexus<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoRx Nexus
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "GlucoRx Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucorx nexus"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.95"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Glucotrend<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Glucotrend
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "active"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.95"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">iBGStar<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """iBGStar
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Sanofi"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "bgstar"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.73"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">IME-DC<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """IME-DC
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Arctic Medical Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "ime-dc"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.10"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Mendor Discreet<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Mendor Discreet
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "SpringMed Solutions Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "mendor discreet"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.75"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Microdot<tm tmtype=\"reg\" />+</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Microdot+
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">29.2</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Cambridge Sensors Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "microdot+"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.49"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">MyGlucoHealth<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """MyGlucoHealth
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Entra Health Systems Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "myglucohealth"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.50"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Omnitest<tm tmtype=\"reg\" /> 3</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Omnitest 3
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "B.Braun Medical Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "omnitest 3"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.89"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">One Touch Ultra<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """One Touch Ultra
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "LifeScan"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "one touch ultra"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "11.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">One Touch Ultra 2<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """One Touch Ultra 2
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "LifeScan"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "one touch ultra"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "11.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">One Touch UltraEasy<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """One Touch UltraEasy
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "LifeScan"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "one touch ultra"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "11.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">One Touch UltraSmart<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """One Touch UltraSmart
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "LifeScan"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "one touch ultra"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "11.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">One Touch<tm tmtype=\"reg\" /> VerioPro</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """One Touch VerioPro
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "LifeScan"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "one touch verio"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.12"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">One Touch<tm tmtype=\"reg\" /> Vita</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """One Touch Vita
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "LifeScan"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "one touch vita"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.07"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Accu-Chek<tm tmtype=\"reg\" /> Advantage</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Accu-Chek Advantage
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "advantage plus"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "0.00"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">SD CodeFree<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """SD CodeFree
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "SD Biosensor Inc"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "sd codefree"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "6.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Sensocard Plus<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Sensocard Plus
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "BBI Healthcare Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "sensocard"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "16.30"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">SuperCheck2<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """SuperCheck2
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Apollo Medical Technologies Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "supercheck2"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "8.49"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">TRUEone<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """TRUEone
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Nipro Diagnostics (UK) Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "trueone"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">TRUEresult<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """TRUEresult
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Nipro Diagnostics (UK) Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "trueresult"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">TRUEresult twist<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """TRUEresult twist
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Nipro Diagnostics (UK) Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "trueresult"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">TRUEtrack<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """TRUEtrack
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Nipro Diagnostics (UK) Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "truetrack"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.99"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">TRUEyou mini<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """TRUEyou mini
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Nipro Diagnostics (UK) Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "trueyou"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.92"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">WaveSense JAZZ<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """WaveSense JAZZ
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "AgaMatrix Europe Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "wavesense jazz"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.87"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Accu-Chek<tm tmtype=\"reg\" /> Aviva</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Accu-Chek Aviva
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "aviva"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.79"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Accu-Chek<tm tmtype=\"reg\" /> Aviva Expert</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Accu-Chek Aviva Expert
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "aviva"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.79"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Accu-Chek<tm tmtype=\"reg\" /> Compact Plus</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Accu-Chek Compact Plus
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "compact"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "3 x 17 strips"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "16.22"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Accu-Chek<tm tmtype=\"reg\" /> Mobile</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Accu-Chek Mobile
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.3</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "mobile"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "100 device"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "32.18"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Accu-Chek<tm tmtype=\"reg\" /> Aviva Nano</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Accu-Chek Aviva Nano
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Roche Diabetes Care Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "aviva"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.79"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">BGStar<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """BGStar
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Sanofi"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "bgstar"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.73"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Breeze 2<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Breeze 2
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Bayer Plc"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "breeze 2"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.00"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">CareSens N<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """CareSens N
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Spirit Healthcare Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "caresens n"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "12.75"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Contour<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Contour
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Bayer Diagnostics Manufacturing Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "contour"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.23"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Contour<tm tmtype=\"reg\" /> XT</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Contour XT
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.6</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Bayer Diagnostics Manufacturing Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "contour next"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.04"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">Element<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """Element
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.55</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Neon Diagnostics Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "element"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.89"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.81"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Freedom<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Freedom
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.81"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Freedom Lite<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Freedom Lite
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle lite"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.80"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle InsuLinx<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle InsuLinx
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle lite"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.80"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Lite<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Lite
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle lite"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.80"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Mini<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Mini
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.81"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Optium<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Optium
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle optium"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.71"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Optium<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Optium
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood ketones"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0</ph>–<ph outputclass=\"to\">8.0</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle optium β-ketone"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "10 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "21.14"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Optium Neo<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Optium Neo
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">27.8</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle optium"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "15.71"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">FreeStyle Optium Neo<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """FreeStyle Optium Neo
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood ketones"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0</ph>–<ph outputclass=\"to\">8.0</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Abbott Laboratories Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "freestyle optium β-ketone"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "10 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "21.14"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoDock<tm tmtype=\"reg\" /> module</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoDock module
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">1.1</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Medisana Healthcare (UK) Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucodock"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "14.90"^^xsd:string]],
+                                                                                        [nicebnf:hasDitaContent """<p outputclass=\"meter\">GlucoLab<tm tmtype=\"reg\" /></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasTextContent """GlucoLab
+
+"""^^xsd:string ; 
+                                                                                         nicebnf:hasTypeofmonitoring "Blood glucose"^^xsd:string ; 
+                                                                                         nicebnf:hasSensitivityRange """<p outputclass=\"sensitivityRange\">
+  <ph outputclass=\"from\">0.55</ph>–<ph outputclass=\"to\">33.3</ph> mmol/litre </p>"""^^<rdf:XMLLiteral> ; 
+                                                                                         nicebnf:hasManufacturer "Neon Diagnostics Ltd"^^xsd:string ; 
+                                                                                         nicebnf:hasCompatibleStrip [rdfs:label "glucolab"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPacksize "50 strip"^^xsd:string ; 
+                                                                                                                     nicebnf:hasPrice "9.89"^^xsd:string]];
+                                                        rdfs:label "meters and test strips"^^xsd:string.
+

@@ -1,0 +1,204 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/hrt-risks/PHP99983> nicebnf:hasDitaContent """<sectiondiv outputclass=\"note\">
+  <p>Where background incidence or additional cases have not been included in the table, this indicates a lack of available data. NS indicates a non-significant difference.</p>
+  <p>Taken from MHRA/CHM (<i>Drug Safety</i> 2007; <b>1</b> (2): 2-6) available at <xref format=\"html\" href=\"http://www.gov.uk/drug-safety-update\">www.gov.uk/drug-safety-update</xref></p>
+</sectiondiv>"""^^<rdf:XMLLiteral>;
+                                            nicebnf:hasRisk [rdfs:label "breast cancer"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<sectiondiv outputclass=\"notes\">
+  <p>Tibolone increases the risk of breast cancer but to a lesser extent than with combined HRT.</p>
+</sectiondiv>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Tibolone increases the risk of breast cancer but to a lesser extent than with combined HRT.
+
+"""^^xsd:string ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 50–59"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "10"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "20"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "2"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "6"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "6"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "24"^^xsd:string]] ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 60–69"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "15"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "30"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "3"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "9"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "9"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "36"^^xsd:string]]],
+                                                            [rdfs:label "endometrial cancer"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<sectiondiv outputclass=\"notes\">
+  <p>Evidence suggests an increased risk of endometrial cancer with tibolone. After 2.7 years of use (in women of average age 68 years), 1 extra case of endometrial hyperplasia and 4 extra cases of endometrial cancer were diagnosed compared with placebo users.</p>
+  <p>The risk of endometrial cancer cannot be reliably estimated in those using combined HRT because the addition of progestogen for at least 10 days per 28-day cycle greatly reduces the additional risk, and addition of a daily progestogen eliminates the additional risk. The risk of endometrial cancer in women who have not used HRT increases with body mass index (BMI); the increased risk of endometrial cancer in users of oestrogen-only HRT or tibolone is more apparent in women who are not overweight.</p>
+</sectiondiv>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Evidence suggests an increased risk of endometrial cancer with tibolone. After 2.7 years of use (in women of average age 68 years), 1 extra case of endometrial hyperplasia and 4 extra cases of endometrial cancer were diagnosed compared with placebo users.
+
+The risk of endometrial cancer cannot be reliably estimated in those using combined HRT because the addition of progestogen for at least 10 days per 28-day cycle greatly reduces the additional risk, and addition of a daily progestogen eliminates the additional risk. The risk of endometrial cancer in women who have not used HRT increases with body mass index (BMI); the increased risk of endometrial cancer in users of oestrogen-only HRT or tibolone is more apparent in women who are not overweight.
+
+"""^^xsd:string ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 50–59"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "2"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "4"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "4"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "32"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "NS"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "NS"^^xsd:string]] ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 60–69"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "3"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "6"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "6"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "48"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "NS"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "NS"^^xsd:string]]],
+                                                            [rdfs:label "ovarian cancer"^^xsd:string ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 50–59"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "2"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "4"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "˂1"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "1"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "˂1"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "1"^^xsd:string]] ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 60–69"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "3"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "6"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "˂1"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "2"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "˂1"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "2"^^xsd:string]]],
+                                                            [rdfs:label "venous thromboembolism"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<sectiondiv outputclass=\"notes\">
+  <p>Limited data does not suggest an increased risk of thromboembolism with tibolone compared with combined HRT or women not taking HRT.</p>
+  <p>Although the level of risk of thromboembolism associated with non-oral routes of administration of HRT has not been established, it may be lower for the transdermal route.</p>
+</sectiondiv>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Limited data does not suggest an increased risk of thromboembolism with tibolone compared with combined HRT or women not taking HRT.
+
+Although the level of risk of thromboembolism associated with non-oral routes of administration of HRT has not been established, it may be lower for the transdermal route.
+
+"""^^xsd:string ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 50–59"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "5"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "2"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "7"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "-"^^xsd:string]] ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 60–69"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "8"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "2"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "10"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "-"^^xsd:string]]],
+                                                            [rdfs:label "stroke"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<sectiondiv outputclass=\"notes\">
+  <p>Tibolone increases the risk of stroke about 2.2 times from the first year of treatment; risk of stroke is age-dependent and therefore the absolute risk of stroke with tibolone increases with age.</p>
+</sectiondiv>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Tibolone increases the risk of stroke about 2.2 times from the first year of treatment; risk of stroke is age-dependent and therefore the absolute risk of stroke with tibolone increases with age.
+
+"""^^xsd:string ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 50–59"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "4"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "1"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "1"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "-"^^xsd:string]] ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 60–69"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "9"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "3"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "3"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "-"^^xsd:string]]],
+                                                            [rdfs:label "coronary heart disease"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<sectiondiv outputclass=\"notes\">
+  <p>Increased risk of coronary heart disease in women who start combined HRT more than 10 years after menopause.</p>
+  <p>There is insufficient data to draw a conclusion on the risk of coronary heart disease with tibolone.</p>
+</sectiondiv>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Increased risk of coronary heart disease in women who start combined HRT more than 10 years after menopause.
+
+There is insufficient data to draw a conclusion on the risk of coronary heart disease with tibolone.
+
+"""^^xsd:string ; 
+                                                             nicebnf:hasGroup [nicebnf:hasAgerange "Women aged 70–79"^^xsd:string ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 5 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "29-44"^^xsd:string] ; 
+                                                                               nicebnf:hasBackgroundIncidences [nicebnf:hasDuration "Over 10 years"^^xsd:string ; 
+                                                                                                                nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "NS"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesOestrogenOnly [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                        nicebnf:hasCount "-"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 5 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "15"^^xsd:string] ; 
+                                                                               nicebnf:hasAdditionalCasesCombined [nicebnf:hasDuration "For 10 years' use"^^xsd:string ; 
+                                                                                                                   nicebnf:hasCount "-"^^xsd:string]]];
+                                            nicebnf:hasTextContent """Where background incidence or additional cases have not been included in the table, this indicates a lack of available data. NS indicates a non-significant difference.
+
+Taken from MHRA/CHM (Drug Safety 2007; 1 (2): 2-6) available at www.gov.uk/drug-safety-update
+
+"""^^xsd:string.
+

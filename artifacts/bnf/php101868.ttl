@@ -1,0 +1,398 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/DentalPractitionersFormulary/PHP101868> nicebnf:hasContent [nicebnf:hasTargetAudience "general"^^xsd:string ; 
+                                                                                    nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p outputclass=\"title\">List of Dental Preparations</p>
+    <p>The following list has been approved by the appropriate Secretaries of State, and the preparations therein may be prescribed by dental practitioners on form FP10D (GP14 in Scotland, WP10D in Wales).</p>
+    <p>Licensed <b>sugar-free</b> versions, where available, are preferred.</p>
+    <p>Licensed <b>alcohol-free</b> mouthwashes, where available, are preferred.</p>
+    <ul>
+      <li>Aciclovir Cream, BP</li>
+      <li>Aciclovir Oral Suspension, BP, 200 mg/5 mL</li>
+      <li>Aciclovir Tablets, BP, 200 mg</li>
+      <li>Aciclovir Tablets, BP, 800 mg</li>
+      <li>Amoxicillin Capsules, BP</li>
+      <li>Amoxicillin Oral Powder, DPF</li>
+      <li>Amoxicillin Oral Suspension, BP</li>
+      <li>Artificial Saliva Gel, DPF</li>
+      <li>Artificial Saliva Oral Spray, DPF</li>
+      <li>Artificial Saliva Pastilles, DPF</li>
+      <li>Artificial Saliva Protective Spray, DPF</li>
+      <li>Artificial Saliva Substitutes as listed below (to be prescribed only for indications approved by ACBS (patients suffering from dry mouth as a result of having or, having undergone, radiotherapy or sicca syndrome):<ul><li><i>BioXtra</i><tm tmtype=\"reg\" /> Gel Mouthspray</li><li><i>BioXtra</i><tm tmtype=\"reg\" /> Moisturising Gel</li><li><i>Glandosane</i><tm tmtype=\"reg\" /></li><li><i>Saliveze</i><tm tmtype=\"reg\" /></li></ul></li>
+      <li>Artificial Saliva Substitute Spray, DPF</li>
+      <li>Aspirin Tablets, Dispersible, BP</li>
+      <li>Azithromycin Capsules, 250 mg, DPF</li>
+      <li>Azithromycin Oral Suspension, 200 mg/5 mL, DPF</li>
+      <li>Azithromycin Tablets, 250 mg, DPF</li>
+      <li>Azithromycin Tablets, 500 mg, DPF</li>
+      <li>Beclometasone Pressurised Inhalation, BP, 50 micrograms/ metered inhalation, CFC-free, as:<ul><li><i>Clenil Modulite</i><tm tmtype=\"reg\" /></li></ul></li>
+      <li>Benzydamine Mouthwash, BP 0.15%</li>
+      <li>Benzydamine Oromucosal Spray, BP 0.15%</li>
+      <li>Betamethasone Soluble Tablets, 500 micrograms, DPF</li>
+      <li>Carbamazepine Tablets, BP</li>
+      <li>Cefalexin Capsules, BP</li>
+      <li>Cefalexin Oral Suspension, BP</li>
+      <li>Cefalexin Tablets, BP</li>
+      <li>Cefradine Capsules, BP</li>
+      <li>Cetirizine Oral Solution, BP, 5 mg/5 mL</li>
+      <li>Cetirizine Tablets, BP, 10 mg</li>
+      <li>Chlorhexidine Gluconate Gel, BP</li>
+      <li>Chlorhexidine Mouthwash, BP</li>
+      <li>Chlorhexidine Oral Spray, DPF</li>
+      <li>Chlorphenamine Oral Solution, BP</li>
+      <li>Chlorphenamine Tablets, BP</li>
+      <li>Choline Salicylate Dental Gel, BP</li>
+      <li>Clarithromycin Oral Suspension, 125 mg/5 mL, DPF</li>
+      <li>Clarithromycin Oral Suspension, 250 mg/5 mL, DPF</li>
+      <li>Clarithromycin Tablets, BP</li>
+      <li>Clindamycin Capsules, BP</li>
+      <li>Co-amoxiclav Tablets, BP, 250/125 (amoxicillin 250 mg as trihydrate, clavulanic acid 125 mg as potassium salt)</li>
+      <li>Co-amoxiclav Oral Suspension, BP, 125/31 (amoxicillin 125 mg as trihydrate, clavulanic acid 31.25 mg as potassium salt)/5 mL</li>
+      <li>Co-amoxiclav Oral Suspension, BP, 250/62 (amoxicillin 250 mg as trihydrate, clavulanic acid 62.5 mg as potassium salt)/5 mL</li>
+      <li>Diazepam Oral Solution, BP, 2 mg/5 mL</li>
+      <li>Diazepam Tablets, BP</li>
+      <li>Diclofenac Sodium Tablets, Gastro-resistant, BP</li>
+      <li>Dihydrocodeine Tablets, BP, 30 mg</li>
+      <li>Doxycycline Tablets, Dispersible, BP</li>
+      <li>Doxycycline Capsules, BP, 100 mg</li>
+      <li>Doxycycline Tablets, 20 mg, DPF</li>
+      <li>Ephedrine Nasal Drops, BP</li>
+      <li>Erythromycin Ethyl Succinate Oral Suspension, BP</li>
+      <li>Erythromycin Ethyl Succinate Tablets, BP</li>
+      <li>Erythromycin Stearate Tablets, BP</li>
+      <li>Erythromycin Tablets, Gastro-resistant, BP</li>
+      <li>Fluconazole Capsules, 50 mg, DPF</li>
+      <li>Fluconazole Oral Suspension, 50 mg/5 mL, DPF</li>
+      <li>Hydrocortisone Cream, BP, 1%</li>
+      <li>Hydrocortisone Oromucosal Tablets, BP</li>
+      <li>Hydrogen Peroxide Mouthwash, BP, 6%</li>
+      <li>Ibuprofen Oral Suspension, BP, sugar-free</li>
+      <li>Ibuprofen Tablets, BP</li>
+      <li>Lansoprazole Capsules, Gastro-resistant, BP</li>
+      <li>Lidocaine Ointment, BP, 5%</li>
+      <li>Lidocaine Spray 10%, DPF</li>
+      <li>Loratadine Syrup, 5 mg/5 mL, DPF</li>
+      <li>Loratadine Tablets, BP, 10 mg</li>
+      <li>Menthol and Eucalyptus Inhalation, BP 1980</li>
+      <li>Metronidazole Oral Suspension, BP</li>
+      <li>Metronidazole Tablets, BP</li>
+      <li>Miconazole Cream, BP</li>
+      <li>Miconazole Oromucosal Gel, BP</li>
+      <li>Miconazole and Hydrocortisone Cream, BP</li>
+      <li>Miconazole and Hydrocortisone Ointment, BP</li>
+      <li>Nystatin Oral Suspension, BP</li>
+      <li>Omeprazole Capsules, Gastro-resistant, BP</li>
+      <li>Oxytetracycline Tablets, BP</li>
+      <li>Paracetamol Oral Suspension, BP</li>
+      <li>Paracetamol Tablets, BP</li>
+      <li>Paracetamol Tablets, Soluble, BP</li>
+      <li>Phenoxymethylpenicillin Oral Solution, BP</li>
+      <li>Phenoxymethylpenicillin Tablets, BP</li>
+      <li>Promethazine Hydrochloride Tablets, BP</li>
+      <li>Promethazine Oral Solution, BP</li>
+      <li>Saliva Stimulating Tablets, DPF</li>
+      <li>Sodium Chloride Mouthwash, Compound, BP</li>
+      <li>Sodium Fluoride Mouthwash, BP</li>
+      <li>Sodium Fluoride Oral Drops, BP</li>
+      <li>Sodium Fluoride Tablets, BP</li>
+      <li>Sodium Fluoride Toothpaste 0.619%, DPF</li>
+      <li>Sodium Fluoride Toothpaste 1.1%, DPF</li>
+      <li>Sodium Fusidate Ointment, BP</li>
+      <li>Temazepam Oral Solution, BP</li>
+      <li>Temazepam Tablets, BP</li>
+      <li>Tetracycline Tablets, BP</li>
+    </ul>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                                    nicebnf:hasTextContent """List of Dental Preparations
+
+The following list has been approved by the appropriate Secretaries of State, and the preparations therein may be prescribed by dental practitioners on form FP10D (GP14 in Scotland, WP10D in Wales).
+
+Licensed sugar-free versions, where available, are preferred.
+
+Licensed alcohol-free mouthwashes, where available, are preferred.
+
+Aciclovir Cream, BPAciclovir Oral Suspension, BP, 200 mg/5 mLAciclovir Tablets, BP, 200 mgAciclovir Tablets, BP, 800 mgAmoxicillin Capsules, BPAmoxicillin Oral Powder, DPFAmoxicillin Oral Suspension, BPArtificial Saliva Gel, DPFArtificial Saliva Oral Spray, DPFArtificial Saliva Pastilles, DPFArtificial Saliva Protective Spray, DPFArtificial Saliva Substitutes as listed below (to be prescribed only for indications approved by ACBS (patients suffering from dry mouth as a result of having or, having undergone, radiotherapy or sicca syndrome):BioXtra Gel MouthsprayBioXtra Moisturising GelGlandosaneSalivezeArtificial Saliva Substitute Spray, DPFAspirin Tablets, Dispersible, BPAzithromycin Capsules, 250 mg, DPFAzithromycin Oral Suspension, 200 mg/5 mL, DPFAzithromycin Tablets, 250 mg, DPFAzithromycin Tablets, 500 mg, DPFBeclometasone Pressurised Inhalation, BP, 50 micrograms/ metered inhalation, CFC-free, as:Clenil ModuliteBenzydamine Mouthwash, BP 0.15%Benzydamine Oromucosal Spray, BP 0.15%Betamethasone Soluble Tablets, 500 micrograms, DPFCarbamazepine Tablets, BPCefalexin Capsules, BPCefalexin Oral Suspension, BPCefalexin Tablets, BPCefradine Capsules, BPCetirizine Oral Solution, BP, 5 mg/5 mLCetirizine Tablets, BP, 10 mgChlorhexidine Gluconate Gel, BPChlorhexidine Mouthwash, BPChlorhexidine Oral Spray, DPFChlorphenamine Oral Solution, BPChlorphenamine Tablets, BPCholine Salicylate Dental Gel, BPClarithromycin Oral Suspension, 125 mg/5 mL, DPFClarithromycin Oral Suspension, 250 mg/5 mL, DPFClarithromycin Tablets, BPClindamycin Capsules, BPCo-amoxiclav Tablets, BP, 250/125 (amoxicillin 250 mg as trihydrate, clavulanic acid 125 mg as potassium salt)Co-amoxiclav Oral Suspension, BP, 125/31 (amoxicillin 125 mg as trihydrate, clavulanic acid 31.25 mg as potassium salt)/5 mLCo-amoxiclav Oral Suspension, BP, 250/62 (amoxicillin 250 mg as trihydrate, clavulanic acid 62.5 mg as potassium salt)/5 mLDiazepam Oral Solution, BP, 2 mg/5 mLDiazepam Tablets, BPDiclofenac Sodium Tablets, Gastro-resistant, BPDihydrocodeine Tablets, BP, 30 mgDoxycycline Tablets, Dispersible, BPDoxycycline Capsules, BP, 100 mgDoxycycline Tablets, 20 mg, DPFEphedrine Nasal Drops, BPErythromycin Ethyl Succinate Oral Suspension, BPErythromycin Ethyl Succinate Tablets, BPErythromycin Stearate Tablets, BPErythromycin Tablets, Gastro-resistant, BPFluconazole Capsules, 50 mg, DPFFluconazole Oral Suspension, 50 mg/5 mL, DPFHydrocortisone Cream, BP, 1%Hydrocortisone Oromucosal Tablets, BPHydrogen Peroxide Mouthwash, BP, 6%Ibuprofen Oral Suspension, BP, sugar-freeIbuprofen Tablets, BPLansoprazole Capsules, Gastro-resistant, BPLidocaine Ointment, BP, 5%Lidocaine Spray 10%, DPFLoratadine Syrup, 5 mg/5 mL, DPFLoratadine Tablets, BP, 10 mgMenthol and Eucalyptus Inhalation, BP 1980Metronidazole Oral Suspension, BPMetronidazole Tablets, BPMiconazole Cream, BPMiconazole Oromucosal Gel, BPMiconazole and Hydrocortisone Cream, BPMiconazole and Hydrocortisone Ointment, BPNystatin Oral Suspension, BPOmeprazole Capsules, Gastro-resistant, BPOxytetracycline Tablets, BPParacetamol Oral Suspension, BPParacetamol Tablets, BPParacetamol Tablets, Soluble, BPPhenoxymethylpenicillin Oral Solution, BPPhenoxymethylpenicillin Tablets, BPPromethazine Hydrochloride Tablets, BPPromethazine Oral Solution, BPSaliva Stimulating Tablets, DPFSodium Chloride Mouthwash, Compound, BPSodium Fluoride Mouthwash, BPSodium Fluoride Oral Drops, BPSodium Fluoride Tablets, BPSodium Fluoride Toothpaste 0.619%, DPFSodium Fluoride Toothpaste 1.1%, DPFSodium Fusidate Ointment, BPTemazepam Oral Solution, BPTemazepam Tablets, BPTetracycline Tablets, BP"""^^xsd:string],
+                                                                                   [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                                                    nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p>Preparations in this list which are not included in the BP or BPC are described under Details of DPF preparations.</p>
+    <p>For details of preparations that can be prescribed, see individual entries under the relevant drug monographs throughout the BNF publications.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Details of DPF preparations</p>
+    <p>Preparations on the List of Dental Preparations which are specified as DPF are described as follows in the DPF.</p>
+    <p>Although brand names have sometimes been included for identification purposes preparations on the list should be prescribed by non-proprietary name.</p>
+    <sectiondiv>
+      <p>
+        <b>Amoxicillin Oral Powder</b>
+      </p>
+      <sectiondiv>
+        <p>amoxicillin (as trihydrate) 3 g sachet</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Artificial Saliva Gel</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Biotene Oralbalance</i>), lactoperoxidase, lactoferrin, lysozyme, glucose oxidase, xylitol in a gel basis</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Artificial Saliva Oral Spray</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Xerotin</i>) consists of water, sorbitol, carmellose (carboxymethylcellulose), potassium chloride, sodium chloride, potassium phosphate, magnesium chloride, calcium chloride and other ingredients, pH neutral</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Artificial Saliva Pastilles</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Salivix</i>), consists of acacia, malic acid, and other ingredients</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Artificial Saliva Protective Spray</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Aquoral</i>) consists of oxidised glycerol triesters, silicon dioxide, flavouring agents, aspartame</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Artificial Saliva Substitute Spray</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>AS Saliva Orthana Spray</i>) consists of mucin, methylparaben, benzalkonium chloride, EDTA, xylitol, peppermint oil, spearmint oil, mineral salts</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Azithromycin Capsules</b>
+      </p>
+      <sectiondiv>
+        <p>azithromycin 250 mg</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Azithromycin Oral Suspension 200 mg/5 mL</b>
+      </p>
+      <sectiondiv>
+        <p>azithromycin 200 mg/5 mL when reconstituted with water</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Azithromycin Tablets</b>
+      </p>
+      <sectiondiv>
+        <p>azithromycin 250 mg and 500 mg</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Betamethasone Soluble Tablets 500 micrograms</b>
+      </p>
+      <sectiondiv>
+        <p>betamethasone (as sodium phosphate) 500 micrograms</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Chlorhexidine Oral Spray</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Corsodyl Oral Spray</i>), chlorhexidine gluconate 0.2%</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Clarithromycin Oral Suspension 125 mg/5 mL</b>
+      </p>
+      <sectiondiv>
+        <p>clarithromycin 125 mg/5 mL when reconstituted with water</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Clarithromycin Oral Suspension 250 mg/5 mL</b>
+      </p>
+      <sectiondiv>
+        <p>clarithromycin 250 mg/5 mL when reconstituted with water</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Doxycycline Tablets 20 mg</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Periostat</i>), doxycycline (as hyclate) 20 mg</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Fluconazole Capsules 50 mg</b>
+      </p>
+      <sectiondiv>
+        <p>fluconazole 50 mg</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Fluconazole Oral Suspension 50 mg/5 mL</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Diflucan</i>), fluconazole 50 mg/ 5 mL when reconstituted with water</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Lidocaine Spray 10%</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Xylocaine Spray</i>), lidocaine 10% supplying 10 mg lidocaine/spray</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Loratadine Syrup 5 mg/5 mL</b>
+      </p>
+      <sectiondiv>
+        <p>loratadine 5 mg/5 mL</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Saliva Stimulating Tablets</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>SST</i>), citric acid, malic acid and other ingredients in a sorbitol base</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Sodium Fluoride Toothpaste 0.619%</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Duraphat ‘2800 ppm’ Toothpaste</i>), sodium fluoride 0.619%</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p>
+        <b>Sodium Fluoride Toothpaste 1.1%</b>
+      </p>
+      <sectiondiv>
+        <p>(proprietary product: <i>Duraphat ‘5000 ppm’ Toothpaste</i>), sodium fluoride 1.1%</p>
+      </sectiondiv>
+    </sectiondiv>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                                    nicebnf:hasTextContent """Preparations in this list which are not included in the BP or BPC are described under Details of DPF preparations.
+
+For details of preparations that can be prescribed, see individual entries under the relevant drug monographs throughout the BNF publications.
+
+Details of DPF preparations
+
+Preparations on the List of Dental Preparations which are specified as DPF are described as follows in the DPF.
+
+Although brand names have sometimes been included for identification purposes preparations on the list should be prescribed by non-proprietary name.
+
+Amoxicillin Oral Powder
+
+amoxicillin (as trihydrate) 3 g sachet
+
+Artificial Saliva Gel
+
+(proprietary product: Biotene Oralbalance), lactoperoxidase, lactoferrin, lysozyme, glucose oxidase, xylitol in a gel basis
+
+Artificial Saliva Oral Spray
+
+(proprietary product: Xerotin) consists of water, sorbitol, carmellose (carboxymethylcellulose), potassium chloride, sodium chloride, potassium phosphate, magnesium chloride, calcium chloride and other ingredients, pH neutral
+
+Artificial Saliva Pastilles
+
+(proprietary product: Salivix), consists of acacia, malic acid, and other ingredients
+
+Artificial Saliva Protective Spray
+
+(proprietary product: Aquoral) consists of oxidised glycerol triesters, silicon dioxide, flavouring agents, aspartame
+
+Artificial Saliva Substitute Spray
+
+(proprietary product: AS Saliva Orthana Spray) consists of mucin, methylparaben, benzalkonium chloride, EDTA, xylitol, peppermint oil, spearmint oil, mineral salts
+
+Azithromycin Capsules
+
+azithromycin 250 mg
+
+Azithromycin Oral Suspension 200 mg/5 mL
+
+azithromycin 200 mg/5 mL when reconstituted with water
+
+Azithromycin Tablets
+
+azithromycin 250 mg and 500 mg
+
+Betamethasone Soluble Tablets 500 micrograms
+
+betamethasone (as sodium phosphate) 500 micrograms
+
+Chlorhexidine Oral Spray
+
+(proprietary product: Corsodyl Oral Spray), chlorhexidine gluconate 0.2%
+
+Clarithromycin Oral Suspension 125 mg/5 mL
+
+clarithromycin 125 mg/5 mL when reconstituted with water
+
+Clarithromycin Oral Suspension 250 mg/5 mL
+
+clarithromycin 250 mg/5 mL when reconstituted with water
+
+Doxycycline Tablets 20 mg
+
+(proprietary product: Periostat), doxycycline (as hyclate) 20 mg
+
+Fluconazole Capsules 50 mg
+
+fluconazole 50 mg
+
+Fluconazole Oral Suspension 50 mg/5 mL
+
+(proprietary product: Diflucan), fluconazole 50 mg/ 5 mL when reconstituted with water
+
+Lidocaine Spray 10%
+
+(proprietary product: Xylocaine Spray), lidocaine 10% supplying 10 mg lidocaine/spray
+
+Loratadine Syrup 5 mg/5 mL
+
+loratadine 5 mg/5 mL
+
+Saliva Stimulating Tablets
+
+(proprietary product: SST), citric acid, malic acid and other ingredients in a sorbitol base
+
+Sodium Fluoride Toothpaste 0.619%
+
+(proprietary product: Duraphat ‘2800 ppm’ Toothpaste), sodium fluoride 0.619%
+
+Sodium Fluoride Toothpaste 1.1%
+
+(proprietary product: Duraphat ‘5000 ppm’ Toothpaste), sodium fluoride 1.1%
+
+"""^^xsd:string];
+                                                                a nicebnf:DentalPractitionersFormulary;
+                                                                rdfs:label "dental practitioners’ formulary"^^xsd:string.
+

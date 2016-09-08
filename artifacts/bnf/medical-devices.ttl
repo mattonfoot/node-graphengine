@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-devices/medicalDevices> nicebnf:hasMedicalDevice <http://bnf.nice.org.uk/medical-device/artificial-saliva-products>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/blood-monitoring-test-strips>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/camouflages>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/catheter-maintenance-solutions>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/gloves>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/hypodermic-insulin-injection-pens>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/irrigation-solutions>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/nebuliser-solutions>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/needle-free-insulin-delivery-systems>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/peak-flow-meters>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/skin-adhesives>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/spacers>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/urinanalysis-reagent-strips>,
+                                                                                 <http://bnf.nice.org.uk/medical-device/vaginal-contraceptives>;
+                                                        a nicebnf:MedicalDevices.
+

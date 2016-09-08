@@ -1,0 +1,1603 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107699> nicebnf:hasContent [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p>Monthly updates are provided online via MedicinesComplete and the NHS Evidence portal. The changes listed below are cumulative (from one print edition to the next).</p>
+    <sectiondiv>
+      <p outputclass=\"title\">Significant changes</p>
+      <p>Significant changes that will appear in the print edition of BNF 72 (September 2016–March 2017):</p>
+      <p>Bisphosphonates: risk of osteonecrosis of the external auditory canal [MHRA/CHM advice].</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/idelalisib.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP93587\">Idelalisib</xref> for treating chronic lymphocytic leukaemia [NICE guidance].</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/mirabegron.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP33109\">Mirabegron</xref>: measures to minimise risk of severe hypertension and associated cerebrovascular and cardiac events.</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/mycophenolate-mofetil.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP5608\">Mycophenolate mofetil</xref>: new pregnancy-prevention advice for women and men.</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/nintedanib.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP108186\">Nintedanib</xref> for previously treated locally advanced, metastatic, or locally recurrent non-small cell lung cancer [NICE guidance].</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/paclitaxel.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP5562\">Paclitaxel</xref> as albumin-bound nanoparticles in combination with gemcitabine for previously untreated metastatic pancreatic cancer [NICE guidance].</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/tolvaptan.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP4640\">Tolvaptan</xref> (<i>Jinarc</i><tm tmtype=\"reg\" />) for the treatment of autosomal dominant polycystic kidney disease [NICE guidance].</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Dose changes</p>
+      <p>Changes in dose statements that will appear in the print edition of BNF 72 (September 2016–March 2017):</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/hydroxyzine-hydrochloride.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP1945\">Hydroxyzine hydrochloride</xref>
+      </p>
+      <p>
+        <xref format=\"dita\" href=\"drug/thalidomide.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP5715\">Thalidomide</xref> [reduced dose in patients aged 76 years and over]</p>
+      <p>
+        <xref format=\"dita\" href=\"drug/ulipristal-acetate.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP18445\">Ulipristal acetate</xref> [uterine fibroids]</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Classification changes</p>
+      <p>Classification changes made for the print edition of BNF 72 (September 2016–March 2017):</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">New names</p>
+      <p>Name changes introduced for the print edition of BNF 72 (September 2016–March 2017):</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Deleted preparations</p>
+      <p>Preparations discontinued for the print edition of BNF 72 (September 2016–March 2017):</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">New preparations</p>
+      <p>New preparations included for the print edition of BNF 72 (September 2016–March 2017):</p>
+      <p>
+        <i>Ofev</i>
+        <tm tmtype=\"reg\" /> capsules [<xref format=\"dita\" href=\"drug/nintedanib.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP108186\">nintedanib</xref>]</p>
+      <p>
+        <i>Vargatef</i>
+        <tm tmtype=\"reg\" /> capsules [<xref format=\"dita\" href=\"drug/nintedanib.xml\" type=\"drug\" rel=\"drug\" bnfid=\"PHP108186\">nintedanib</xref>]</p>
+    </sectiondiv>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Monthly updates are provided online via MedicinesComplete and the NHS Evidence portal. The changes listed below are cumulative (from one print edition to the next).
+
+Significant changes
+
+Significant changes that will appear in the print edition of BNF 72 (September 2016–March 2017):
+
+Bisphosphonates: risk of osteonecrosis of the external auditory canal [MHRA/CHM advice].
+
+Idelalisib for treating chronic lymphocytic leukaemia [NICE guidance].
+
+Mirabegron: measures to minimise risk of severe hypertension and associated cerebrovascular and cardiac events.
+
+Mycophenolate mofetil: new pregnancy-prevention advice for women and men.
+
+Nintedanib for previously treated locally advanced, metastatic, or locally recurrent non-small cell lung cancer [NICE guidance].
+
+Paclitaxel as albumin-bound nanoparticles in combination with gemcitabine for previously untreated metastatic pancreatic cancer [NICE guidance].
+
+Tolvaptan (Jinarc) for the treatment of autosomal dominant polycystic kidney disease [NICE guidance].
+
+Dose changes
+
+Changes in dose statements that will appear in the print edition of BNF 72 (September 2016–March 2017):
+
+Hydroxyzine hydrochloride
+
+Thalidomide [reduced dose in patients aged 76 years and over]
+
+Ulipristal acetate [uterine fibroids]
+
+Classification changes
+
+Classification changes made for the print edition of BNF 72 (September 2016–March 2017):
+
+New names
+
+Name changes introduced for the print edition of BNF 72 (September 2016–March 2017):
+
+Deleted preparations
+
+Preparations discontinued for the print edition of BNF 72 (September 2016–March 2017):
+
+New preparations
+
+New preparations included for the print edition of BNF 72 (September 2016–March 2017):
+
+Ofev capsules [nintedanib]
+
+Vargatef capsules [nintedanib]
+
+"""^^xsd:string];
+                                         nicebnf:hasLink <http://bnf.nice.org.uk/drug/hydroxyzine-hydrochloride>,
+                                                         <http://bnf.nice.org.uk/drug/idelalisib>,
+                                                         <http://bnf.nice.org.uk/drug/mirabegron>,
+                                                         <http://bnf.nice.org.uk/drug/mycophenolate-mofetil>,
+                                                         <http://bnf.nice.org.uk/drug/nintedanib>,
+                                                         <http://bnf.nice.org.uk/drug/paclitaxel>,
+                                                         <http://bnf.nice.org.uk/drug/thalidomide>,
+                                                         <http://bnf.nice.org.uk/drug/tolvaptan>,
+                                                         <http://bnf.nice.org.uk/drug/ulipristal-acetate>;
+                                         a nicebnf:About;
+                                         rdfs:label "changes"^^xsd:string.
+<http://bnf.nice.org.uk/drug/hydroxyzine-hydrochloride> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/idelalisib> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/mirabegron> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/mycophenolate-mofetil> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/nintedanib> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/paclitaxel> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/thalidomide> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/tolvaptan> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+<http://bnf.nice.org.uk/drug/ulipristal-acetate> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107699>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107700> nicebnf:hasContent [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p outputclass=\"title\">Chair</p>
+    <p>Derek G. Waller</p>
+    <p>
+      <i>BSc, MB BS, DM, FRCP</i>
+    </p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Deputy Chair</p>
+    <p>Alison Blenkinsopp</p>
+    <p>
+      <i>BPharm, PhD, FRPharmS, OBE</i>
+    </p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Committee Members</p>
+    <p>Julie Beynon</p>
+    <p>
+      <i>MB ChB, FRCA, FFPM</i>
+    </p>
+    <p>Carmel M. Darcy</p>
+    <p>
+      <i>BSc, MSc, IP, MPSNI, MRPharmS</i>
+    </p>
+    <p>Sue Faulding</p>
+    <p>
+      <i>BPharm, MSc, FRPharmS</i>
+    </p>
+    <p>Tracy Hall</p>
+    <p>
+      <i>BSc, MSc, Cert N, Dip N, RGN, DN</i>
+    </p>
+    <p>Simon Hurding</p>
+    <p>
+      <i>MB, ChB, MRCGP</i>
+    </p>
+    <p>W. Moira Kinnear</p>
+    <p>
+      <i>BSc, MSc, MRPharmS</i>
+    </p>
+    <p>Mark P. Lythgoe</p>
+    <p>
+      <i>MB BS, MRPharmS</i>
+    </p>
+    <p>Louise Picton</p>
+    <p>
+      <i>BSc, DipCommPharm, MSc, MRPharmS</i>
+    </p>
+    <p>Michael J. Stewart</p>
+    <p>
+      <i>MB ChB, MD, FRCP(Ed), FRCP</i>
+    </p>
+    <p>Esther Wong</p>
+    <p>
+      <i>BSc, MPharm, MSc, DipEthics, DipPharmPract, IP, MRPharmS</i>
+    </p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Lay Members</p>
+    <p>Andy Burman</p>
+    <p>Elaine Keen</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Executive Secretary</p>
+    <p>Heidi Homar</p>
+    <p>
+      <i>BA</i>
+    </p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Chair
+
+Derek G. Waller
+
+BSc, MB BS, DM, FRCP
+
+Deputy Chair
+
+Alison Blenkinsopp
+
+BPharm, PhD, FRPharmS, OBE
+
+Committee Members
+
+Julie Beynon
+
+MB ChB, FRCA, FFPM
+
+Carmel M. Darcy
+
+BSc, MSc, IP, MPSNI, MRPharmS
+
+Sue Faulding
+
+BPharm, MSc, FRPharmS
+
+Tracy Hall
+
+BSc, MSc, Cert N, Dip N, RGN, DN
+
+Simon Hurding
+
+MB, ChB, MRCGP
+
+W. Moira Kinnear
+
+BSc, MSc, MRPharmS
+
+Mark P. Lythgoe
+
+MB BS, MRPharmS
+
+Louise Picton
+
+BSc, DipCommPharm, MSc, MRPharmS
+
+Michael J. Stewart
+
+MB ChB, MD, FRCP(Ed), FRCP
+
+Esther Wong
+
+BSc, MPharm, MSc, DipEthics, DipPharmPract, IP, MRPharmS
+
+Lay Members
+
+Andy Burman
+
+Elaine Keen
+
+Executive Secretary
+
+Heidi Homar
+
+BA
+
+"""^^xsd:string];
+                                         a nicebnf:About;
+                                         rdfs:label "joint formulary committee 2015–2016"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107701> nicebnf:hasContent [nicebnf:hasTargetAudience "general"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p outputclass=\"title\">BNF Director</p>
+    <p>Karen Baxter <i>BSc, MSc, MRPharmS</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Head of Content</p>
+    <p>Kate Towers <i>BPharm (AU), GCClinPharm</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Content Managers</p>
+    <p>Kristina Fowlie <i>MPharm, CertPharmPract, MRPharmS</i></p>
+    <p>Heenaben Patel <i>MPharm, DipClinPharm, MRPharmS</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Quality and Process Manager</p>
+    <p>Angela M.G. McFarlane <i>BSc, DipClinPharm</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Clinical Writers</p>
+    <p>Thomas F. Corbett <i>BScPharm (IRL), MPharm (IRL)</i></p>
+    <p>Joyce Donnelly <i>MPharm, MRPharmS</i></p>
+    <p>Belén Granell Villén <i>BSc, DipClinPharm</i></p>
+    <p>Basma Hossin <i>MPharm, PhD</i></p>
+    <p>Maeve A.M. Lynn <i>MPharm, CertClinPharm</i></p>
+    <p>Claire McSherry <i>BPharm (NZ), PGCertClinPharm (NZ)</i></p>
+    <p>Kere Odumah <i>MPharm</i></p>
+    <p>Paridhi K. Prashar <i>MPharm, MRPharmS</i></p>
+    <p>Dominique Shakir <i>MPharm, MRPharmS, IP, PGDip</i></p>
+    <p>Jacob M. Warner, <i>BPharm (AU)</i></p>
+    <p>Sharyn Young, <i>BPharm (NZ), PGDipClinPharm (NZ)</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Clinical Assistants</p>
+    <p>Elizabeth King</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Editorial Assistants</p>
+    <p>Jaya Venkitachalam <i>BSc, MRes</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Senior BNF Administrator</p>
+    <p>Heidi Homar <i>BA</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Managing Director, Pharmaceutical Press</p>
+    <p>Alina Lourie <i>B.Ed, MSc</i></p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Senior Medical Adviser</p>
+    <p>Derek G. Waller <i>BSc, MB, BS, DM, FRCP</i></p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """BNF Director
+
+Karen Baxter BSc, MSc, MRPharmS
+
+Head of Content
+
+Kate Towers BPharm (AU), GCClinPharm
+
+Content Managers
+
+Kristina Fowlie MPharm, CertPharmPract, MRPharmS
+
+Heenaben Patel MPharm, DipClinPharm, MRPharmS
+
+Quality and Process Manager
+
+Angela M.G. McFarlane BSc, DipClinPharm
+
+Clinical Writers
+
+Thomas F. Corbett BScPharm (IRL), MPharm (IRL)
+
+Joyce Donnelly MPharm, MRPharmS
+
+Belén Granell Villén BSc, DipClinPharm
+
+Basma Hossin MPharm, PhD
+
+Maeve A.M. Lynn MPharm, CertClinPharm
+
+Claire McSherry BPharm (NZ), PGCertClinPharm (NZ)
+
+Kere Odumah MPharm
+
+Paridhi K. Prashar MPharm, MRPharmS
+
+Dominique Shakir MPharm, MRPharmS, IP, PGDip
+
+Jacob M. Warner, BPharm (AU)
+
+Sharyn Young, BPharm (NZ), PGDipClinPharm (NZ)
+
+Clinical Assistants
+
+Elizabeth King
+
+Editorial Assistants
+
+Jaya Venkitachalam BSc, MRes
+
+Senior BNF Administrator
+
+Heidi Homar BA
+
+Managing Director, Pharmaceutical Press
+
+Alina Lourie B.Ed, MSc
+
+Senior Medical Adviser
+
+Derek G. Waller BSc, MB, BS, DM, FRCP
+
+"""^^xsd:string];
+                                         a nicebnf:About;
+                                         rdfs:label "bnf staff"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107734> nicebnf:hasContent [nicebnf:hasTargetAudience "general"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p outputclass=\"title\">Chair</p>
+    <p>Molly Courtenay</p>
+    <p>
+      <i>PhD, MSc, Cert Ed, BSc, RGN</i>
+    </p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Committee Members</p>
+    <p>Karen Baxter</p>
+    <p>
+      <i>BSc, MSc, MRPharmS</i>
+    </p>
+    <p>Penny M. Franklin</p>
+    <p>
+      <i>RN, RCN, RSCPHN(HV), MA, PGCE</i>
+    </p>
+    <p>Belén Granell Villén</p>
+    <p>
+      <i>BSc, PGDipClinPharm</i>
+    </p>
+    <p>Matt Griffiths</p>
+    <p>
+      <i>BA (Hons), FAETC, RGN, Cert A&amp;E, NISP, PHECC</i>
+    </p>
+    <p>Tracy Hall</p>
+    <p>
+      <i>BSc, MSc, RGN, DN, Dip N, Cert N</i>
+    </p>
+    <p>Penny Harrison</p>
+    <p>
+      <i>BSc (Hons)</i>
+    </p>
+    <p>Dr Richard Hatchett</p>
+    <p>
+      <i>RN, RNT, PhD, BA (Hons), MSc, MBA</i>
+    </p>
+    <p>Joan Myers</p>
+    <p>
+      <i>MSc, BSc, RGN, RSCN, Dip DN</i>
+    </p>
+    <p>Fiona Peniston-Bird</p>
+    <p>
+      <i>BSc (Hons), NIP, RHV, RGN</i>
+    </p>
+    <p>Kathy Radley</p>
+    <p>
+      <i>BSc, RGN</i>
+    </p>
+    <p>John Wright</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Executive Secretary</p>
+    <p>Heidi Homar</p>
+    <p>
+      <i>BA</i>
+    </p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Chair
+
+Molly Courtenay
+
+PhD, MSc, Cert Ed, BSc, RGN
+
+Committee Members
+
+Karen Baxter
+
+BSc, MSc, MRPharmS
+
+Penny M. Franklin
+
+RN, RCN, RSCPHN(HV), MA, PGCE
+
+Belén Granell Villén
+
+BSc, PGDipClinPharm
+
+Matt Griffiths
+
+BA (Hons), FAETC, RGN, Cert A&E, NISP, PHECC
+
+Tracy Hall
+
+BSc, MSc, RGN, DN, Dip N, Cert N
+
+Penny Harrison
+
+BSc (Hons)
+
+Dr Richard Hatchett
+
+RN, RNT, PhD, BA (Hons), MSc, MBA
+
+Joan Myers
+
+MSc, BSc, RGN, RSCN, Dip DN
+
+Fiona Peniston-Bird
+
+BSc (Hons), NIP, RHV, RGN
+
+Kathy Radley
+
+BSc, RGN
+
+John Wright
+
+Executive Secretary
+
+Heidi Homar
+
+BA
+
+"""^^xsd:string];
+                                         a nicebnf:About;
+                                         rdfs:label "nurse prescribers' advisory group 2015–2016"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107738> nicebnf:hasContent [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p>
+      <b>Published jointly by</b>
+    </p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"organizationname\">BMJ Group</li>
+      <li outputclass=\"postalcode\">WC1H 9JP</li>
+      <li outputclass=\"administrativearea\">Tavistock Square</li>
+    </ul>
+    <p>and</p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"organizationname\">Pharmaceutical Press</li>
+      <li outputclass=\"postalcode\">E1W 1AW</li>
+      <li outputclass=\"administrativearea\">66-68 East Smithfield</li>
+    </ul>
+    <p>Pharmaceutical Press is the publishing division of the Royal Pharmaceutical Society.</p>
+    <p>Copyright © BMJ Group and the Royal Pharmaceutical Society of Great Britain 2015.</p>
+    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, without the prior written permission of the copyright holder.</p>
+    <p>Material published in the <i>British National Formulary</i> may not be used for any form of advertising, sales or publicity without prior written permission. Each of the classification and the text are protected by copyright and/or database right.</p>
+    <p>Paper copies may be obtained through any bookseller or direct from:</p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"organizationname\">Pharmaceutical Press</li>
+      <li outputclass=\"thoroughfare\">Houndmills</li>
+      <li outputclass=\"postalcode\">RG21 6XS</li>
+      <li outputclass=\"administrativearea\">c/o Macmillan Distribution (MDL)</li>
+      <li outputclass=\"administrativearea\">Brunel Rd</li>
+      <li outputclass=\"contactnumber\">Tel: +44 (0) 1256 302 699</li>
+      <li outputclass=\"contactnumber\">Fax: +44 (0) 1256 812 521</li>
+      <li outputclass=\"emailaddress\">direct@macmillan.co.uk</li>
+    </ul>
+    <p>For all bulk orders of more than 20 copies:</p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"contactnumber\">Tel: +44 (0) 207 572 2266</li>
+      <li outputclass=\"emailaddress\">pharmpress@rpharms.com</li>
+    </ul>
+    <p>The BNF is available online through MedicinesComplete and as mobile apps; a PDA version is also available. In addition, BNF content can be integrated into a local formulary by using BNF on FormularyComplete; see <xref format=\"html\" href=\"http://www.bnf.org\">www.bnf.org</xref> for details.</p>
+    <p>The BNF is also available on <xref format=\"html\" href=\"http://www.evidence.nhs.uk\">www.evidence.nhs.uk</xref> and eligible users can download smartphone apps from the relevant app stores.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Distribution of printed BNFs</p>
+    <p>In <b>England</b>, NICE purchases print editions of the BNF (September editions only) for distribution within the NHS. For details of who is eligible to receive a copy and further contact details, please refer to the NICE website:<xref format=\"html\" href=\"http://www.nice.org.uk/mpc/BritishNationalFormulary.jsp\">www.nice.org.uk/mpc/BritishNationalFormulary.jsp</xref>.</p>
+    <p>In <b>Scotland</b>, email:</p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"emailaddress\">nss.psd-bnf@nhs.net</li>
+    </ul>
+    <p>In Wales, contact NHS Wales Shared Services Partnership—Contractor Services:</p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"contactnumber\">Tel: 01792 607420</li>
+    </ul>
+    <p>In <b>Northern Ireland</b>, email:</p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"emailaddress\">ni.bnf@hscni.net</li>
+    </ul>
+    <p>The BNF is designed as a digest for rapid reference and it may not always include all the information necessary for prescribing and dispensing. Also, less detail is given on areas such as obstetrics, malignant disease, and anaesthesia since it is expected that those undertaking treatment will have specialist knowledge and access to specialist literature. <i>BNF for Children</i> should be consulted for detailed information on the use of medicines in children. The BNF should be interpreted in the light of professional knowledge and supplemented as necessary by specialised publications and by reference to the product literature. Information is also available from Medicines Information Services.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Pharmaid</p>
+    <p>Numerous requests have been received from developing countries for BNFs. The Pharmaid scheme of the Commonwealth Pharmacists Association will dispatch old BNFs to certain Commonwealth countries. For more information on this scheme see <xref format=\"html\" href=\"http://www.commonwealthpharmacy.org/about/projects/pharmaid/\">www.commonwealthpharmacy.org/about/projects/pharmaid/</xref>. If you would like to donate your copy email:</p>
+    <ul outputclass=\"organization\">
+      <li outputclass=\"emailaddress\">admin@commonwealthpharmacy.org</li>
+    </ul>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Published jointly by
+
+BMJ GroupWC1H 9JPTavistock Squareand
+
+Pharmaceutical PressE1W 1AW66-68 East SmithfieldPharmaceutical Press is the publishing division of the Royal Pharmaceutical Society.
+
+Copyright © BMJ Group and the Royal Pharmaceutical Society of Great Britain 2015.
+
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, without the prior written permission of the copyright holder.
+
+Material published in the British National Formulary may not be used for any form of advertising, sales or publicity without prior written permission. Each of the classification and the text are protected by copyright and/or database right.
+
+Paper copies may be obtained through any bookseller or direct from:
+
+Pharmaceutical PressHoundmillsRG21 6XSc/o Macmillan Distribution (MDL)Brunel RdTel: +44 (0) 1256 302 699Fax: +44 (0) 1256 812 521direct@macmillan.co.ukFor all bulk orders of more than 20 copies:
+
+Tel: +44 (0) 207 572 2266pharmpress@rpharms.comThe BNF is available online through MedicinesComplete and as mobile apps; a PDA version is also available. In addition, BNF content can be integrated into a local formulary by using BNF on FormularyComplete; see www.bnf.org for details.
+
+The BNF is also available on www.evidence.nhs.uk and eligible users can download smartphone apps from the relevant app stores.
+
+Distribution of printed BNFs
+
+In England, NICE purchases print editions of the BNF (September editions only) for distribution within the NHS. For details of who is eligible to receive a copy and further contact details, please refer to the NICE website:www.nice.org.uk/mpc/BritishNationalFormulary.jsp.
+
+In Scotland, email:
+
+nss.psd-bnf@nhs.netIn Wales, contact NHS Wales Shared Services Partnership—Contractor Services:
+
+Tel: 01792 607420In Northern Ireland, email:
+
+ni.bnf@hscni.netThe BNF is designed as a digest for rapid reference and it may not always include all the information necessary for prescribing and dispensing. Also, less detail is given on areas such as obstetrics, malignant disease, and anaesthesia since it is expected that those undertaking treatment will have specialist knowledge and access to specialist literature. BNF for Children should be consulted for detailed information on the use of medicines in children. The BNF should be interpreted in the light of professional knowledge and supplemented as necessary by specialised publications and by reference to the product literature. Information is also available from Medicines Information Services.
+
+Pharmaid
+
+Numerous requests have been received from developing countries for BNFs. The Pharmaid scheme of the Commonwealth Pharmacists Association will dispatch old BNFs to certain Commonwealth countries. For more information on this scheme see www.commonwealthpharmacy.org/about/projects/pharmaid/. If you would like to donate your copy email:
+
+admin@commonwealthpharmacy.org"""^^xsd:string];
+                                         a nicebnf:About;
+                                         rdfs:label "publication information"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107739> nicebnf:hasContent [nicebnf:hasTargetAudience "general"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p outputclass=\"title\">Conversion of pounds to kilograms</p>
+    <fig>
+      <simpletable>
+        <sthead>
+          <stentry>lb</stentry>
+          <stentry>kg</stentry>
+        </sthead>
+        <strow>
+          <stentry>1</stentry>
+          <stentry>0.45</stentry>
+        </strow>
+        <strow>
+          <stentry>2</stentry>
+          <stentry>0.91</stentry>
+        </strow>
+        <strow>
+          <stentry>3</stentry>
+          <stentry>1.36</stentry>
+        </strow>
+        <strow>
+          <stentry>4</stentry>
+          <stentry>1.81</stentry>
+        </strow>
+        <strow>
+          <stentry>5</stentry>
+          <stentry>2.27</stentry>
+        </strow>
+        <strow>
+          <stentry>6</stentry>
+          <stentry>2.72</stentry>
+        </strow>
+        <strow>
+          <stentry>7</stentry>
+          <stentry>3.18</stentry>
+        </strow>
+        <strow>
+          <stentry>8</stentry>
+          <stentry>3.63</stentry>
+        </strow>
+        <strow>
+          <stentry>9</stentry>
+          <stentry>4.08</stentry>
+        </strow>
+        <strow>
+          <stentry>10</stentry>
+          <stentry>4.54</stentry>
+        </strow>
+        <strow>
+          <stentry>11</stentry>
+          <stentry>4.99</stentry>
+        </strow>
+        <strow>
+          <stentry>12</stentry>
+          <stentry>5.44</stentry>
+        </strow>
+        <strow>
+          <stentry>13</stentry>
+          <stentry>5.90</stentry>
+        </strow>
+        <strow>
+          <stentry>14</stentry>
+          <stentry>6.35</stentry>
+        </strow>
+      </simpletable>
+    </fig>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Conversion of stones to kilograms</p>
+    <fig>
+      <simpletable>
+        <sthead>
+          <stentry>stones</stentry>
+          <stentry>kg</stentry>
+        </sthead>
+        <strow>
+          <stentry>1</stentry>
+          <stentry>6.35</stentry>
+        </strow>
+        <strow>
+          <stentry>2</stentry>
+          <stentry>12.70</stentry>
+        </strow>
+        <strow>
+          <stentry>3</stentry>
+          <stentry>19.05</stentry>
+        </strow>
+        <strow>
+          <stentry>4</stentry>
+          <stentry>25.40</stentry>
+        </strow>
+        <strow>
+          <stentry>5</stentry>
+          <stentry>31.75</stentry>
+        </strow>
+        <strow>
+          <stentry>6</stentry>
+          <stentry>38.10</stentry>
+        </strow>
+        <strow>
+          <stentry>7</stentry>
+          <stentry>44.45</stentry>
+        </strow>
+        <strow>
+          <stentry>8</stentry>
+          <stentry>50.80</stentry>
+        </strow>
+        <strow>
+          <stentry>9</stentry>
+          <stentry>57.15</stentry>
+        </strow>
+        <strow>
+          <stentry>10</stentry>
+          <stentry>63.50</stentry>
+        </strow>
+        <strow>
+          <stentry>11</stentry>
+          <stentry>69.85</stentry>
+        </strow>
+        <strow>
+          <stentry>12</stentry>
+          <stentry>76.20</stentry>
+        </strow>
+        <strow>
+          <stentry>13</stentry>
+          <stentry>82.55</stentry>
+        </strow>
+        <strow>
+          <stentry>14</stentry>
+          <stentry>88.90</stentry>
+        </strow>
+        <strow>
+          <stentry>15</stentry>
+          <stentry>95.25</stentry>
+        </strow>
+      </simpletable>
+    </fig>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Conversion from millilitres to fluid ounces</p>
+    <fig>
+      <simpletable>
+        <sthead>
+          <stentry>mL</stentry>
+          <stentry>fl oz</stentry>
+        </sthead>
+        <strow>
+          <stentry>50</stentry>
+          <stentry>1.8</stentry>
+        </strow>
+        <strow>
+          <stentry>100</stentry>
+          <stentry>3.5</stentry>
+        </strow>
+        <strow>
+          <stentry>150</stentry>
+          <stentry>5.3</stentry>
+        </strow>
+        <strow>
+          <stentry>200</stentry>
+          <stentry>7.0</stentry>
+        </strow>
+        <strow>
+          <stentry>500</stentry>
+          <stentry>17.6</stentry>
+        </strow>
+        <strow>
+          <stentry>1000</stentry>
+          <stentry>35.2</stentry>
+        </strow>
+      </simpletable>
+    </fig>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Length</p>
+    <ul>
+      <li>1 metre (m) = 1000 millimetres (mm)</li>
+      <li>1 centimetre (cm) = 10 mm</li>
+      <li>1 inch (in) = 25.4 mm</li>
+      <li>1 foot (ft) = 12 inches</li>
+      <li>12 inches = 304.8 mm</li>
+    </ul>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Mass</p>
+    <ul>
+      <li>1 kilogram (kg) = 1000 grams (g)</li>
+      <li>1 gram (g) = 1000 milligrams (mg)</li>
+      <li>1 milligram (mg) = 1000 micrograms</li>
+      <li>1 microgram = 1000 nanograms</li>
+      <li>1 nanogram = 1000 picograms</li>
+    </ul>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Volume</p>
+    <ul>
+      <li>1 litre = 1000 millilitres (mL)</li>
+      <li>1 millilitre (1 mL) = 1000 microlitres</li>
+      <li>1 pint ≈ 568 mL</li>
+    </ul>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Other units</p>
+    <ul>
+      <li>1 kilocalorie (kcal) = 4186.8 joules (J)</li>
+      <li>1000 kilocalories (kcal) = 4.1868 megajoules (MJ)</li>
+      <li>1 megajoule (MJ) = 238.8 kilocalories (kcal)</li>
+      <li>1 millimetre of mercury (mmHg) = 133.3 pascals (Pa)</li>
+      <li>1 kilopascal (kPa) = 7.5 mmHg (pressure)</li>
+    </ul>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Plasma-drug concentrations</p>
+    <p>Plasma-drug concentrations in BNF publications are expressed in mass units per litre (e.g. mg/litre). The approximate equivalent in terms of amount of substance units (e.g. micromol/litre) is given in brackets.</p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Conversion of pounds to kilograms
+
+lbkg10.4520.9131.3641.8152.2762.7273.1883.6394.08104.54114.99125.44135.90146.35Conversion of stones to kilograms
+
+stoneskg16.35212.70319.05425.40531.75638.10744.45850.80957.151063.501169.851276.201382.551488.901595.25Conversion from millilitres to fluid ounces
+
+mLfl oz501.81003.51505.32007.050017.6100035.2Length
+
+1 metre (m) = 1000 millimetres (mm)1 centimetre (cm) = 10 mm1 inch (in) = 25.4 mm1 foot (ft) = 12 inches12 inches = 304.8 mmMass
+
+1 kilogram (kg) = 1000 grams (g)1 gram (g) = 1000 milligrams (mg)1 milligram (mg) = 1000 micrograms1 microgram = 1000 nanograms1 nanogram = 1000 picogramsVolume
+
+1 litre = 1000 millilitres (mL)1 millilitre (1 mL) = 1000 microlitres1 pint ≈ 568 mLOther units
+
+1 kilocalorie (kcal) = 4186.8 joules (J)1000 kilocalories (kcal) = 4.1868 megajoules (MJ)1 megajoule (MJ) = 238.8 kilocalories (kcal)1 millimetre of mercury (mmHg) = 133.3 pascals (Pa)1 kilopascal (kPa) = 7.5 mmHg (pressure)Plasma-drug concentrations
+
+Plasma-drug concentrations in BNF publications are expressed in mass units per litre (e.g. mg/litre). The approximate equivalent in terms of amount of substance units (e.g. micromol/litre) is given in brackets.
+
+"""^^xsd:string],
+                                                            [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p outputclass=\"title\">Prescribing for children: weight, height, and gender</p>
+    <p>The table below shows the <b>mean values</b> for weight, height, and gender by age; these values have been derived from the UK-WHO growth charts 2009 and UK1990 standard centile charts, by extrapolating the 50th centile, and may be used to calculate doses in the absence of measurements. However, an individual's weight and height might vary considerably from the values in the table and it is important to ensure that the value chosen is appropriate. In most cases the actual measurement should be obtained as soon as possible and the dose re-calculated.</p>
+    <fig>
+      <simpletable>
+        <sthead>
+          <stentry>Age</stentry>
+          <stentry>Weight (kg)</stentry>
+          <stentry>Height (cm)</stentry>
+        </sthead>
+        <strow>
+          <stentry>Full-term neonate</stentry>
+          <stentry>3.5</stentry>
+          <stentry>51</stentry>
+        </strow>
+        <strow>
+          <stentry>1 month</stentry>
+          <stentry>4.3</stentry>
+          <stentry>55</stentry>
+        </strow>
+        <strow>
+          <stentry>2months</stentry>
+          <stentry>5.4</stentry>
+          <stentry>58</stentry>
+        </strow>
+        <strow>
+          <stentry>3 months</stentry>
+          <stentry>6.1</stentry>
+          <stentry>61</stentry>
+        </strow>
+        <strow>
+          <stentry>4 months</stentry>
+          <stentry>6.7</stentry>
+          <stentry>63</stentry>
+        </strow>
+        <strow>
+          <stentry>6 months</stentry>
+          <stentry>7.6</stentry>
+          <stentry>67</stentry>
+        </strow>
+        <strow>
+          <stentry>1 year</stentry>
+          <stentry>9</stentry>
+          <stentry>75</stentry>
+        </strow>
+        <strow>
+          <stentry>3 years</stentry>
+          <stentry>14</stentry>
+          <stentry>96</stentry>
+        </strow>
+        <strow>
+          <stentry>5 years</stentry>
+          <stentry>18</stentry>
+          <stentry>109</stentry>
+        </strow>
+        <strow>
+          <stentry>7 years</stentry>
+          <stentry>23</stentry>
+          <stentry>122</stentry>
+        </strow>
+        <strow>
+          <stentry>10 years</stentry>
+          <stentry>32</stentry>
+          <stentry>138</stentry>
+        </strow>
+        <strow>
+          <stentry>12 years</stentry>
+          <stentry>39</stentry>
+          <stentry>149</stentry>
+        </strow>
+        <strow>
+          <stentry>14 year old boy</stentry>
+          <stentry>49</stentry>
+          <stentry>163</stentry>
+        </strow>
+        <strow>
+          <stentry>14 year old girl</stentry>
+          <stentry>50</stentry>
+          <stentry>159</stentry>
+        </strow>
+        <strow>
+          <stentry>Adult male</stentry>
+          <stentry>68</stentry>
+          <stentry>176</stentry>
+        </strow>
+        <strow>
+          <stentry>Adult female</stentry>
+          <stentry>58</stentry>
+          <stentry>164</stentry>
+        </strow>
+      </simpletable>
+    </fig>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Prescribing for children: weight, height, and gender
+
+The table below shows the mean values for weight, height, and gender by age; these values have been derived from the UK-WHO growth charts 2009 and UK1990 standard centile charts, by extrapolating the 50th centile, and may be used to calculate doses in the absence of measurements. However, an individual's weight and height might vary considerably from the values in the table and it is important to ensure that the value chosen is appropriate. In most cases the actual measurement should be obtained as soon as possible and the dose re-calculated.
+
+AgeWeight (kg)Height (cm)Full-term neonate3.5511 month4.3552months5.4583 months6.1614 months6.7636 months7.6671 year9753 years14965 years181097 years2312210 years3213812 years3914914 year old boy4916314 year old girl50159Adult male68176Adult female58164"""^^xsd:string];
+                                         a nicebnf:About;
+                                         rdfs:label "approximate conversions and units"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107740> nicebnf:hasContent [nicebnf:hasTargetAudience "general"^^xsd:string ; 
+                                                             nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p outputclass=\"title\">Abbreviations and Symbols</p>
+    <p>Internationally recognised units and symbols are used in the BNF publications where possible.</p>
+    <fig>
+      <simpletable>
+        <strow>
+          <stentry>ACBS</stentry>
+          <stentry>Advisory Committee on Borderline Substances, see Borderline Substances</stentry>
+        </strow>
+        <strow>
+          <stentry>ACE</stentry>
+          <stentry>Angiotensin-converting enzyme</stentry>
+        </strow>
+        <strow>
+          <stentry>ADHD</stentry>
+          <stentry>Attention deficit hyperactivity disorder</stentry>
+        </strow>
+        <strow>
+          <stentry>AIDS</stentry>
+          <stentry>Acquired immunodeficiency syndrome</stentry>
+        </strow>
+        <strow>
+          <stentry>approx.</stentry>
+          <stentry>approximately</stentry>
+        </strow>
+        <strow>
+          <stentry>AV</stentry>
+          <stentry>atrioventricular</stentry>
+        </strow>
+        <strow>
+          <stentry>BAN</stentry>
+          <stentry>British Approved Name</stentry>
+        </strow>
+        <strow>
+          <stentry>BMI</stentry>
+          <stentry> body mass index</stentry>
+        </strow>
+        <strow>
+          <stentry>BP</stentry>
+          <stentry>British Pharmacopoeia 2013, unless otherwise stated</stentry>
+        </strow>
+        <strow>
+          <stentry>BPC</stentry>
+          <stentry>British Pharmaceutical Codex 1973 and Supplement 1976, unless otherwise stated</stentry>
+        </strow>
+        <strow>
+          <stentry>CAPD</stentry>
+          <stentry>Continuous ambulatory peritoneal dialysis</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/CD1.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>preparation in Schedule 1 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations <i>see</i><xref format=\"dita\" href=\"guidance/PHP97239.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97239\">Controlled drugs and drug dependence</xref>.</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/CD2.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>preparation in Schedule 2 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations <i>see</i><xref format=\"dita\" href=\"guidance/PHP97239.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97239\">Controlled drugs and drug dependence</xref>.</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/CD3.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>preparation in Schedule 3 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations <i>see</i><xref format=\"dita\" href=\"guidance/PHP97239.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97239\">Controlled drugs and drug dependence</xref>.</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/CD4-1.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>preparation in Schedule 4 (Part I) of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations <i>see </i><xref format=\"dita\" href=\"guidance/PHP97239.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97239\">Controlled drugs and drug dependence</xref>.</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/CD4-2.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>preparation in Schedule 4 (Part II) of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations <i>see </i><xref format=\"dita\" href=\"guidance/PHP97239.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97239\">Controlled drugs and drug dependence</xref>.</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/CD5.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>preparation in Schedule 5 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations <i>see</i><xref format=\"dita\" href=\"guidance/PHP97239.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97239\">Controlled drugs and drug dependence</xref>.</stentry>
+        </strow>
+        <strow>
+          <stentry>CHM</stentry>
+          <stentry>Commission on Human Medicines</stentry>
+        </strow>
+        <strow>
+          <stentry>CHMP</stentry>
+          <stentry>Committee for Medicinal Products for Human Use</stentry>
+        </strow>
+        <strow>
+          <stentry>CNS</stentry>
+          <stentry>central nervous system</stentry>
+        </strow>
+        <strow>
+          <stentry>CSM </stentry>
+          <stentry>Committee on Safety of Medicines (now subsumed under Commission on Human Medicines)</stentry>
+        </strow>
+        <strow>
+          <stentry>d. c.</stentry>
+          <stentry>direct current</stentry>
+        </strow>
+        <strow>
+          <stentry>DMARD</stentry>
+          <stentry>Disease-modifying antirheumatic drug</stentry>
+        </strow>
+        <strow>
+          <stentry>DPF</stentry>
+          <stentry>Dental Practitioners' Formulary</stentry>
+        </strow>
+        <strow>
+          <stentry>e/c</stentry>
+          <stentry>enteric-coated (termed gastro-resistant in BP)</stentry>
+        </strow>
+        <strow>
+          <stentry>ECG</stentry>
+          <stentry>electrocardiogram</stentry>
+        </strow>
+        <strow>
+          <stentry>EEG</stentry>
+          <stentry>electro-encephalogram</stentry>
+        </strow>
+        <strow>
+          <stentry>eGFR</stentry>
+          <stentry>estimated glomerular filtration rate, see <xref format=\"dita\" href=\"guidance/PHP97238.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97238\">Prescribing in renal impairment</xref></stentry>
+        </strow>
+        <strow>
+          <stentry>f/c</stentry>
+          <stentry>film-coated</stentry>
+        </strow>
+        <strow>
+          <stentry>G6PD</stentry>
+          <stentry>glucose 6-phosphate dehydrogenase</stentry>
+        </strow>
+        <strow>
+          <stentry>HIV</stentry>
+          <stentry>Human immunodeficiency virus</stentry>
+        </strow>
+        <strow>
+          <stentry>HRT</stentry>
+          <stentry>Hormone replacement therapy</stentry>
+        </strow>
+        <strow>
+          <stentry>i/m</stentry>
+          <stentry>intramuscular</stentry>
+        </strow>
+        <strow>
+          <stentry>i/v</stentry>
+          <stentry>intravenous</stentry>
+        </strow>
+        <strow>
+          <stentry>INR</stentry>
+          <stentry>international normalised ratio</stentry>
+        </strow>
+        <strow>
+          <stentry>MAOI</stentry>
+          <stentry>Monoamine-oxidase inhibitor</stentry>
+        </strow>
+        <strow>
+          <stentry>max.</stentry>
+          <stentry>maximum</stentry>
+        </strow>
+        <strow>
+          <stentry>MHRA</stentry>
+          <stentry>Medicines and Healthcare products Regulatory Agency</stentry>
+        </strow>
+        <strow>
+          <stentry>m/r</stentry>
+          <stentry>modified-release</stentry>
+        </strow>
+        <strow>
+          <stentry>NCL</stentry>
+          <stentry>no cautionary labels, <i>see</i><xref format=\"dita\" href=\"cautionary-and-advisory-labels/PHP194.xml\" type=\"bookmark\" rel=\"cautionaryandadvisorylabels\" bnfid=\"PHP194\">Guidance for cautionary and advisory labels</xref></stentry>
+        </strow>
+        <strow>
+          <stentry>NHS</stentry>
+          <stentry>National Health Service</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/NotNHS.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>not prescribable under National Health Service (NHS)</stentry>
+        </strow>
+        <strow>
+          <stentry>NICE</stentry>
+          <stentry>National Institute for Health and Care Excellence</stentry>
+        </strow>
+        <strow>
+          <stentry>NPF</stentry>
+          <stentry>Nurse Prescribers' Formulary</stentry>
+        </strow>
+        <strow>
+          <stentry>NSAID</stentry>
+          <stentry>Non-steroidal anti-inflammatory drug</stentry>
+        </strow>
+        <strow>
+          <stentry>NSTEMI</stentry>
+          <stentry>non-ST-segment elevation myocardial infarction</stentry>
+        </strow>
+        <strow>
+          <stentry>PGD</stentry>
+          <stentry>patient group direction</stentry>
+        </strow>
+        <strow>
+          <stentry>PHE</stentry>
+          <stentry>Public Health England (formerly Health Protection Agency (HPA))</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/POM.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>prescription-only medicine, <i>see</i> Fig. 1 <i>How to use BNF publications</i></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <sup>
+              <tm tmtype=\"reg\" />
+            </sup>
+          </stentry>
+          <stentry>trade mark</stentry>
+        </strow>
+        <strow>
+          <stentry>rINN</stentry>
+          <stentry>Recommended International Non-proprietary Name</stentry>
+        </strow>
+        <strow>
+          <stentry>RSV</stentry>
+          <stentry>respiratory syncytial virus</stentry>
+        </strow>
+        <strow>
+          <stentry>s/c</stentry>
+          <stentry>sugar-coated</stentry>
+        </strow>
+        <strow>
+          <stentry>SLS</stentry>
+          <stentry>Selected List Scheme</stentry>
+        </strow>
+        <strow>
+          <stentry>SMC</stentry>
+          <stentry>Scottish Medicines Consortium</stentry>
+        </strow>
+        <strow>
+          <stentry>SPC</stentry>
+          <stentry>Summary of Product Characteristics</stentry>
+        </strow>
+        <strow>
+          <stentry>spp.</stentry>
+          <stentry>species</stentry>
+        </strow>
+        <strow>
+          <stentry>SSRI</stentry>
+          <stentry>Selective serotonin reuptake inhibitor</stentry>
+        </strow>
+        <strow>
+          <stentry>STEMI</stentry>
+          <stentry>ST-segment elevation myocardial infarction</stentry>
+        </strow>
+        <strow>
+          <stentry>UK</stentry>
+          <stentry>United Kingdom</stentry>
+        </strow>
+        <strow>
+          <stentry>Units</stentry>
+          <stentry>for SI units <i>see</i><xref format=\"dita\" href=\"guidance/PHP97235.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97235\">Prescription writing</xref></stentry>
+        </strow>
+        <strow>
+          <stentry>WHO</stentry>
+          <stentry>World Health Organization</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/blacktri.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>limited experience of the use of this product and the MHRA requests that all suspected adverse reactions should be reported, <i>see</i><xref format=\"dita\" href=\"guidance/PHP97237.xml\" type=\"bookmark\" rel=\"guidance\" bnfid=\"PHP97237\">Adverse reactions to drugs</xref></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/GSL.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>general sales list</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href=\"images/P.png\">
+              <alt />
+            </image>
+          </stentry>
+          <stentry>pharmacy only medicine</stentry>
+        </strow>
+      </simpletable>
+    </fig>
+    <sectiondiv>
+      <p outputclass=\"title\">Latin abbreviations</p>
+      <p>Directions should be in English without abbreviation. However, Latin abbreviations have been used when prescribing.</p>
+      <p>The following is a list of appropriate abbreviations. It should be noted that the English version is not always an exact translation.</p>
+      <ol>
+        <li>a. c. = ante cibum (before food)</li>
+        <li>b. d. = bis die (twice daily)</li>
+        <li>o. d. = omni die (every day)</li>
+        <li>o. m. = omni mane (every morning)</li>
+        <li>o. n. = omni nocte (every night)</li>
+        <li>p. c. = post cibum (after food)</li>
+        <li>p. r. n. = pro re nata (when required)</li>
+        <li>q. d. s. = quater die sumendum (to be taken four times daily)</li>
+        <li>q. q. h. = quarta quaque hora (every four hours)</li>
+        <li>stat = immediately</li>
+        <li>t. d. s. = ter die sumendum (to be taken three times daily)</li>
+        <li>t.i.d. = ter in die (three times daily)</li>
+      </ol>
+    </sectiondiv>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">E numbers</p>
+    <p>The following is a list of common E numbers and the inactive ingredients to which they correspond.</p>
+    <ol>
+      <li>E102 Tartrazine</li>
+      <li>E211 Sodium Benzoate</li>
+      <li>E104 Quinoline Yellow</li>
+      <li>E223 Sodium Metabisulfite</li>
+      <li>E110 Sunset Yellow FCF</li>
+      <li>E320 Butylated Hydroxyanisole</li>
+      <li>E123 Amaranth</li>
+      <li>E321 Butylated Hydroxytoluene</li>
+      <li>E124 Ponceau 4R</li>
+      <li>E322 Lecithins</li>
+      <li>E127 Erythrosine BS</li>
+      <li>E420 Sorbitol</li>
+      <li>E132 Indigo Carmine</li>
+      <li>E421 Mannitol</li>
+      <li>E142 Green S</li>
+      <li>E422 Glycerol</li>
+      <li>E171 Titanium Dioxide</li>
+      <li>E901 Beeswax (white and yellow)</li>
+      <li>E172 Iron oxides, iron hydroxides</li>
+      <li>E1520 Propylene Glycol</li>
+      <li>E200 Sorbic Acid</li>
+    </ol>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                             nicebnf:hasTextContent """Abbreviations and Symbols
+
+Internationally recognised units and symbols are used in the BNF publications where possible.
+
+ACBSAdvisory Committee on Borderline Substances, see Borderline SubstancesACEAngiotensin-converting enzymeADHDAttention deficit hyperactivity disorderAIDSAcquired immunodeficiency syndromeapprox.approximatelyAVatrioventricularBANBritish Approved NameBMI body mass indexBPBritish Pharmacopoeia 2013, unless otherwise statedBPCBritish Pharmaceutical Codex 1973 and Supplement 1976, unless otherwise statedCAPDContinuous ambulatory peritoneal dialysispreparation in Schedule 1 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations seeControlled drugs and drug dependence.preparation in Schedule 2 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations seeControlled drugs and drug dependence.preparation in Schedule 3 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations seeControlled drugs and drug dependence.preparation in Schedule 4 (Part I) of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations see Controlled drugs and drug dependence.preparation in Schedule 4 (Part II) of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations see Controlled drugs and drug dependence.preparation in Schedule 5 of the Misuse of Drugs Regulations 2001 (and subsequent amendments). For regulations seeControlled drugs and drug dependence.CHMCommission on Human MedicinesCHMPCommittee for Medicinal Products for Human UseCNScentral nervous systemCSM Committee on Safety of Medicines (now subsumed under Commission on Human Medicines)d. c.direct currentDMARDDisease-modifying antirheumatic drugDPFDental Practitioners' Formularye/centeric-coated (termed gastro-resistant in BP)ECGelectrocardiogramEEGelectro-encephalogrameGFRestimated glomerular filtration rate, see Prescribing in renal impairmentf/cfilm-coatedG6PDglucose 6-phosphate dehydrogenaseHIVHuman immunodeficiency virusHRTHormone replacement therapyi/mintramusculari/vintravenousINRinternational normalised ratioMAOIMonoamine-oxidase inhibitormax.maximumMHRAMedicines and Healthcare products Regulatory Agencym/rmodified-releaseNCLno cautionary labels, seeGuidance for cautionary and advisory labelsNHSNational Health Servicenot prescribable under National Health Service (NHS)NICENational Institute for Health and Care ExcellenceNPFNurse Prescribers' FormularyNSAIDNon-steroidal anti-inflammatory drugNSTEMInon-ST-segment elevation myocardial infarctionPGDpatient group directionPHEPublic Health England (formerly Health Protection Agency (HPA))prescription-only medicine, see Fig. 1 How to use BNF publicationstrade markrINNRecommended International Non-proprietary NameRSVrespiratory syncytial viruss/csugar-coatedSLSSelected List SchemeSMCScottish Medicines ConsortiumSPCSummary of Product Characteristicsspp.speciesSSRISelective serotonin reuptake inhibitorSTEMIST-segment elevation myocardial infarctionUKUnited KingdomUnitsfor SI units seePrescription writingWHOWorld Health Organizationlimited experience of the use of this product and the MHRA requests that all suspected adverse reactions should be reported, seeAdverse reactions to drugsgeneral sales listpharmacy only medicineLatin abbreviations
+
+Directions should be in English without abbreviation. However, Latin abbreviations have been used when prescribing.
+
+The following is a list of appropriate abbreviations. It should be noted that the English version is not always an exact translation.
+
+a. c. = ante cibum (before food)b. d. = bis die (twice daily)o. d. = omni die (every day)o. m. = omni mane (every morning)o. n. = omni nocte (every night)p. c. = post cibum (after food)p. r. n. = pro re nata (when required)q. d. s. = quater die sumendum (to be taken four times daily)q. q. h. = quarta quaque hora (every four hours)stat = immediatelyt. d. s. = ter die sumendum (to be taken three times daily)t.i.d. = ter in die (three times daily)E numbers
+
+The following is a list of common E numbers and the inactive ingredients to which they correspond.
+
+E102 TartrazineE211 Sodium BenzoateE104 Quinoline YellowE223 Sodium MetabisulfiteE110 Sunset Yellow FCFE320 Butylated HydroxyanisoleE123 AmaranthE321 Butylated HydroxytolueneE124 Ponceau 4RE322 LecithinsE127 Erythrosine BSE420 SorbitolE132 Indigo CarmineE421 MannitolE142 Green SE422 GlycerolE171 Titanium DioxideE901 Beeswax (white and yellow)E172 Iron oxides, iron hydroxidesE1520 Propylene GlycolE200 Sorbic Acid"""^^xsd:string];
+                                         nicebnf:hasLink <http://bnf.nice.org.uk/cautionary-and-advisory-labels/PHP194>,
+                                                         <http://bnf.nice.org.uk/guidance/PHP97235>,
+                                                         <http://bnf.nice.org.uk/guidance/PHP97237>,
+                                                         <http://bnf.nice.org.uk/guidance/PHP97238>,
+                                                         <http://bnf.nice.org.uk/guidance/PHP97239>;
+                                         a nicebnf:About;
+                                         rdfs:label "abbreviations and symbols"^^xsd:string.
+<http://bnf.nice.org.uk/cautionary-and-advisory-labels/PHP194> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107740>.
+<http://bnf.nice.org.uk/guidance/PHP97235> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107740>.
+<http://bnf.nice.org.uk/guidance/PHP97237> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107740>.
+<http://bnf.nice.org.uk/guidance/PHP97238> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107740>.
+<http://bnf.nice.org.uk/guidance/PHP97239> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP107740>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/about/PHP107699> nicebnf:isLinkedFrom <http://bnf.nice.org.uk/about/PHP98621>.
+<http://bnf.nice.org.uk/about/PHP98621> nicebnf:hasContent [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p>The BNF is unique in bringing together authoritative, independent guidance on best practice with clinically validated drug information, enabling healthcare professionals to select safe and effective medicines for individual patients.</p>
+    <p>Information in the BNF has been validated against emerging evidence, best-practice guidelines, and advice from a network of clinical experts.</p>
+    <p>Hundreds of changes are made between print editions, and are published monthly in some digital formats. The most clinically significant updates are listed under <xref format=\"dita\" href=\"about/PHP107699.xml\" type=\"bookmark\" rel=\"about\" bnfid=\"PHP107699\">Changes</xref>.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Joint Formulary Committee</p>
+    <p>The Joint Formulary Committee (JFC) is responsible for the content of the BNF. The JFC includes doctors appointed by the BMJ Group, pharmacists appointed by the Royal Pharmaceutical Society, nursing and lay representatives; there are also representatives from the Medicines and Healthcare products Regulatory Agency (MHRA), the UK Health Departments, and a national guideline producer. The JFC decides on matters of policy and reviews amendments to the BNF in the light of new evidence and expert advice.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Dental Advisory Group</p>
+    <p>The Dental Advisory Group oversees the preparation of advice on the drug management of dental and oral conditions; the group includes representatives from the British Dental Association and a representative from the UK Health Departments.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Nurse Prescribers' Advisory Group</p>
+    <p>The Nurse Prescribers Advisory Group oversees the list of drugs approved for inclusion in the Nurse Prescribers' Formulary; the group includes representatives from a range of nursing disciplines and stakeholder organisations.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Editorial Team</p>
+    <p>BNF clinical writers have all worked as pharmacists and have a sound understanding of how drugs are used in clinical practice. Each clinical writer is responsible for editing, maintaining, and updating BNF content. During the publication cycle the clinical writers review information in the BNF against a variety of sources.</p>
+    <p>Amendments to the text are drafted when the clinical writers are satisfied that any new information is reliable and relevant. The draft amendments are passed to expert advisers for comment and then presented to the Joint Formulary Committee for consideration. Additionally, sections are regularly chosen for thorough review. These planned reviews aim to verify all the information in the selected sections and to draft any amendments to reflect the current best practice.</p>
+    <p>Clinical writers prepare the text for publication and undertake a number of checks on the knowledge at various stages of the production.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Expert advisers</p>
+    <p>The BNF uses about 60 expert clincal advisers (including doctors, pharmacists, nurses, and dentists) throughout the UK to help with clinical content. The role of these expert advisers is to review existing text and to comment on amendments drafted by the clinical writers. These clinical experts help to ensure that the BNF remains reliable by:</p>
+    <ul>
+      <li>commenting on the relevance of the text in the context of best clinical practice in the UK;</li>
+      <li>checking draft amendments for appropriate interpretation of any new evidence;</li>
+      <li>providing expert opinion in areas of controversy or when reliable evidence is lacking;</li>
+      <li>advising on areas where the BNF diverges from summaries of product characteristics;</li>
+      <li>providing independent advice on drug interactions, prescribing in hepatic impairment, renal impairment, pregnancy, breast-feeding, children, the elderly, palliative care, and the emergency treatment of poisoning.</li>
+    </ul>
+    <p>In addition to consulting with regular advisers, the BNF calls on other clinical specialists for specific developments when particular expertise is required.</p>
+    <p>The BNF works closely with a number of expert bodies that produce clinical guidelines. Drafts or pre-publication copies of guidelines are routinely received for comment and for assimilation into the BNF.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Sources of BNF information</p>
+    <p>The BNF uses a variety of sources for its information; the main ones are shown below.</p>
+    <sectiondiv>
+      <p outputclass=\"title\">Summaries of product characteristics</p>
+      <p>The BNF receives summaries of product characteristics (SPCs) of all new products as well as revised SPCs for existing products. The SPCs are the principal source of product information and are carefully processed, despite the ever-increasing volume of information being issued by the pharmaceutical industry. Such processing involves:</p>
+      <ul>
+        <li>verifying the approved names of all relevant ingredients including 'non-active' ingredients (the BNF is committed to using approved names and descriptions as laid down by the Human Medicine Regulations 2012);</li>
+        <li>comparing the indications, cautions, contra-indications, and side-effects with similar existing drugs. Where these are different from the expected pattern, justification is sought for their inclusion or exclusion;</li>
+        <li>seek independent data on the use of drugs in pregnancy and breast-feeding;</li>
+        <li>incorporating the information into the BNF using established criteria for the presentation and inclusion of the data;</li>
+        <li>checking interpretation of the information by a second clinical writer before submitting to a content manager; changes relating to doses receive an extra check;</li>
+        <li>identifying potential clinical problems or omissions and seeking further information from manufacturers or from expert advisers;</li>
+        <li>careful validation of any areas of divergence of the BNF from the SPC before discussion by the Committee (in the light of supporting evidence);</li>
+        <li>constructing, with the help of expert advisers, a comment on the role of the drug in the context of similar drugs.</li>
+      </ul>
+      <p>Much of this processing is applicable to the following sources as well.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Expert advisers</p>
+      <p>The role of expert clinical advisers in providing the appropriate clinical context for all BNF information is discussed above.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Literature</p>
+      <p>Clinical writers monitor core medical and pharmaceutical journals. Research papers and reviews relating to drug therapy are carefully processed. When a difference between the advice in the BNF and the paper is noted, the new information is assessed for reliability and relevance to UK clinical practice. If necessary, new text is drafted and discussed with expert advisers and the Joint Formulary Committee. The BNF enjoys a close working relationship with a number of national information providers.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Systematic reviews</p>
+      <p>The BNF has access to various databases of systematic reviews (including the Cochrane Library and various web-based resources). These are used for answering specific queries, for reviewing existing text, and for constructing new text. Clinical writers receive training in critical appraisal, literature evaluation, and search strategies. Reviews published in Clinical Evidence are used to validate BNF advice.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Consensus guidelines</p>
+      <p>The advice in the BNF is checked against consensus guidelines produced by expert bodies. A number of bodies make drafts or pre-publication copies of the guidelines available to the BNF; it is therefore possible to ensure that a consistent message is disseminated. The BNF routinely processes guidelines from the National Institute for Health and Care Excellence (NICE), the Scottish Medicines Consortium (SMC), and the Scottish Intercollegiate Guidelines Network (SIGN).</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Reference sources</p>
+      <p>Textbooks and reference sources are used to provide background information for the review of existing text or for the construction of new text. The BNF team works closely with the editorial team that produces <i>Martindale: The Complete Drug Reference</i>. The BNF has access to <i>Martindale</i> information resources and each team keeps the other informed of significant developments and shifts in the trends of drug usage.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Statutory information</p>
+      <p>The BNF routinely processes relevant information from various Government bodies including Statutory Instruments and regulations affecting the Prescriptions only Medicines Order. Official compendia such as the British Pharmacopoeia and its addenda are processed routinely to ensure that the BNF complies with the relevant sections of the Human Medicines Regulations 2012.</p>
+      <p>The BNF maintains close links with the Home Office (in relation to controlled drug regulations) and the Medicines and Healthcare products Regulatory Agency (including the British Pharmacopoeia Commission). Safety warnings issued by the Commission on Human Medicines (CHM) and guidelines on drug are issued by the UK health departments are processed as a matter of routine.</p>
+      <p>Relevant professional statements issued by the Royal Pharmaceutical Society are included in the BNF as are guidelines from bodies such as the Royal College of General Practitioners.</p>
+      <p>The BNF reflects information from the Drug Tariff, the Scottish Drug Tariff, and the Northern Ireland Drug Tariff.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Medicines and devices</p>
+      <p>NHS Prescription Services (from the NHS Business Services Authority) provides non-clinical, categorical information (including prices) on the medicines and devices included in the BNF.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Comments from readers</p>
+      <p>Readers of the BNF are invited to send in comments. Numerous letters and emails are received by the BNF team. Such feedback helps to ensure that the BNF provides practical and clinically relevant information. Many changes in the presentation and scope of the BNF have resulted from comments sent in by users.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Comments from industry</p>
+      <p>Close scrutiny of BNF by the manufacturers provides an additional check and allows them an opportunity to raise issues about BNF's presentation of the role of various drugs; this is yet another check on the balance of BNF's advice. All comments are looked at with care and, where necessary, additional information and expert advice are sought.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Market research</p>
+      <p>Market research is conducted at regular intervals to gather feedback on specific areas of development, such as drug interactions or changes to the way information is presented in digital formats.</p>
+    </sectiondiv>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Overview</p>
+    <p>The BNF is an independent professional publication that is kept up-to-date and addresses the day-to-day prescribing information needs of healthcare professionals. Use of this resource throughout the health service helps to ensure that medicines are used safely, effectively, and appropriately.</p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """The BNF is unique in bringing together authoritative, independent guidance on best practice with clinically validated drug information, enabling healthcare professionals to select safe and effective medicines for individual patients.
+
+Information in the BNF has been validated against emerging evidence, best-practice guidelines, and advice from a network of clinical experts.
+
+Hundreds of changes are made between print editions, and are published monthly in some digital formats. The most clinically significant updates are listed under Changes.
+
+Joint Formulary Committee
+
+The Joint Formulary Committee (JFC) is responsible for the content of the BNF. The JFC includes doctors appointed by the BMJ Group, pharmacists appointed by the Royal Pharmaceutical Society, nursing and lay representatives; there are also representatives from the Medicines and Healthcare products Regulatory Agency (MHRA), the UK Health Departments, and a national guideline producer. The JFC decides on matters of policy and reviews amendments to the BNF in the light of new evidence and expert advice.
+
+Dental Advisory Group
+
+The Dental Advisory Group oversees the preparation of advice on the drug management of dental and oral conditions; the group includes representatives from the British Dental Association and a representative from the UK Health Departments.
+
+Nurse Prescribers' Advisory Group
+
+The Nurse Prescribers Advisory Group oversees the list of drugs approved for inclusion in the Nurse Prescribers' Formulary; the group includes representatives from a range of nursing disciplines and stakeholder organisations.
+
+Editorial Team
+
+BNF clinical writers have all worked as pharmacists and have a sound understanding of how drugs are used in clinical practice. Each clinical writer is responsible for editing, maintaining, and updating BNF content. During the publication cycle the clinical writers review information in the BNF against a variety of sources.
+
+Amendments to the text are drafted when the clinical writers are satisfied that any new information is reliable and relevant. The draft amendments are passed to expert advisers for comment and then presented to the Joint Formulary Committee for consideration. Additionally, sections are regularly chosen for thorough review. These planned reviews aim to verify all the information in the selected sections and to draft any amendments to reflect the current best practice.
+
+Clinical writers prepare the text for publication and undertake a number of checks on the knowledge at various stages of the production.
+
+Expert advisers
+
+The BNF uses about 60 expert clincal advisers (including doctors, pharmacists, nurses, and dentists) throughout the UK to help with clinical content. The role of these expert advisers is to review existing text and to comment on amendments drafted by the clinical writers. These clinical experts help to ensure that the BNF remains reliable by:
+
+commenting on the relevance of the text in the context of best clinical practice in the UK;checking draft amendments for appropriate interpretation of any new evidence;providing expert opinion in areas of controversy or when reliable evidence is lacking;advising on areas where the BNF diverges from summaries of product characteristics;providing independent advice on drug interactions, prescribing in hepatic impairment, renal impairment, pregnancy, breast-feeding, children, the elderly, palliative care, and the emergency treatment of poisoning.In addition to consulting with regular advisers, the BNF calls on other clinical specialists for specific developments when particular expertise is required.
+
+The BNF works closely with a number of expert bodies that produce clinical guidelines. Drafts or pre-publication copies of guidelines are routinely received for comment and for assimilation into the BNF.
+
+Sources of BNF information
+
+The BNF uses a variety of sources for its information; the main ones are shown below.
+
+Summaries of product characteristics
+
+The BNF receives summaries of product characteristics (SPCs) of all new products as well as revised SPCs for existing products. The SPCs are the principal source of product information and are carefully processed, despite the ever-increasing volume of information being issued by the pharmaceutical industry. Such processing involves:
+
+verifying the approved names of all relevant ingredients including 'non-active' ingredients (the BNF is committed to using approved names and descriptions as laid down by the Human Medicine Regulations 2012);comparing the indications, cautions, contra-indications, and side-effects with similar existing drugs. Where these are different from the expected pattern, justification is sought for their inclusion or exclusion;seek independent data on the use of drugs in pregnancy and breast-feeding;incorporating the information into the BNF using established criteria for the presentation and inclusion of the data;checking interpretation of the information by a second clinical writer before submitting to a content manager; changes relating to doses receive an extra check;identifying potential clinical problems or omissions and seeking further information from manufacturers or from expert advisers;careful validation of any areas of divergence of the BNF from the SPC before discussion by the Committee (in the light of supporting evidence);constructing, with the help of expert advisers, a comment on the role of the drug in the context of similar drugs.Much of this processing is applicable to the following sources as well.
+
+Expert advisers
+
+The role of expert clinical advisers in providing the appropriate clinical context for all BNF information is discussed above.
+
+Literature
+
+Clinical writers monitor core medical and pharmaceutical journals. Research papers and reviews relating to drug therapy are carefully processed. When a difference between the advice in the BNF and the paper is noted, the new information is assessed for reliability and relevance to UK clinical practice. If necessary, new text is drafted and discussed with expert advisers and the Joint Formulary Committee. The BNF enjoys a close working relationship with a number of national information providers.
+
+Systematic reviews
+
+The BNF has access to various databases of systematic reviews (including the Cochrane Library and various web-based resources). These are used for answering specific queries, for reviewing existing text, and for constructing new text. Clinical writers receive training in critical appraisal, literature evaluation, and search strategies. Reviews published in Clinical Evidence are used to validate BNF advice.
+
+Consensus guidelines
+
+The advice in the BNF is checked against consensus guidelines produced by expert bodies. A number of bodies make drafts or pre-publication copies of the guidelines available to the BNF; it is therefore possible to ensure that a consistent message is disseminated. The BNF routinely processes guidelines from the National Institute for Health and Care Excellence (NICE), the Scottish Medicines Consortium (SMC), and the Scottish Intercollegiate Guidelines Network (SIGN).
+
+Reference sources
+
+Textbooks and reference sources are used to provide background information for the review of existing text or for the construction of new text. The BNF team works closely with the editorial team that produces Martindale: The Complete Drug Reference. The BNF has access to Martindale information resources and each team keeps the other informed of significant developments and shifts in the trends of drug usage.
+
+Statutory information
+
+The BNF routinely processes relevant information from various Government bodies including Statutory Instruments and regulations affecting the Prescriptions only Medicines Order. Official compendia such as the British Pharmacopoeia and its addenda are processed routinely to ensure that the BNF complies with the relevant sections of the Human Medicines Regulations 2012.
+
+The BNF maintains close links with the Home Office (in relation to controlled drug regulations) and the Medicines and Healthcare products Regulatory Agency (including the British Pharmacopoeia Commission). Safety warnings issued by the Commission on Human Medicines (CHM) and guidelines on drug are issued by the UK health departments are processed as a matter of routine.
+
+Relevant professional statements issued by the Royal Pharmaceutical Society are included in the BNF as are guidelines from bodies such as the Royal College of General Practitioners.
+
+The BNF reflects information from the Drug Tariff, the Scottish Drug Tariff, and the Northern Ireland Drug Tariff.
+
+Medicines and devices
+
+NHS Prescription Services (from the NHS Business Services Authority) provides non-clinical, categorical information (including prices) on the medicines and devices included in the BNF.
+
+Comments from readers
+
+Readers of the BNF are invited to send in comments. Numerous letters and emails are received by the BNF team. Such feedback helps to ensure that the BNF provides practical and clinically relevant information. Many changes in the presentation and scope of the BNF have resulted from comments sent in by users.
+
+Comments from industry
+
+Close scrutiny of BNF by the manufacturers provides an additional check and allows them an opportunity to raise issues about BNF's presentation of the role of various drugs; this is yet another check on the balance of BNF's advice. All comments are looked at with care and, where necessary, additional information and expert advice are sought.
+
+Market research
+
+Market research is conducted at regular intervals to gather feedback on specific areas of development, such as drug interactions or changes to the way information is presented in digital formats.
+
+Overview
+
+The BNF is an independent professional publication that is kept up-to-date and addresses the day-to-day prescribing information needs of healthcare professionals. Use of this resource throughout the health service helps to ensure that medicines are used safely, effectively, and appropriately.
+
+"""^^xsd:string];
+                                        nicebnf:hasLink <http://bnf.nice.org.uk/about/PHP107699>;
+                                        a nicebnf:About;
+                                        rdfs:label "how bnf publications are constructed"^^xsd:string.
+

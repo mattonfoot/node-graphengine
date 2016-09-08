@@ -1,0 +1,591 @@
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC02> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02.1> <http://www.w3.org/2000/01/rdf-schema#label> "Analyse Customer Data" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC02.1> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC02> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Intelligence & Insight" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC04> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Manage Key Performance Indicators" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.1> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Key Performance Indicators" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC04> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Business intelligence capabilities for each service area" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04.2> <http://www.w3.org/2000/01/rdf-schema#label> "Produce Management Information" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC04.1> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC04.2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC04> <http://www.w3.org/2000/01/rdf-schema#label> "Mgt Information & Kpi Monitoring" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC05> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.1> <http://www.w3.org/2000/01/rdf-schema#label> "Gather New Or Updated Information" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC05> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.2> <http://www.w3.org/2000/01/rdf-schema#label> "Retain Information" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC05> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.3> <http://www.w3.org/2000/01/rdf-schema#label> "Share Information" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.4> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC05> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.4> <http://www.w3.org/2000/01/rdf-schema#label> "Apply Governance To Information" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.5> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC05> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05.5> <http://www.w3.org/2000/01/rdf-schema#label> "Data Matching Service (Cross Gov)" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/AIMC> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC05.1> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC05.2> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC05.3> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC05.4> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC05.5> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC05> <http://www.w3.org/2000/01/rdf-schema#label> "Information & Data Management" .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC02> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC04> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/AIMC05> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/AIMC> <http://www.w3.org/2000/01/rdf-schema#label> "Analysis & Info Mgt Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/BIC003> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003.1> <http://www.w3.org/2000/01/rdf-schema#label> "Monitoring Of Processes For Continuous Improvement (Provisional)" .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/BIC> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/BIC003.1> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC003> <http://www.w3.org/2000/01/rdf-schema#label> "Process Reengineering" .
+<http://dwp.data.gov.uk/BusinessCapability/BIC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/BIC003> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/BIC> <http://www.w3.org/2000/01/rdf-schema#label> "Business Improvement Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/FC0002> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.1> <http://www.w3.org/2000/01/rdf-schema#label> "Record Organisation Payment Record" .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/FC0002> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002.2> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Investment" .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/FC> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/FC0002.1> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/FC0002.2> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/FC0002> <http://www.w3.org/2000/01/rdf-schema#label> "Financial & Investment Control" .
+<http://dwp.data.gov.uk/BusinessCapability/FC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/FC0002> .
+<http://dwp.data.gov.uk/BusinessCapability/FC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/FC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/FC> <http://www.w3.org/2000/01/rdf-schema#label> "Finance Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/LSC001> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001.1> <http://www.w3.org/2000/01/rdf-schema#label> "People Development" .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/LSC> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/LSC001.1> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC001> <http://www.w3.org/2000/01/rdf-schema#label> "People Leadership & Management" .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/LSC005> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.1> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Relationships With External Partners" .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/LSC005> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005.2> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Relationships Within Dwp" .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/LSC> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/LSC005.1> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/LSC005.2> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC005> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Partnership Management" .
+<http://dwp.data.gov.uk/BusinessCapability/LSC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/LSC001> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/LSC005> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/LSC> <http://www.w3.org/2000/01/rdf-schema#label> "Leadership & Strategic Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC001> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to control, adjust and balance the channels that are available to customers. Facilitate Business Continuity." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.1> <http://www.w3.org/2000/01/rdf-schema#label> "Channel Control" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC001> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to allow customers to select and access appropriate channel(s)" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.2> <http://www.w3.org/2000/01/rdf-schema#label> "Offer Selection Of Channel" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC001> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to monitor channel usage during a transaction" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.3> <http://www.w3.org/2000/01/rdf-schema#label> "Monitor Channels" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.4> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC001> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.4> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to allow transfer and retrieval of customer information between channels for a seamless experience." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001.4> <http://www.w3.org/2000/01/rdf-schema#label> "Offer Integrated Channel Experience" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC001.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC001.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC001.3> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC001.4> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to define, select, manage and integrate specific channels (print, face-to-face, digital etc.) for customer communication and service, including providing customers with information and access to secure online self-service.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC001> <http://www.w3.org/2000/01/rdf-schema#label> "Channel Management (Incl. Digital Self Service)" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC002> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to collect customer information & evidence, from any source." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.1> <http://www.w3.org/2000/01/rdf-schema#label> "Gather Customer Information & Evidence" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC002> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to share customer information & evidence both internally and externally." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.2> <http://www.w3.org/2000/01/rdf-schema#label> "Share Customer Information & Evidence" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC002> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to verify customer information & evidence as legitimate and applicable." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.3> <http://www.w3.org/2000/01/rdf-schema#label> "Verify Customer Information & Evidence" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.4> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC002> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.4> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to retain customer information & evidence and ensure that it is updated where necessary." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.4> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain Customer Information & Evidence" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.5> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC002> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.5> <http://www.w3.org/2000/01/rdf-schema#comment> "Transform customer information from one format to another (digital to paper / telephony to digital etc.)" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.5> <http://www.w3.org/2000/01/rdf-schema#label> "Transform Customer Information" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.6> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC002> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.6> <http://www.w3.org/2000/01/rdf-schema#comment> "Record when a customer has provided a declaration" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002.6> <http://www.w3.org/2000/01/rdf-schema#label> "Capture Declaration" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC002.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC002.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC002.3> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC002.4> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC002.5> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC002.6> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://www.w3.org/2000/01/rdf-schema#comment> "Gathering, sharing, verifying and maintaining the information and evidence required to enable customers to access relevant DWP products and services.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC002> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Info & Evidence Mgt (Incl. Cross Gov't)" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC003> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to assess whether a claimant is disabled and, if so, how this impacts on their benefits claim." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.1> <http://www.w3.org/2000/01/rdf-schema#label> "Health Assessment" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC003> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to assess a claimant's health and whether it impacts on their benefits claim." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003.2> <http://www.w3.org/2000/01/rdf-schema#label> "Health Assessment" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC003.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC003.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003> <http://www.w3.org/2000/01/rdf-schema#comment> "Conducting an assessment of the claimant’s health or disability and financial standings against a set criteria.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC003> <http://www.w3.org/2000/01/rdf-schema#label> "Health Assessment" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC004> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to assess, record and review customer eligibility or entitlement based on product/service rules (includes establishing relevant rules)" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.1> <http://www.w3.org/2000/01/rdf-schema#label> "Product / Service Assessment" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC004> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to record and review decisions about customer eligibility or entitlement" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004.2> <http://www.w3.org/2000/01/rdf-schema#label> "Decision Making" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC004.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC004.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004> <http://www.w3.org/2000/01/rdf-schema#comment> "Analysing a customer’s evidence and making decisions on their entitlement to DWP products / services.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC004> <http://www.w3.org/2000/01/rdf-schema#label> "Eligibility Management" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC005> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to determine and manage the extent to which DWP requires verification of a particular customer's data" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.1> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Trust Management" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC005> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to determine and manage customer responsibilities in relation to the products and services they use and with reference to their trust level" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005.2> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Customer Responsibilities" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC005.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC005.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005> <http://www.w3.org/2000/01/rdf-schema#comment> "Assessing the level of customer trust and establishing and managing an agreement with the customer outlining their responsibilities and obligations associated with a DWP product.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC005> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Responsibilities Management" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC006> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to create, update and close customer accounts" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.1> <http://www.w3.org/2000/01/rdf-schema#label> "Account Creation, Maintenance And Deletion" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC006> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to create and manage both DWP and customer linked tasks for customer accounts" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.2> <http://www.w3.org/2000/01/rdf-schema#label> "Task Management" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC006> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to establish and record customer contact including notification and contact history details" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.3> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Management" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.4> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC006> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.4> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to establish; record  and update customer payment information, and to make alterations to payments as appropriate." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006.4> <http://www.w3.org/2000/01/rdf-schema#label> "Payment Management" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC006.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC006.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC006.3> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC006.4> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://www.w3.org/2000/01/rdf-schema#comment> "Managing all activities (e.g. appointments) associated with individual customers’ accounts with DWP.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC006> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Account Management" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC007> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to complete payment transactions." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.1> <http://www.w3.org/2000/01/rdf-schema#label> "Make Payment Transaction" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC007> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to receive payment transactions." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.2> <http://www.w3.org/2000/01/rdf-schema#label> "Take Payment Transaction" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC007> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to suspend a payment transaction prior to completion." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007.3> <http://www.w3.org/2000/01/rdf-schema#label> "Suspend Payment Transaction" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC007.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC007.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC007.3> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://www.w3.org/2000/01/rdf-schema#comment> "Calculation, issue and management of all payments made or received by DWP to customers.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC007> <http://www.w3.org/2000/01/rdf-schema#label> "Payments & Receipts" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC008> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ensure DWP is able to recover any debt it is owed when customer is compliant. Includes 'on' and 'off' benefit." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.1> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Debt" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC008> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to enforce debt/payment arrangements when customer is incompliant" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008.2> <http://www.w3.org/2000/01/rdf-schema#label> "Enforcement" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC008.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC008.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008> <http://www.w3.org/2000/01/rdf-schema#comment> "Recovery and management of debts, loans and compensation, plus the enforcement of payments (e.g. for child maintenance) through civil action. \r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC008> <http://www.w3.org/2000/01/rdf-schema#label> "Debt Management & Enforcement" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC009> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Undertake and record when a dispute has been lodged and whether it has been accepted or rejected. Further record whether a rejected dispute has been progressed to an appeal by the customer." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.1> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Disputes" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC009> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Undertake and record when an appeal has been made against a case, and any actions / decisions that are required as part of that appeal" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009.2> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Appeals" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC009.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC009.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009> <http://www.w3.org/2000/01/rdf-schema#comment> "Management of an appeal against an eligibility decision, from receipt and evaluation through to action / resolution.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC009> <http://www.w3.org/2000/01/rdf-schema#label> "Appeals And Dispute Resolution" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC010> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.1> <http://www.w3.org/2000/01/rdf-schema#comment> "The ability to provide information to customers, covering both cases and DWP products." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.1> <http://www.w3.org/2000/01/rdf-schema#label> "Offer Information" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC010> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.2> <http://www.w3.org/2000/01/rdf-schema#comment> "The ability to offer support to customers in need of additional assistants for whatever reason." .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.2> <http://www.w3.org/2000/01/rdf-schema#label> "Offer Support" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC010> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.3> <http://www.w3.org/2000/01/rdf-schema#comment> "The ability to receive any form of feedback on DWP's performance or services (not including disputes and appeals)" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010.3> <http://www.w3.org/2000/01/rdf-schema#label> "Receive Feedback" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC010.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC010.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC010.3> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://www.w3.org/2000/01/rdf-schema#comment> "Providing support to customers through specialist advisory, personal coaching, customer service / enquiries.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC010> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Service, Advisory & Support" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC011> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to determine customer needs in relation to increasing work opportunity" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess Labour Market Needs" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC011> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to match customers with job vacancies (and vice versa), enable applications to be made and results recorded" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.2> <http://www.w3.org/2000/01/rdf-schema#label> "Assist Customer With Job Search" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC011> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Ability to provide customers with ongoing training and skills support prior to claim end" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011.3> <http://www.w3.org/2000/01/rdf-schema#label> "Provide Ongoing Labour Market Support" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/ODC> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC011.1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC011.2> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC011.3> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://www.w3.org/2000/01/rdf-schema#comment> "Understanding the customer’s needs and current employability and providing access to interventions (such as work-related training) to improve employment outcomes.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC011> <http://www.w3.org/2000/01/rdf-schema#label> "Labour Market Support" .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC001> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC002> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC003> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC004> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC005> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC006> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC007> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC008> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC009> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC010> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/ODC011> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/ODC> <http://www.w3.org/2000/01/rdf-schema#label> "Operations Delivery Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC001> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Manage the SLAs around things like response times that DWP has to adhere to on each case" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.1> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Service Level Agreements" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC001> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001.2> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain Operational Staff Performance" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC001.1> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC001.2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC001> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Service Mgt & Improvement" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC002> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.1> <http://www.w3.org/2000/01/rdf-schema#label> "Prevent Fraud And Error" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC002> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.2> <http://www.w3.org/2000/01/rdf-schema#label> "Detect Fraud And Error" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC002> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.3> <http://www.w3.org/2000/01/rdf-schema#label> "Conduct Fraud Investigation" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.4> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC002> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.4> <http://www.w3.org/2000/01/rdf-schema#label> "Prosecution Or Administer Penalty For Fraud" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.5> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC002> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002.5> <http://www.w3.org/2000/01/rdf-schema#label> "Correct Errors" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC002.1> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC002.2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC002.3> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC002.4> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC002.5> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC002> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Fraud & Error Management / Compliance" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC005> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Monitor the performance of an external supplier, so DWP can ensure they have hit their targets before payment " .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005.1> <http://www.w3.org/2000/01/rdf-schema#label> "Manage Supplier Performance" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/OMC> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC005.1> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC005> <http://www.w3.org/2000/01/rdf-schema#label> "Delivery Partnership Management" .
+<http://dwp.data.gov.uk/BusinessCapability/OMC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC001> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC002> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/OMC005> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/OMC> <http://www.w3.org/2000/01/rdf-schema#label> "Operations Management Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PCC001> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.1> <http://www.w3.org/2000/01/rdf-schema#label> "Contract Management" .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PCC001> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.2> <http://www.w3.org/2000/01/rdf-schema#label> "Procurement" .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PCC001> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001.3> <http://www.w3.org/2000/01/rdf-schema#label> "Supplier Management" .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PCC> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PCC001.1> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PCC001.2> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PCC001.3> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC001> <http://www.w3.org/2000/01/rdf-schema#label> "Supplier Management" .
+<http://dwp.data.gov.uk/BusinessCapability/PCC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PCC001> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/PCC> <http://www.w3.org/2000/01/rdf-schema#label> "Procurement & Commercial Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PRMC03> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Translation of DWP published content e.g. leaflets, online information such as GOV.UK, online forms such as a claim for Carer's Allowance and channel interfaces" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.1> <http://www.w3.org/2000/01/rdf-schema#label> "Translate Content" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PRMC03> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Publish content about a service area" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.2> <http://www.w3.org/2000/01/rdf-schema#label> "Publish Content" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PRMC03> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.3> <http://www.w3.org/2000/01/rdf-schema#comment> "The abilty to creat content for publishing to customers" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03.3> <http://www.w3.org/2000/01/rdf-schema#label> "Create Content" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/PRMC> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PRMC03.1> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PRMC03.2> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PRMC03.3> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC03> <http://www.w3.org/2000/01/rdf-schema#label> "Product Content Development/ Management" .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/PRMC03> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/PRMC> <http://www.w3.org/2000/01/rdf-schema#label> "Product Management Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0001> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.1> <http://www.w3.org/2000/01/rdf-schema#label> "Threat Assessment" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0001> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.2> <http://www.w3.org/2000/01/rdf-schema#label> "Vulnerability Assessment" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0001> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.3> <http://www.w3.org/2000/01/rdf-schema#label> "Security Incident Response" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.4> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0001> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001.4> <http://www.w3.org/2000/01/rdf-schema#label> "Protective Monitoring" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0001.1> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0001.2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0001.3> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0001.4> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0001> <http://www.w3.org/2000/01/rdf-schema#label> "Cyber Intelligence & Security" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0002> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.1> <http://www.w3.org/2000/01/rdf-schema#label> "Verify Customer Identity" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0002> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002.2> <http://www.w3.org/2000/01/rdf-schema#label> "Verify Organisation Identity" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0002.1> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0002.2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0002> <http://www.w3.org/2000/01/rdf-schema#label> "Identity Management (Incl. Access Management)" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0003> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.1> <http://www.w3.org/2000/01/rdf-schema#label> "Secure Digital Information" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC0003> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003.2> <http://www.w3.org/2000/01/rdf-schema#label> "Share Secure Information" .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/SC> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0003.1> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0003.2> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/SC0003> <http://www.w3.org/2000/01/rdf-schema#label> "Information & Asset Security" .
+<http://dwp.data.gov.uk/BusinessCapability/SC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0001> .
+<http://dwp.data.gov.uk/BusinessCapability/SC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0002> .
+<http://dwp.data.gov.uk/BusinessCapability/SC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/SC0003> .
+<http://dwp.data.gov.uk/BusinessCapability/SC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/SC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/SC> <http://www.w3.org/2000/01/rdf-schema#label> "Security Capability" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.1> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/TC0006> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Define domain  policies, principles & standards via specific patterns and models. Also creates blueprints. Produce Domain roadmap and Technology radars\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.1> <http://www.w3.org/2000/01/rdf-schema#label> "Domain Architecture" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.2> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/TC0006> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Design and contribute to the technical solution by enforcing the DWP Technology Code of Practice, Translating Business requirements into IT solutions and documenting realisable Solution Architectures " .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.2> <http://www.w3.org/2000/01/rdf-schema#label> "Solution Architecture" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.3> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/TC0006> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Creates a definition of the future architecture and provides options for the transformation to that future through a set of principles, patterns and standards; striking a balance between standardisation, customisation, innovation, costs, and risk.\r\nCreates a definition of the future architecture and provides options for the transformation to that future through a set of principles, patterns and standards;\r\nstriking a balance between standardisation, customisation, innovation, costs, and risk.\r\n" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.3> <http://www.w3.org/2000/01/rdf-schema#label> "Enterprise Architecture" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.4> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/TC0006> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.4> <http://www.w3.org/2000/01/rdf-schema#comment> "Leadership and management of architectural profession, including recruitment and training of staff and coordination of people." .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.4> <http://www.w3.org/2000/01/rdf-schema#label> "Architecture Profession Management" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.5> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/TC0006> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel2> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.5> <http://www.w3.org/2000/01/rdf-schema#comment> "Research material that can feed into future DWP technology Direction. Experiments / research will involve hands-on use of the technology" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006.5> <http://www.w3.org/2000/01/rdf-schema#label> "Technology Research" .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://dwp.data.gov.uk/#enables> <http://dwp.data.gov.uk/BusinessCapability/TC> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/TC0006.1> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/TC0006.2> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/TC0006.3> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/TC0006.4> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/TC0006.5> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel1> .
+<http://dwp.data.gov.uk/BusinessCapability/TC0006> <http://www.w3.org/2000/01/rdf-schema#label> "Enterprise & It Architecture" .
+<http://dwp.data.gov.uk/BusinessCapability/TC> <http://dwp.data.gov.uk/#isEnabledBy> <http://dwp.data.gov.uk/BusinessCapability/TC0006> .
+<http://dwp.data.gov.uk/BusinessCapability/TC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapability> .
+<http://dwp.data.gov.uk/BusinessCapability/TC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dwp.data.gov.uk/#BusinessCapabilityLevel0> .
+<http://dwp.data.gov.uk/BusinessCapability/TC> <http://www.w3.org/2000/01/rdf-schema#label> "Technology Capability" .

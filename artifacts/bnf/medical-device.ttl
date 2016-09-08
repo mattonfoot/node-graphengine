@@ -1,0 +1,159 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/artificial-saliva-products> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/artificial-saliva-products>;
+                                                                   a nicebnf:MedicalDevice;
+                                                                   rdfs:label "artificial saliva products"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/blood-monitoring-test-strips> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/blood-glucose-testing-strips>,
+                                                                                                  <http://bnf.nice.org.uk/medical-device-type/blood-ketones-testing-strips>;
+                                                                     a nicebnf:MedicalDevice;
+                                                                     rdfs:label "blood monitoring test strips"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/camouflages> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/camouflages>;
+                                                    a nicebnf:MedicalDevice;
+                                                    rdfs:label "camouflages"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/catheter-maintenance-solutions> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/catheter-maintenance-solutions>;
+                                                                       a nicebnf:MedicalDevice;
+                                                                       rdfs:label "catheter maintenance solutions"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/gloves> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/film-gloves>,
+                                                                            <http://bnf.nice.org.uk/medical-device-type/nitrile-gloves>,
+                                                                            <http://bnf.nice.org.uk/medical-device-type/polythene-gloves>;
+                                               a nicebnf:MedicalDevice;
+                                               rdfs:label "gloves"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/hypodermic-insulin-injection-pens> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/hypodermic-insulin-injection-pens>;
+                                                                          a nicebnf:MedicalDevice;
+                                                                          rdfs:label "hypodermic insulin injection pens"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/irrigation-solutions> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/irrigation-solutions>;
+                                                             a nicebnf:MedicalDevice;
+                                                             rdfs:label "irrigation solutions"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/nebuliser-solutions> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/hypertonic-sodium-chloride-solutions>;
+                                                            a nicebnf:MedicalDevice;
+                                                            rdfs:label "nebuliser solutions"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/needle-free-insulin-delivery-systems> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/needle-free-insulin-delivery-systems>;
+                                                                             a nicebnf:MedicalDevice;
+                                                                             rdfs:label "needle free insulin delivery systems"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/peak-flow-meters> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/low-range-peak-flow-meters>,
+                                                                                      <http://bnf.nice.org.uk/medical-device-type/standard-range-peak-flow-meters>;
+                                                         a nicebnf:MedicalDevice;
+                                                         rdfs:label "peak flow meters"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/skin-adhesives> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/skin-adhesives>;
+                                                       a nicebnf:MedicalDevice;
+                                                       rdfs:label "skin adhesives"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/spacers> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/spacers>;
+                                                a nicebnf:MedicalDevice;
+                                                rdfs:label "spacers"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/urinanalysis-reagent-strips> nicebnf:hasDitaContent """<sectiondiv>
+  <p outputclass=\"title\">Other reagent strips available for urinalysis</p>
+  <p>Include: <i>Combur-3 Test</i><tm tmtype=\"reg\" /> (glucose and protein—Roche Diagnostics); <i>Clinitek Microalbumin</i><tm tmtype=\"reg\" /> (albumin and creatinine—Siemens); <i>Ketodiastix</i><tm tmtype=\"reg\" /> (glucose and ketones—Bayer Diagnostics); <i>Medi-Test Combi 2</i><tm tmtype=\"reg\" /> (glucose and protein—BHR); <i>Micral-Test II</i><tm tmtype=\"reg\" />, used to detect microalbuminuria but this should be followed by confirmation in the laboratory—false positive results are common (albumin—Roche Diagnostics); <i>Microalbustix</i><tm tmtype=\"reg\" /> (albumin and creatinine—Siemens); <i>Uristix</i><tm tmtype=\"reg\" /> (glucose and protein—Siemens).</p>
+  <p>These reagent strips are not prescribable under National Health Service (NHS).</p>
+</sectiondiv>"""^^<rdf:XMLLiteral>;
+                                                                    nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/urine-glucose-testing-strips>,
+                                                                                                 <http://bnf.nice.org.uk/medical-device-type/urine-ketones-testing-strips>,
+                                                                                                 <http://bnf.nice.org.uk/medical-device-type/urine-protein-testing-strips>;
+                                                                    nicebnf:hasTextContent """Other reagent strips available for urinalysis
+
+Include: Combur-3 Test (glucose and protein—Roche Diagnostics); Clinitek Microalbumin (albumin and creatinine—Siemens); Ketodiastix (glucose and ketones—Bayer Diagnostics); Medi-Test Combi 2 (glucose and protein—BHR); Micral-Test II, used to detect microalbuminuria but this should be followed by confirmation in the laboratory—false positive results are common (albumin—Roche Diagnostics); Microalbustix (albumin and creatinine—Siemens); Uristix (glucose and protein—Siemens).
+
+These reagent strips are not prescribable under National Health Service (NHS).
+
+"""^^xsd:string;
+                                                                    a nicebnf:MedicalDevice;
+                                                                    rdfs:label "urinanalysis reagent strips"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/medical-device/vaginal-contraceptives> nicebnf:hasMedicalDeviceType <http://bnf.nice.org.uk/medical-device-type/silicone-contraceptive-diaphragms>,
+                                                                                            <http://bnf.nice.org.uk/medical-device-type/silicone-contraceptive-pessaries>;
+                                                               a nicebnf:MedicalDevice;
+                                                               rdfs:label "vaginal contraceptives"^^xsd:string.
+

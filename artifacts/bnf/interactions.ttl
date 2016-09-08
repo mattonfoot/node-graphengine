@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/InteractionsIntroduction/interactions> nicebnf:hasContent [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                                                   nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p>Two or more drugs given at the same time may exert their effects independently or may interact. The interaction may be potentiation or antagonism of one drug by another, or occasionally some other effect. Adverse drug <b>interactions</b> should be reported to the Medicines and Healthcare products Regulatory Agency (MHRA), through the Yellow Card Scheme (see Adverse Reactions to Drugs), as for other adverse drug reactions.</p>
+    <p>Drug <b>interactions</b> may be <b>pharmacodynamic</b> or <b>pharmacokinetic</b>.</p>
+    <sectiondiv>
+      <p outputclass=\"title\">Pharmacodynamic interactions</p>
+      <p>These are interactions between drugs which have similar or antagonistic pharmacological effects or side-effects. They may be due to competition at receptor sites, or occur between drugs acting on the same physiological system. They are usually predictable from a knowledge of the pharmacology of the interacting drugs; in general, those demonstrated with one drug are likely to occur with related drugs. They occur to a greater or lesser extent in most patients who receive the interacting drugs.</p>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Pharmacokinetic interactions</p>
+      <p>These occur when one drug alters the absorption, distribution, metabolism, or excretion of another, thus increasing or reducing the amount of drug available to produce its pharmacological effects. They are not easily predicted and many of them affect only a small proportion of patients taking the combination of drugs. Pharmacokinetic interactions occurring with one drug cannot be assumed to occur with related drugs unless their pharmacokinetic properties are known to be similar.</p>
+      <p>Pharmacokinetic interactions are of several types:</p>
+      <sectiondiv>
+        <p outputclass=\"title\">Affecting absorption</p>
+        <p>The rate of absorption or the total amount absorbed can both be altered by drug interactions. Delayed absorption is rarely of clinical importance unless high peak plasma concentrations are required (e.g. when giving an analgesic). Reduction in the total amount absorbed, however, may result in ineffective therapy.</p>
+      </sectiondiv>
+      <sectiondiv>
+        <p outputclass=\"title\">Due to changes in protein binding</p>
+        <p>To a variable extent most drugs are loosely bound to plasma proteins. Protein-binding sites are non-specific and one drug can displace another thereby increasing its proportion free to diffuse from plasma to its site of action. This only produces a detectable increase in effect if it is an extensively bound drug (more than 90%) that is not widely distributed throughout the body. Even so displacement rarely produces more than transient potentiation because this increased concentration of free drug results in an increased rate of elimination.</p>
+        <p>Displacement from protein binding plays a part in the potentiation of warfarin by sulfonamides and tolbutamide but the importance of these interactions is due mainly to the fact that warfarin metabolism is also inhibited.</p>
+      </sectiondiv>
+      <sectiondiv>
+        <p outputclass=\"title\">Affecting metabolism</p>
+        <p>Many drugs are metabolised in the liver. Induction of the hepatic microsomal enzyme system by one drug can gradually increase the rate of metabolism of another, resulting in lower plasma concentrations and a reduced effect. On withdrawal of the inducer plasma concentrations increase and toxicity may occur. Barbiturates, griseofulvin, many antiepileptics, and rifampicin are the most important enzyme inducers. Drugs affected include warfarin and the oral contraceptives.</p>
+        <p>Conversely when one drug inhibits the metabolism of another higher plasma concentrations are produced, rapidly resulting in an increased effect with risk of toxicity. Some drugs which potentiate warfarin and phenytoin do so by this mechanism.</p>
+        <p>Isoenzymes of the hepatic cytochrome P450 system interact with a wide range of drugs. Drugs may be substrates, inducers or inhibitors of the different isoenzymes. A great deal of <i>in-vitro</i> information is available on the effect of drugs on the isoenzymes; however, since drugs are eliminated by a number of different metabolic routes as well as renal excretion, the clinical effects of interactions cannot be predicted accurately from laboratory data on the cytochrome P450 isoenzymes. Except where a combination of drugs is specifically contra-indicated, the BNF presents only interactions that have been reported in clinical practice. In all cases the possibility of an interaction must be considered if toxic effects occur or if the activity of a drug diminishes.</p>
+      </sectiondiv>
+      <sectiondiv>
+        <p outputclass=\"title\">Affecting renal excretion</p>
+        <p>Drugs are eliminated through the kidney both by glomerular filtration and by active tubular secretion. Competition occurs between those which share active transport mechanisms in the proximal tubule. For example, salicylates and some other NSAIDs delay the excretion of methotrexate; serious methotrexate toxicity is possible.</p>
+      </sectiondiv>
+    </sectiondiv>
+    <sectiondiv>
+      <p outputclass=\"title\">Relative importance of interactions</p>
+      <p>Many drug interactions are harmless and many of those which are potentially harmful only occur in a small proportion of patients; moreover, the severity of an interaction varies from one patient to another. Drugs with a small therapeutic ratio (e.g. phenytoin) and those which require careful control of dosage (e.g. anticoagulants, antihypertensives, and antidiabetics) are most often involved.</p>
+      <p>Patients at increased risk from drug interactions include the elderly and those with impaired renal or liver function.</p>
+      <sectiondiv>
+        <p outputclass=\"title\">Serious interactions</p>
+        <p>
+          <b>In the online version:</b>
+        </p>
+        <p>Interactions shown in <b>bold</b> and against a pink background are <b>potentially serious</b>; concomitant administration of the drugs involved should be <b>avoided</b> (or only undertaken with caution and appropriate monitoring).</p>
+        <p>Interactions that are not in bold type do not usually have serious consequences.</p>
+        <p>
+          <b>In the print, e-book and PDA versions:</b>
+        </p>
+        <p>The symbol • has been placed against interactions that are <b>potentially serious</b> and where concomitant administration of the drugs involved should be <b>avoided</b> (or only undertaken with caution and appropriate monitoring).</p>
+        <p>Interactions that have no symbol do not usually have serious consequences.</p>
+      </sectiondiv>
+    </sectiondiv>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                                   nicebnf:hasTextContent """Two or more drugs given at the same time may exert their effects independently or may interact. The interaction may be potentiation or antagonism of one drug by another, or occasionally some other effect. Adverse drug interactions should be reported to the Medicines and Healthcare products Regulatory Agency (MHRA), through the Yellow Card Scheme (see Adverse Reactions to Drugs), as for other adverse drug reactions.
+
+Drug interactions may be pharmacodynamic or pharmacokinetic.
+
+Pharmacodynamic interactions
+
+These are interactions between drugs which have similar or antagonistic pharmacological effects or side-effects. They may be due to competition at receptor sites, or occur between drugs acting on the same physiological system. They are usually predictable from a knowledge of the pharmacology of the interacting drugs; in general, those demonstrated with one drug are likely to occur with related drugs. They occur to a greater or lesser extent in most patients who receive the interacting drugs.
+
+Pharmacokinetic interactions
+
+These occur when one drug alters the absorption, distribution, metabolism, or excretion of another, thus increasing or reducing the amount of drug available to produce its pharmacological effects. They are not easily predicted and many of them affect only a small proportion of patients taking the combination of drugs. Pharmacokinetic interactions occurring with one drug cannot be assumed to occur with related drugs unless their pharmacokinetic properties are known to be similar.
+
+Pharmacokinetic interactions are of several types:
+
+Affecting absorption
+
+The rate of absorption or the total amount absorbed can both be altered by drug interactions. Delayed absorption is rarely of clinical importance unless high peak plasma concentrations are required (e.g. when giving an analgesic). Reduction in the total amount absorbed, however, may result in ineffective therapy.
+
+Due to changes in protein binding
+
+To a variable extent most drugs are loosely bound to plasma proteins. Protein-binding sites are non-specific and one drug can displace another thereby increasing its proportion free to diffuse from plasma to its site of action. This only produces a detectable increase in effect if it is an extensively bound drug (more than 90%) that is not widely distributed throughout the body. Even so displacement rarely produces more than transient potentiation because this increased concentration of free drug results in an increased rate of elimination.
+
+Displacement from protein binding plays a part in the potentiation of warfarin by sulfonamides and tolbutamide but the importance of these interactions is due mainly to the fact that warfarin metabolism is also inhibited.
+
+Affecting metabolism
+
+Many drugs are metabolised in the liver. Induction of the hepatic microsomal enzyme system by one drug can gradually increase the rate of metabolism of another, resulting in lower plasma concentrations and a reduced effect. On withdrawal of the inducer plasma concentrations increase and toxicity may occur. Barbiturates, griseofulvin, many antiepileptics, and rifampicin are the most important enzyme inducers. Drugs affected include warfarin and the oral contraceptives.
+
+Conversely when one drug inhibits the metabolism of another higher plasma concentrations are produced, rapidly resulting in an increased effect with risk of toxicity. Some drugs which potentiate warfarin and phenytoin do so by this mechanism.
+
+Isoenzymes of the hepatic cytochrome P450 system interact with a wide range of drugs. Drugs may be substrates, inducers or inhibitors of the different isoenzymes. A great deal of in-vitro information is available on the effect of drugs on the isoenzymes; however, since drugs are eliminated by a number of different metabolic routes as well as renal excretion, the clinical effects of interactions cannot be predicted accurately from laboratory data on the cytochrome P450 isoenzymes. Except where a combination of drugs is specifically contra-indicated, the BNF presents only interactions that have been reported in clinical practice. In all cases the possibility of an interaction must be considered if toxic effects occur or if the activity of a drug diminishes.
+
+Affecting renal excretion
+
+Drugs are eliminated through the kidney both by glomerular filtration and by active tubular secretion. Competition occurs between those which share active transport mechanisms in the proximal tubule. For example, salicylates and some other NSAIDs delay the excretion of methotrexate; serious methotrexate toxicity is possible.
+
+Relative importance of interactions
+
+Many drug interactions are harmless and many of those which are potentially harmful only occur in a small proportion of patients; moreover, the severity of an interaction varies from one patient to another. Drugs with a small therapeutic ratio (e.g. phenytoin) and those which require careful control of dosage (e.g. anticoagulants, antihypertensives, and antidiabetics) are most often involved.
+
+Patients at increased risk from drug interactions include the elderly and those with impaired renal or liver function.
+
+Serious interactions
+
+In the online version:
+
+Interactions shown in bold and against a pink background are potentially serious; concomitant administration of the drugs involved should be avoided (or only undertaken with caution and appropriate monitoring).
+
+Interactions that are not in bold type do not usually have serious consequences.
+
+In the print, e-book and PDA versions:
+
+The symbol • has been placed against interactions that are potentially serious and where concomitant administration of the drugs involved should be avoided (or only undertaken with caution and appropriate monitoring).
+
+Interactions that have no symbol do not usually have serious consequences.
+
+"""^^xsd:string];
+                                                               a nicebnf:InteractionsIntroduction;
+                                                               rdfs:label "interactions"^^xsd:string.
+

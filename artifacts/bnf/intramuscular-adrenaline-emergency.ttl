@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/intramuscular-adrenaline-emergency/PHP190> nicebnf:hasDoseStatement [nicebnf:hasAge "child 1 month–5 years"^^xsd:string ; 
+                                                                                             nicebnf:hasDose "150 micrograms"^^xsd:string ; 
+                                                                                             nicebnf:hasVolume """<p outputclass=\"volume\">0.15 mL <b>1 in 1000</b> (1 mg/mL) adrenaline</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                             nicebnf:hasNote "Use suitable syringe for measuring small volume"^^xsd:string],
+                                                                                            [nicebnf:hasAge "child 6–11 years"^^xsd:string ; 
+                                                                                             nicebnf:hasDose "300 micrograms"^^xsd:string ; 
+                                                                                             nicebnf:hasVolume """<p outputclass=\"volume\">0.3 mL <b>1 in 1000</b> (1 mg/mL) adrenaline</p>"""^^<rdf:XMLLiteral>],
+                                                                                            [nicebnf:hasAge "child 12–17 years"^^xsd:string ; 
+                                                                                             nicebnf:hasDose "500 micrograms"^^xsd:string ; 
+                                                                                             nicebnf:hasVolume """<p outputclass=\"volume\">0.5 mL <b>1 in 1000</b> (1 mg/mL) adrenaline</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                             nicebnf:hasNote "300 micrograms (0.3 mL) if child is small or prepubertal"^^xsd:string],
+                                                                                            [nicebnf:hasAge "adult"^^xsd:string ; 
+                                                                                             nicebnf:hasDose "500 micrograms"^^xsd:string ; 
+                                                                                             nicebnf:hasVolume """<p outputclass=\"volume\">0.5 mL <b>1 in 1000</b> (1 mg/mL) adrenaline</p>"""^^<rdf:XMLLiteral>];
+                                                                   rdfs:label "dose of intramuscular injection of adrenaline (epinephrine) for the emergency treatment of anaphylaxis by healthcare professionals"^^xsd:string.
+

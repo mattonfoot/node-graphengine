@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/CautionaryAndAdvisoryLabels/PHP194> nicebnf:hasContent [nicebnf:hasTargetAudience "general"^^xsd:string ; 
+                                                                                nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p>Medicinal forms within BNF publications include code numbers of the cautionary labels that pharmacists are recommended to add when dispensing. It is also expected that pharmacists will counsel patients and carers when necessary.</p>
+    <p>Counselling needs to be related to the age, experience, background, and understanding of the individual patient or carer. The pharmacist should ensure understanding of how to take or use the medicine and how to follow the correct dosage schedule. Any effects of the medicine on co-ordination, performance of skilled tasks (e.g. driving or work), any foods or medicines to be avoided, and what to do if a dose is missed should also be explained. Other matters, such as the possibility of staining of the clothes or skin, or discolouration of urine or stools by a medicine should also be mentioned.</p>
+    <p>For some medicines there is a special need for counselling, such as an unusual method or time of administration or a potential interaction with a common food or domestic remedy, and this should be mentioned where necessary.</p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                                nicebnf:hasTextContent """Medicinal forms within BNF publications include code numbers of the cautionary labels that pharmacists are recommended to add when dispensing. It is also expected that pharmacists will counsel patients and carers when necessary.
+
+Counselling needs to be related to the age, experience, background, and understanding of the individual patient or carer. The pharmacist should ensure understanding of how to take or use the medicine and how to follow the correct dosage schedule. Any effects of the medicine on co-ordination, performance of skilled tasks (e.g. driving or work), any foods or medicines to be avoided, and what to do if a dose is missed should also be explained. Other matters, such as the possibility of staining of the clothes or skin, or discolouration of urine or stools by a medicine should also be mentioned.
+
+For some medicines there is a special need for counselling, such as an unusual method or time of administration or a potential interaction with a common food or domestic remedy, and this should be mentioned where necessary.
+
+"""^^xsd:string],
+                                                                               [nicebnf:hasTargetAudience "adult"^^xsd:string ; 
+                                                                                nicebnf:hasDitaContent """<section outputclass=\"adult\">
+  <sectiondiv>
+    <p outputclass=\"title\">Original packs</p>
+    <p>Most preparations are dispensed in unbroken original packs that include further advice for the patient in the form of patient information leaflets. Label 10 may be of value where appropriate. More general leaflets advising on the administration of preparations such as eye drops, eye ointments, inhalers, and suppositories are also available.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Scope of labels</p>
+    <p>In general no label recommendations have been made for injections on the assumption that they will be administered by a healthcare professional or a well-instructed patient. The labelling is not exhaustive and pharmacists are recommended to use their professional discretion in labelling new preparations and those for which no labels are shown.</p>
+    <p>Individual labelling advice is not given on the administration of the large variety of antacids. In the absence of instructions from the prescriber, and if on enquiry the patient has had no verbal instructions, the directions given under ‘Dose’ should be used on the label.</p>
+    <p>It is recognised that there may be occasions when pharmacists will use their knowledge and professional discretion and decide to omit one or more of the recommended labels for a particular patient. In this case counselling is of the utmost importance. There may also be an occasion when a prescriber does not wish additional cautionary labels to be used, in which case the prescription should be endorsed ‘NCL’ (no cautionary labels). The exact wording that is required instead should then be specified on the prescription.</p>
+    <p>Pharmacists label medicines with various wordings in addition to those directions specified on the prescription. Such labels include ‘Shake the bottle’, ‘For external use only’, and ‘Store in a cool place’, as well as ‘Discard . . . . days after opening’ and ‘Do not use after . . . .’, which apply particularly to antibiotic mixtures, diluted liquid and topical preparations, and to eye-drops. Although not listed in the BNF these labels should continue to be used when appropriate; indeed, ‘For external use only’ is a legal requirement on external liquid preparations, while ‘Keep out of the reach of children’ is a legal requirement on all dispensed medicines. Care should be taken not to obscure other relevant information with adhesive labelling.</p>
+    <p>It is the usual practice for patients to take standard tablets with water or other liquid and for this reason no separate label has been recommended.</p>
+    <p>The label wordings recommended by the BNF apply to medicines dispensed against a prescription. Patients should be aware that a dispensed medicine should never be taken by, or shared with, anyone other than for whom the prescriber intended it. Therefore, the BNF does not include warnings against the use of a dispensed medicine by persons other than for whom it was specifically prescribed.</p>
+    <p>The label or labels for each preparation are recommended after careful consideration of the information available. However, it is recognised that in some cases this information may be either incomplete or open to a different interpretation. The BNF will therefore be grateful to receive any constructive comments on the labelling suggested for any preparation.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Recommended label wordings</p>
+    <p>For BNF 61 (March 2011), a revised set of cautionary and advisory labels were introduced. All of the existing labels were user-tested, and the revised wording selected reflects terminology that is better understood by patients.</p>
+    <p>Wordings which can be given as separate warnings are labels 1–19, 29–30, and 32. Wordings which can be incorporated in an appropriate position in the directions for dosage or administration are labels 21–28. A label has been omitted for number 20; labels 31 and 33 no longer apply to any medicines in the BNF and have therefore been deleted.</p>
+    <p>If separate labels are used it is recommended that the wordings be used without modification. If changes are made to suit computer requirements, care should be taken to retain the sense of the original.</p>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                                nicebnf:hasTextContent """Original packs
+
+Most preparations are dispensed in unbroken original packs that include further advice for the patient in the form of patient information leaflets. Label 10 may be of value where appropriate. More general leaflets advising on the administration of preparations such as eye drops, eye ointments, inhalers, and suppositories are also available.
+
+Scope of labels
+
+In general no label recommendations have been made for injections on the assumption that they will be administered by a healthcare professional or a well-instructed patient. The labelling is not exhaustive and pharmacists are recommended to use their professional discretion in labelling new preparations and those for which no labels are shown.
+
+Individual labelling advice is not given on the administration of the large variety of antacids. In the absence of instructions from the prescriber, and if on enquiry the patient has had no verbal instructions, the directions given under ‘Dose’ should be used on the label.
+
+It is recognised that there may be occasions when pharmacists will use their knowledge and professional discretion and decide to omit one or more of the recommended labels for a particular patient. In this case counselling is of the utmost importance. There may also be an occasion when a prescriber does not wish additional cautionary labels to be used, in which case the prescription should be endorsed ‘NCL’ (no cautionary labels). The exact wording that is required instead should then be specified on the prescription.
+
+Pharmacists label medicines with various wordings in addition to those directions specified on the prescription. Such labels include ‘Shake the bottle’, ‘For external use only’, and ‘Store in a cool place’, as well as ‘Discard . . . . days after opening’ and ‘Do not use after . . . .’, which apply particularly to antibiotic mixtures, diluted liquid and topical preparations, and to eye-drops. Although not listed in the BNF these labels should continue to be used when appropriate; indeed, ‘For external use only’ is a legal requirement on external liquid preparations, while ‘Keep out of the reach of children’ is a legal requirement on all dispensed medicines. Care should be taken not to obscure other relevant information with adhesive labelling.
+
+It is the usual practice for patients to take standard tablets with water or other liquid and for this reason no separate label has been recommended.
+
+The label wordings recommended by the BNF apply to medicines dispensed against a prescription. Patients should be aware that a dispensed medicine should never be taken by, or shared with, anyone other than for whom the prescriber intended it. Therefore, the BNF does not include warnings against the use of a dispensed medicine by persons other than for whom it was specifically prescribed.
+
+The label or labels for each preparation are recommended after careful consideration of the information available. However, it is recognised that in some cases this information may be either incomplete or open to a different interpretation. The BNF will therefore be grateful to receive any constructive comments on the labelling suggested for any preparation.
+
+Recommended label wordings
+
+For BNF 61 (March 2011), a revised set of cautionary and advisory labels were introduced. All of the existing labels were user-tested, and the revised wording selected reflects terminology that is better understood by patients.
+
+Wordings which can be given as separate warnings are labels 1–19, 29–30, and 32. Wordings which can be incorporated in an appropriate position in the directions for dosage or administration are labels 21–28. A label has been omitted for number 20; labels 31 and 33 no longer apply to any medicines in the BNF and have therefore been deleted.
+
+If separate labels are used it is recommended that the wordings be used without modification. If changes are made to suit computer requirements, care should be taken to retain the sense of the original.
+
+"""^^xsd:string];
+                                                            a nicebnf:CautionaryAndAdvisoryLabels;
+                                                            rdfs:label "guidance for cautionary and advisory labels"^^xsd:string.
+

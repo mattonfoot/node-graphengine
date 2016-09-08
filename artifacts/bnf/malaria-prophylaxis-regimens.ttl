@@ -1,0 +1,461 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/malaria-prophylaxis-regimens/PHP185> nicebnf:hasMalariaProphylaxisRegimen [nicebnf:hasCountry "Afghanistan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk below 2000 m from May–November"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk below 2000 m from December–April"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Algeria"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in Illizi department only"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Andaman and Nicobar Islands (India)"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk present"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Angola"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Argentina"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk in low altitude areas of Salta provinces bordering Bolivia and in Chaco, Corrientes, and Misiones provinces close to border with Paraguay and Brazil"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in Iguaçu Falls and areas other than those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Armenia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Azerbaijan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Bangladesh"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in Chittagong Hill Tract districts (but not Chittagong city)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk in Chittagong city and other areas, except Chittagong Hill Tract districts"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Belize"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk in rural areas"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in Belize district (including Belize city and islands)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Benin"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Bhutan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in southern belt districts, along border with India: Chukha, Geyleg-phug, Samchi, Samdrup Jonkhar, and Shemgang"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk in areas other than those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Bolivia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in Amazon basin"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in rural areas below 2500 m (other than above)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk above 2500 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Botswana"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk from November–June in northern half, including Okavango Delta area "^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk from July–October in northern half; low to no risk all year in southern half"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Brazil"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in Amazon basin, including city of Manaus"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above, and no risk in Iguaçu Falls"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Brunei Darussalam"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Burkina Faso"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Burundi"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Cambodia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk, with widespread chloroquine and mefloquine resistance, in western provinces bordering Thailand"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in areas other than those above and below"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in Angkor Wat and Lake Tonle Sap, including Siem Reap; no risk in Phnom Penh"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Cameroon"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Cape Verde"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk on island of Santiago (Sao Tiago) and Boa Vista"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Central African Republic"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Chad"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "China"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in Yunnan and Hainan provinces"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above and below"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in Hong Kong"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "No risk"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Colombia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in rural areas below 1600 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk above 1600 m and in Cartagena"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Comoros"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Congo"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Costa Rica"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in Limon province (but not city of Limon)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Cote d'Ivoire (Ivory Coast)"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Democratic Republic of the Congo"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Djibouti"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Dominican Republic"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in all areas except cities of Santiago and Santo Domingo"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Cities of Santiago and Santo Domingo"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "East Timor (Timor-Leste)"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Ecuador"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in areas below 1500 m including coastal provinces and Amazon basin (no risk in Galapagos islands or city of Guayaquil)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Egypt"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "El Salvador"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk in rural areas of Santa Ana, Ahuachapán, and La Unión provinces in western part of country; low to no risk in other areas"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Equatorial Guinea"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Eritrea"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk below 2200 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Ethiopia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk below 2000 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "French Guiana"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk (particularly in border areas) except city of Cayenne or Devil's Island (Ile du Diable)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in city of Cayenne or Devil's Island (Ile du Diable)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Gabon"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Gambia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Georgia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in rural south east from June–October"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Ghana"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Guatemala"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk below 1500 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in Guatemala City, Antigua, or Lake Atitlan"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "No risk"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Guinea"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Guinea-Bissau"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Guyana"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in all interior regions"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in Georgetown and coastal region"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Haiti"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk present"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Honduras"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk below 1000 m and in Roatán and other Bay Islands (no risk in San Pedro Sula or Tegucigalpa)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "India"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in states of Assam and Orissa, districts of East Godavari, Srikakulam, Vishakhapatnam, and Vizianagaram in the state of Andhra Pradesh, and districts of Balaghat, Dindori, Mandla, and Seoni in the state of Madhya Pradesh"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in areas other than those above or below (including Goa, Andaman and Nicobar islands)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in Lakshadweep islands"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "No risk"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Indonesia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in Lombok and Irian Jaya (Papua)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in areas other than those above or below"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in Bali, and cities on islands of Java and Sumatra"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in city of Jakarta"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "No risk"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Indonesia (Borneo)"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Iran"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk from March–November in rural south eastern provinces and in north, along Azerbaijan border in Ardabil, and near Turkmenistan border in North Khorasan"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk in areas other than those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Iraq"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk from May–November in rural northern area below 1500 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Kenya"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk below 2500 m (except city of Nairobi)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in the highlands above 2500 m and in city of Nairobi"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Kyrgyzstan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk from June–October in southwest areas bordering Tajikistan and Uzbekistan"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Laos"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk along the border with Myanmar in the provinces of Bokeo and Louang Namtha, and along the border with Thailand in the province of Champasak and Saravan"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in areas other than those above or below"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk in city of Vientiane"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Liberia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Libya"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Madagascar"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Malawi"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Malaysia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in inland forested areas of peninsular Malaysia"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in rest of peninsular Malaysia, including Cameron Highlands and city of Kuala Lumpur"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Malaysia (Borneo)"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in inland areas of eastern Sabah and in inland, forested areas of Sarawak"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above, including coastal areas of Sabah and Sarawak"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Mali"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Mauritania"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk all year in southern provinces, and from July–October in the northern provinces "^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk from November–June in the northern provinces"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Mauritius"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Mayotte"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk present"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Mexico"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk in Oaxaca and Chiapas"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Mozambique"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Myanmar"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk (but not in cities of Mandalay and Yangon)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in cities of Mandalay and Yangon"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Namibia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk all year in regions of Caprivi Strip, Kavango, and Kunene river, and from November–June in northern third of country"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk in areas other than those above; low risk from July–October in northern third of country"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Nepal"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk below 1500 m, particularly in Terai district"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in city of Kathmandu and on typical Himalayan treks"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Nicaragua"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk (except Managua)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in Managua"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Niger"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Nigeria"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "North Korea"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in some southern areas"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Pakistan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk below 2000 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk above 2000 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Panama"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk east of Canal Zone"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk west of Canal Zone"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in Panama City or Canal Zone itself"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Papua New Guinea"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk below 1800 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low to no risk above 1800 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Paraguay"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk in departments of Alto Paraná and Caaguazú"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Peru"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in Amazon basin along border with Brazil, particularly in Loreto province"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in rural areas below 2000 m (other than those above and below) including in Amazon basin along border with Bolivia "^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in city of Lima and coastal region south of Chiclayo"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Philippines"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in rural areas below 600 m and on islands of Luzon, Mindanao, Mindoro, and Palawan"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in cities or on islands of Boracay, Bohol, Catanduanes, Cebu, or Leyte"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Rwanda"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "São Tomé and Principe"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Saudi Arabia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in south-western provinces along border with Yemen, including below 2000 m in Asir province"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in cities of Jeddah, Makkah (Mecca), Medina, Riyadh, or Ta'if, or above 2000 m in Asir province"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Senegal"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Sierra Leone"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Solomon Islands"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Somalia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "South Africa"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Moderate risk from September–May in low altitude areas of Mpumalanga and Limpopo, which border Mozambique and Zimbabwe (including Kruger National Park)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk in north-east KwaZulu-Natal"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk in areas bordering those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "South Korea"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in northern areas, in Gangwon-do and Gyeonggi-do provinces, and Incheon city (towards Demilitarized Zone)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "South Sudan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Sri Lanka"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk north of Vavuniya"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above and below"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in Colombo or Kandy"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "No risk"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Sudan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in central and southern areas; risk also present in rest of country (except Khartoum)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in Khartoum"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Suriname"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk (except coastal districts or city of Paramaribo)"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in coastal districts; no risk in city of Paramaribo"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Swaziland"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in northern and eastern regions bordering Mozambique and South Africa, including all of Lubombo district and Big Bend, Mhlume, Simunye, and Tshaneni regions"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in the areas other than those above"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Syria"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in small, remote foci of El Hasakah"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Tajikistan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk below 2000 m from June–October"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk below 2000 m from November–May"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Tanzania"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk below 1800 m; risk also in Zanzibar"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Thailand"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk, with chloroquine and mefloquine resistance, in rural forested borders with Cambodia, Laos, and Myanmar"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in areas other than those above, including Kanchanaburi (Kwai Bridge); no risk in cities of Bangkok, Chiang Mai, Chiang Rai, Koh Phangan, Koh Samui, and Pattaya"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Togo"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Turkey"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk from May–October along the border plain with Syria, around Adana and east of Adana"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine only"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk from November–April along the border plain with Syria, around Adana and east of Adana; very low risk all year in rest of country"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Uganda"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Uzbekistan"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in extreme south-east"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Vanuatu"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk present"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Venezuela"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk in all areas south of, and including, the Orinoco river and Angel Falls "^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in rural areas of Apure, Monagas, Sucre, and Zulia states"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk in city of Caracas or on Margarita Island"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Vietnam"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk in rural areas, and in southern provinces of Tay Ninh, Lam Dong, Dac Lac, Gia Lai, and Kon Tum"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk in Mekong river delta until border area with Cambodia; no risk in large cities (including Ho Chi Minh (Saigon) and Hanoi), Red river delta, and coastal areas north of Nha Trang and Phu Quoc Island"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Western Sahara"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "No risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Yemen"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Risk below 2000 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chloroquine with proguanil"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Very low risk on Socrota Island; no risk above 2000 m, including Sana'a city"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Zambia"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string]],
+                                                                                                  [nicebnf:hasCountry "Zimbabwe"^^xsd:string ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "High risk all year in Zambezi valley, and from November–June in areas below 1200 m"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Atovaquone with proguanil hydrochloride or doxycycline or mefloquine"^^xsd:string] ; 
+                                                                                                   nicebnf:hasMalariaRisk [nicebnf:hasContent "Low risk from July–October in areas below 1200 m; very low risk all year in Harare and Bulawayo"^^xsd:string ; 
+                                                                                                                           nicebnf:hasRegimen "Chemoprophylaxis not recommended, but avoid mosquito bites and consider malaria if fever presents"^^xsd:string]];
+                                                             rdfs:label "recommended regimens for prophylaxis against malaria"^^xsd:string.
+

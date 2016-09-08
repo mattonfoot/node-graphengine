@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance/PHP103610> a <http://ld.nice.org.uk/ns/bnf/BorderlineSubstanceTaxonomyRoot>.
+bnfsite:publication nicebnf:hasBorderlineSubstanceTaxonomyRoot <http://bnf.nice.org.uk/borderline-substance/PHP103610>;
+                    nicebnf:hasPublicationDate "2015-06-24T00:00:00.000000+01:00"^^xsd:dateTime;
+                    nicebnf:hasWoundManagement <http://bnf.nice.org.uk/wound-management/wound-management-products-and-elasticated-garments>;
+                    a nicebnf:Publication.
+<http://bnf.nice.org.uk/wound-management/wound-management-products-and-elasticated-garments> a <http://ld.nice.org.uk/ns/bnf/WoundManagementRoot>.
+

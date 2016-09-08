@@ -1,0 +1,78 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/fluid-and-electrolytes/PHP188> nicebnf:hasElectrolyteConcentrations [rdfs:label "electrolyte concentrations—intravenous fluids"^^xsd:string ; 
+                                                                                             nicebnf:hasNormalPlasmaValues [rdfs:label "normal plasma values"^^xsd:string ; 
+                                                                                                                            nicebnf:hasSodium "142 mmol/litre"^^xsd:string ; 
+                                                                                                                            nicebnf:hasPotassium "4.5 mmol/litre"^^xsd:string ; 
+                                                                                                                            nicebnf:hasBicarbonate "26 mmol/litre"^^xsd:string ; 
+                                                                                                                            nicebnf:hasChloride "103 mmol/litre"^^xsd:string ; 
+                                                                                                                            nicebnf:hasCalcium "2.5 mmol/litre"^^xsd:string ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "sodium chloride 0.9%"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "150 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "150 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "compound sodium lactate (hartmann's)"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "131 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasPotassium "5 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasBicarbonate "29 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "111 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasCalcium "2 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "sodium chloride 0.18% and glucose 4% (adults only)"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "30 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "30 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "sodium chloride 0.45% and glucose 5% (children only)"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "75 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "75 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "potassium chloride 0.15% and glucose 5% (children only)"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasPotassium "20 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "20 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "potassium chloride 0.15% and sodium chloride 0.9% (children only)"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "150 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasPotassium "20 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "170 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "potassium chloride 0.3% and glucose 5%"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasPotassium "40 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "40 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "potassium chloride 0.3% and sodium chloride 0.9%"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "150 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasPotassium "40 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasChloride "190 mmol/litre"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "sodium bicarbonate 1.26%"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "150 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasBicarbonate "150 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasFormetabolicacidosis "True"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "sodium bicarbonate 8.4% for cardiac arrest"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "1000 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasBicarbonate "1000 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasFormetabolicacidosis "True"^^xsd:string] ; 
+                                                                                                                            nicebnf:hasIntravenousInfusion [rdfs:label "sodium lactate (m/6)"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasSodium "167 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasBicarbonate "167 mmol/litre"^^xsd:string ; 
+                                                                                                                                                            nicebnf:hasFormetabolicacidosis "True"^^xsd:string]]];
+                                                       nicebnf:hasElectrolyteContent [rdfs:label "electrolyte content—gastro-intestinal secretions"^^xsd:string ; 
+                                                                                      nicebnf:hasTypeOfFluid [rdfs:label "gastric"^^xsd:string ; 
+                                                                                                              nicebnf:hasHydrogen "40–60 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasSodium "20–80 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasPotassium "5–20 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasChloride "100–150 mmol/litre"^^xsd:string] ; 
+                                                                                      nicebnf:hasTypeOfFluid [rdfs:label "biliary"^^xsd:string ; 
+                                                                                                              nicebnf:hasSodium "120–140 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasPotassium "5–15 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasBicarbonate "30–50 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasChloride "80–120 mmol/litre"^^xsd:string] ; 
+                                                                                      nicebnf:hasTypeOfFluid [rdfs:label "pancreatic"^^xsd:string ; 
+                                                                                                              nicebnf:hasSodium "120–140 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasPotassium "5–15 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasBicarbonate "70–110 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasChloride "40–80 mmol/litre"^^xsd:string] ; 
+                                                                                      nicebnf:hasTypeOfFluid [rdfs:label "small bowel"^^xsd:string ; 
+                                                                                                              nicebnf:hasSodium "120–140 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasPotassium "5–15 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasBicarbonate "20–40 mmol/litre"^^xsd:string ; 
+                                                                                                              nicebnf:hasChloride "90–130 mmol/litre"^^xsd:string]];
+                                                       a nicebnf:FluidAndElectrolytes;
+                                                       rdfs:label "fluids and electrolytes"^^xsd:string.
+

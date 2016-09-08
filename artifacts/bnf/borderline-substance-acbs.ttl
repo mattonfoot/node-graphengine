@@ -1,0 +1,64 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/BorderlineSubstanceAcbs/PHP102263> nicebnf:hasContent [nicebnf:hasDitaContent """<section>
+  <p>
+    <b>Standard ACBS indications:</b> Disease-related malnutrition, intractable malabsorption, pre-operative preparation of malnourished patients, dysphagia, proven inflammatory bowel disease, following total gastrectomy, short-bowel syndrome, bowel fistula</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                               nicebnf:hasTextContent """Standard ACBS indications: Disease-related malnutrition, intractable malabsorption, pre-operative preparation of malnourished patients, dysphagia, proven inflammatory bowel disease, following total gastrectomy, short-bowel syndrome, bowel fistula
+
+"""^^xsd:string];
+                                                           a nicebnf:BorderlineSubstanceAcbs;
+                                                           rdfs:label "borderline substances acbs indications"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/BorderlineSubstanceAcbs/PHP104168> nicebnf:hasContent [nicebnf:hasDitaContent """<section>
+  <p>
+    <b>ACBS indications:</b> established gluten-sensitive enteropathies including steatorrhoea due to gluten sensitivity, coeliac disease, and dermatitis herpetiformis.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                               nicebnf:hasTextContent """ACBS indications: established gluten-sensitive enteropathies including steatorrhoea due to gluten sensitivity, coeliac disease, and dermatitis herpetiformis.
+
+"""^^xsd:string];
+                                                           a nicebnf:BorderlineSubstanceAcbs;
+                                                           rdfs:label "borderline substances gluten-free foods"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/BorderlineSubstanceAcbs/PHP104169> nicebnf:hasContent [nicebnf:hasDitaContent """<section>
+  <p>
+    <b>ACBS indications:</b> established gluten-sensitive enteropathies with coexisting established wheat sensitivity only.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                               nicebnf:hasTextContent """ACBS indications: established gluten-sensitive enteropathies with coexisting established wheat sensitivity only.
+
+"""^^xsd:string];
+                                                           a nicebnf:BorderlineSubstanceAcbs;
+                                                           rdfs:label "borderline substances gluten and wheat-free foods"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/BorderlineSubstanceAcbs/PHP104170> nicebnf:hasContent [nicebnf:hasDitaContent """<section>
+  <p>
+    <b>ACBS indications:</b> inherited metabolic disorders, renal or liver failure, requiring a low-protein diet</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                                               nicebnf:hasTextContent """ACBS indications: inherited metabolic disorders, renal or liver failure, requiring a low-protein diet
+
+"""^^xsd:string];
+                                                           a nicebnf:BorderlineSubstanceAcbs;
+                                                           rdfs:label "borderline substances low-protein foods"^^xsd:string.
+

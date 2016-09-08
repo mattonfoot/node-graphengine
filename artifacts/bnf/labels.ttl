@@ -1,0 +1,399 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/Labels/PHP9294> nicebnf:hasContent [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">1</p>
+  <p outputclass=\"recommendation\">Warning: This medicine may make you sleepy</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations for children</i> containing antihistamines, or other preparations given to children where the warnings of label 2 on driving or alcohol would not be appropriate.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """1
+
+Warning: This medicine may make you sleepy
+
+To be used on preparations for children containing antihistamines, or other preparations given to children where the warnings of label 2 on driving or alcohol would not be appropriate.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">2</p>
+  <p outputclass=\"recommendation\">Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations for adults that can cause drowsiness</i>, thereby affecting coordination and the ability to drive and operate hazardous machinery; label 1 is more appropriate for children. <i>It is an offence to drive while under the influence of drink or drugs</i>. Some of these preparations only cause drowsiness in the first few days of treatment and some only cause drowsiness in higher doses. In such cases the patient should be told that the advice applies until the effects have worn off. However many of these preparations can produce a slowing of reaction time and a loss of mental concentration that can have the same effects as drowsiness. Avoidance of alcoholic drink is recommended because the effects of CNS depressants are enhanced by alcohol. Strict prohibition however could lead to some patients not taking the medicine. Pharmacists should therefore explain the risk and encourage compliance, particularly in patients who may think they already tolerate the effects of alcohol (see also label 3). Queries from patients with epilepsy regarding fitness to drive should be referred back to the patient's doctor. Side-effects unrelated to drowsiness that may affect a patient's ability to drive or operate machinery safely include <i>blurred vision, dizziness, or nausea</i>. In general, no label has been recommended to cover these cases, but the patient should be suitably counselled.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """2
+
+Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol
+
+To be used on preparations for adults that can cause drowsiness, thereby affecting coordination and the ability to drive and operate hazardous machinery; label 1 is more appropriate for children. It is an offence to drive while under the influence of drink or drugs. Some of these preparations only cause drowsiness in the first few days of treatment and some only cause drowsiness in higher doses. In such cases the patient should be told that the advice applies until the effects have worn off. However many of these preparations can produce a slowing of reaction time and a loss of mental concentration that can have the same effects as drowsiness. Avoidance of alcoholic drink is recommended because the effects of CNS depressants are enhanced by alcohol. Strict prohibition however could lead to some patients not taking the medicine. Pharmacists should therefore explain the risk and encourage compliance, particularly in patients who may think they already tolerate the effects of alcohol (see also label 3). Queries from patients with epilepsy regarding fitness to drive should be referred back to the patient's doctor. Side-effects unrelated to drowsiness that may affect a patient's ability to drive or operate machinery safely include blurred vision, dizziness, or nausea. In general, no label has been recommended to cover these cases, but the patient should be suitably counselled.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">3</p>
+  <p outputclass=\"recommendation\">Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations containing monoamine-oxidase inhibitors</i>; the warning to avoid alcohol and dealcoholised (low alcohol) drink is covered by the patient information leaflet. Also to be used as for label 2 but where alcohol is not an issue.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """3
+
+Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines
+
+To be used on preparations containing monoamine-oxidase inhibitors; the warning to avoid alcohol and dealcoholised (low alcohol) drink is covered by the patient information leaflet. Also to be used as for label 2 but where alcohol is not an issue.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">4</p>
+  <p outputclass=\"recommendation\">Warning: Do not drink alcohol</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations where a reaction such as flushing may occur if alcohol is taken</i> (e.g. metronidazole). Alcohol may also enhance the hypoglycaemia produced by some oral antidiabetic drugs but routine application of a warning label is not considered necessary. Patients should be advised not to drink alcohol for as long as they are receiving/using a course of medication, and in some cases for a period of time after the course is finished.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """4
+
+Warning: Do not drink alcohol
+
+To be used on preparations where a reaction such as flushing may occur if alcohol is taken (e.g. metronidazole). Alcohol may also enhance the hypoglycaemia produced by some oral antidiabetic drugs but routine application of a warning label is not considered necessary. Patients should be advised not to drink alcohol for as long as they are receiving/using a course of medication, and in some cases for a period of time after the course is finished.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">5</p>
+  <p outputclass=\"recommendation\">Do not take indigestion remedies 2 hours before or after you take this medicine</p>
+  <p outputclass=\"labelDescription\">To be used with label 25 on <i>preparations coated to resist gastric acid</i> (e.g. enteric-coated tablets). This is to avoid the possibility of premature dissolution of the coating in the presence of an alkaline pH. Label 5 also applies to drugs such as gabapentin <i>where the absorption is significantly affected by antacids</i>. Pharmacists will be aware (from a knowledge of physiology) that the usual time during which indigestion remedies should be avoided is at least 2 hours before and after the majority of medicines have been taken; when a manufacturer advises a different time period, this can be followed, and should be explained to the patient.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """5
+
+Do not take indigestion remedies 2 hours before or after you take this medicine
+
+To be used with label 25 on preparations coated to resist gastric acid (e.g. enteric-coated tablets). This is to avoid the possibility of premature dissolution of the coating in the presence of an alkaline pH. Label 5 also applies to drugs such as gabapentin where the absorption is significantly affected by antacids. Pharmacists will be aware (from a knowledge of physiology) that the usual time during which indigestion remedies should be avoided is at least 2 hours before and after the majority of medicines have been taken; when a manufacturer advises a different time period, this can be followed, and should be explained to the patient.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">6</p>
+  <p outputclass=\"recommendation\">Do not take indigestion remedies, or medicines containing iron or zinc, 2 hours before or after you take this medicine</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations containing ofloxacin and some other quinolones, doxycycline, lymecycline, minocycline, and penicillamine</i>. These drugs chelate calcium, iron, and zinc and are less well absorbed when taken with calcium-containing antacids or preparations containing iron or zinc. Pharmacists will be aware (from a knowledge of physiology) that these incompatible preparations should be taken at least 2 hours apart for the majority of medicines; when a manufacturer advises a different time period, this can be followed, and should be explained to the patient.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """6
+
+Do not take indigestion remedies, or medicines containing iron or zinc, 2 hours before or after you take this medicine
+
+To be used on preparations containing ofloxacin and some other quinolones, doxycycline, lymecycline, minocycline, and penicillamine. These drugs chelate calcium, iron, and zinc and are less well absorbed when taken with calcium-containing antacids or preparations containing iron or zinc. Pharmacists will be aware (from a knowledge of physiology) that these incompatible preparations should be taken at least 2 hours apart for the majority of medicines; when a manufacturer advises a different time period, this can be followed, and should be explained to the patient.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">7</p>
+  <p outputclass=\"recommendation\">Do not take milk, indigestion remedies, or medicines containing iron or zinc, 2 hours before or after you take this medicine</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations containing ciprofloxacin, norfloxacin, or tetracyclines that chelate calcium, iron, magnesium, and zinc,</i> and are thus less available for absorption. Pharmacists will be aware (from a knowledge of physiology) that these incompatible preparations should be taken at least 2 hours apart for the majority of medicines; when a manufacturer advises a different time period, this can be followed, and should be explained to the patient. Doxycycline, lymecycline, and minocycline are less liable to form chelates and therefore only require label 6 (see above).</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """7
+
+Do not take milk, indigestion remedies, or medicines containing iron or zinc, 2 hours before or after you take this medicine
+
+To be used on preparations containing ciprofloxacin, norfloxacin, or tetracyclines that chelate calcium, iron, magnesium, and zinc, and are thus less available for absorption. Pharmacists will be aware (from a knowledge of physiology) that these incompatible preparations should be taken at least 2 hours apart for the majority of medicines; when a manufacturer advises a different time period, this can be followed, and should be explained to the patient. Doxycycline, lymecycline, and minocycline are less liable to form chelates and therefore only require label 6 (see above).
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">8</p>
+  <p outputclass=\"recommendation\">Warning: Do not stop taking this medicine unless your doctor tells you to stop</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that contain a drug which is required to be taken over long periods without the patient necessarily perceiving any benefit</i> (e.g. antituberculous drugs). Also to be used on <i>preparations that contain a drug whose withdrawal is likely to be a particular hazard</i> (e.g. clonidine for hypertension). Label 10 (see below) is more appropriate for corticosteroids.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """8
+
+Warning: Do not stop taking this medicine unless your doctor tells you to stop
+
+To be used on preparations that contain a drug which is required to be taken over long periods without the patient necessarily perceiving any benefit (e.g. antituberculous drugs). Also to be used on preparations that contain a drug whose withdrawal is likely to be a particular hazard (e.g. clonidine for hypertension). Label 10 (see below) is more appropriate for corticosteroids.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">9</p>
+  <p outputclass=\"recommendation\">Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations where a course of treatment should be completed</i> to reduce the incidence of relapse or failure of treatment. The preparations are antimicrobial drugs given by mouth. Very occasionally, some may have severe side-effects (e.g. diarrhoea in patients receiving clindamycin) and in such cases the patient may need to be advised of reasons for stopping treatment quickly and returning to the doctor.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """9
+
+Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop
+
+To be used on preparations where a course of treatment should be completed to reduce the incidence of relapse or failure of treatment. The preparations are antimicrobial drugs given by mouth. Very occasionally, some may have severe side-effects (e.g. diarrhoea in patients receiving clindamycin) and in such cases the patient may need to be advised of reasons for stopping treatment quickly and returning to the doctor.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">10</p>
+  <p outputclass=\"recommendation\">Warning: Read the additional information given with this medicine</p>
+  <p outputclass=\"labelDescription\">To be used particularly on <i>preparations containing anticoagulants, lithium, and oral corticosteroids</i>. The appropriate treatment card should be given to the patient and any necessary explanations given. This label may also be used on other preparations to remind the patient of the instructions that have been given.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """10
+
+Warning: Read the additional information given with this medicine
+
+To be used particularly on preparations containing anticoagulants, lithium, and oral corticosteroids. The appropriate treatment card should be given to the patient and any necessary explanations given. This label may also be used on other preparations to remind the patient of the instructions that have been given.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">11</p>
+  <p outputclass=\"recommendation\">Protect your skin from sunlight—even on a bright but cloudy day. Do not use sunbeds</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that may cause phototoxic or photoallergic reactions</i> if the patient is exposed to ultraviolet radiation. Many drugs other than those listed in Appendix 3 (e.g. phenothiazines and sulfonamides) may, on rare occasions, cause reactions in susceptible patients. Exposure to high intensity ultraviolet radiation from sunray lamps and sunbeds is particularly likely to cause reactions.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """11
+
+Protect your skin from sunlight—even on a bright but cloudy day. Do not use sunbeds
+
+To be used on preparations that may cause phototoxic or photoallergic reactions if the patient is exposed to ultraviolet radiation. Many drugs other than those listed in Appendix 3 (e.g. phenothiazines and sulfonamides) may, on rare occasions, cause reactions in susceptible patients. Exposure to high intensity ultraviolet radiation from sunray lamps and sunbeds is particularly likely to cause reactions.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">12</p>
+  <p outputclass=\"recommendation\">Do not take anything containing aspirin while taking this medicine</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations containing sulfinpyrazone</i> whose activity is reduced by aspirin. Label 12 should not be used for anticoagulants since label 10 is more appropriate.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """12
+
+Do not take anything containing aspirin while taking this medicine
+
+To be used on preparations containing sulfinpyrazone whose activity is reduced by aspirin. Label 12 should not be used for anticoagulants since label 10 is more appropriate.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">13</p>
+  <p outputclass=\"recommendation\">Dissolve or mix with water before taking</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that are intended to be dissolved in water</i> (e.g. soluble tablets) or <i>mixed with water</i> (e.g. powders, granules) before use. In a few cases other liquids such as fruit juice or milk may be used.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """13
+
+Dissolve or mix with water before taking
+
+To be used on preparations that are intended to be dissolved in water (e.g. soluble tablets) or mixed with water (e.g. powders, granules) before use. In a few cases other liquids such as fruit juice or milk may be used.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">14</p>
+  <p outputclass=\"recommendation\">This medicine may colour your urine. This is harmless</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that may cause the patient's urine to turn an unusual colour</i>. These include triamterene (blue under some lights), levodopa (dark reddish), and rifampicin (red).</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """14
+
+This medicine may colour your urine. This is harmless
+
+To be used on preparations that may cause the patient's urine to turn an unusual colour. These include triamterene (blue under some lights), levodopa (dark reddish), and rifampicin (red).
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">15</p>
+  <p outputclass=\"recommendation\">Caution: flammable. Keep your body away from fire or flames after you have put on the medicine</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations containing sufficient flammable solvent to render them flammable if exposed to a naked flame</i>.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """15
+
+Caution: flammable. Keep your body away from fire or flames after you have put on the medicine
+
+To be used on preparations containing sufficient flammable solvent to render them flammable if exposed to a naked flame.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">16</p>
+  <p outputclass=\"recommendation\">Dissolve the tablet under your tongue—do not swallow. Store the tablets in this bottle with the cap tightly closed. Get a new supply 8 weeks after opening</p>
+  <p outputclass=\"labelDescription\">To be used on <i>glyceryl trinitrate tablets</i> to remind the patient not to transfer the tablets to plastic or less suitable containers.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """16
+
+Dissolve the tablet under your tongue—do not swallow. Store the tablets in this bottle with the cap tightly closed. Get a new supply 8 weeks after opening
+
+To be used on glyceryl trinitrate tablets to remind the patient not to transfer the tablets to plastic or less suitable containers.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">17</p>
+  <p outputclass=\"recommendation\">Do not take more than . . . in 24 hours</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations for the treatment of acute migraine</i> except those containing ergotamine, for which label 18 is used. The dose form should be specified, e.g. tablets or capsules. It may also be used on preparations for which no dose has been specified by the prescriber.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """17
+
+Do not take more than . . . in 24 hours
+
+To be used on preparations for the treatment of acute migraine except those containing ergotamine, for which label 18 is used. The dose form should be specified, e.g. tablets or capsules. It may also be used on preparations for which no dose has been specified by the prescriber.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">18</p>
+  <p outputclass=\"recommendation\">Do not take more than . . . in 24 hours. Also, do not take more than . . . in any one week</p>
+  <p outputclass=\"labelDescription\">To be used on preparations containing ergotamine. The dose form should be specified, e.g. tablets or suppositories.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """18
+
+Do not take more than . . . in 24 hours. Also, do not take more than . . . in any one week
+
+To be used on preparations containing ergotamine. The dose form should be specified, e.g. tablets or suppositories.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">19</p>
+  <p outputclass=\"recommendation\">Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations containing hypnotics (or some other drugs with sedative effects) prescribed to be taken at night</i>. On the rare occasions when hypnotics are prescribed for daytime administration (e.g. nitrazepam in epilepsy), this label would clearly not be appropriate. Also to be used as an <i>alternative to the label 2 wording</i> (the choice being at the discretion of the pharmacist) <i>for anxiolytics prescribed to be taken at night</i>. It is hoped that this wording will convey adequately the problem of residual morning sedation after taking ‘sleeping tablets’.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """19
+
+Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol
+
+To be used on preparations containing hypnotics (or some other drugs with sedative effects) prescribed to be taken at night. On the rare occasions when hypnotics are prescribed for daytime administration (e.g. nitrazepam in epilepsy), this label would clearly not be appropriate. Also to be used as an alternative to the label 2 wording (the choice being at the discretion of the pharmacist) for anxiolytics prescribed to be taken at night. It is hoped that this wording will convey adequately the problem of residual morning sedation after taking ‘sleeping tablets’.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">21</p>
+  <p outputclass=\"recommendation\">Take with or just after food, or a meal</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that are liable to cause gastric irritation, or those that are better absorbed with food</i>. Patients should be advised that a <i>small amount of food is sufficient</i>.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """21
+
+Take with or just after food, or a meal
+
+To be used on preparations that are liable to cause gastric irritation, or those that are better absorbed with food. Patients should be advised that a small amount of food is sufficient.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">22</p>
+  <p outputclass=\"recommendation\">Take 30 to 60 minutes before food</p>
+  <p outputclass=\"labelDescription\">To be used on some preparations <i>whose absorption is thereby improved.</i> Most oral antibacterials require label 23 instead (see below).</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """22
+
+Take 30 to 60 minutes before food
+
+To be used on some preparations whose absorption is thereby improved. Most oral antibacterials require label 23 instead (see below).
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">23</p>
+  <p outputclass=\"recommendation\">Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food</p>
+  <p outputclass=\"labelDescription\">To be used on <i>oral antibacterials whose absorption may be reduced by the presence of food and acid in the stomach</i>.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """23
+
+Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food
+
+To be used on oral antibacterials whose absorption may be reduced by the presence of food and acid in the stomach.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">24</p>
+  <p outputclass=\"recommendation\">Suck or chew this medicine</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that should be sucked or chewed</i>. The pharmacist should use discretion as to which of these words is appropriate.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """24
+
+Suck or chew this medicine
+
+To be used on preparations that should be sucked or chewed. The pharmacist should use discretion as to which of these words is appropriate.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">25</p>
+  <p outputclass=\"recommendation\">Swallow this medicine whole. Do not chew or crush</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that are enteric-coated or designed for modified-release</i>. Also to be used on <i>preparations that taste very unpleasant or may damage the mouth</i> if not swallowed whole. Patients should be advised (where relevant) that some modified-release preparations can be broken in half, but that the halved tablet should still be swallowed whole, and not chewed or crushed.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """25
+
+Swallow this medicine whole. Do not chew or crush
+
+To be used on preparations that are enteric-coated or designed for modified-release. Also to be used on preparations that taste very unpleasant or may damage the mouth if not swallowed whole. Patients should be advised (where relevant) that some modified-release preparations can be broken in half, but that the halved tablet should still be swallowed whole, and not chewed or crushed.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">26</p>
+  <p outputclass=\"recommendation\">Dissolve this medicine under your tongue</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations designed for sublingual use</i>. Patients should be advised to hold under the tongue and avoid swallowing until dissolved. The buccal mucosa between the gum and cheek is occasionally specified by the prescriber.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """26
+
+Dissolve this medicine under your tongue
+
+To be used on preparations designed for sublingual use. Patients should be advised to hold under the tongue and avoid swallowing until dissolved. The buccal mucosa between the gum and cheek is occasionally specified by the prescriber.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">27</p>
+  <p outputclass=\"recommendation\">Take with a full glass of water</p>
+  <p outputclass=\"labelDescription\">To be used on <i>preparations that should be well diluted</i> (e.g. chloral hydrate), <i>where a high fluid intake is required</i> (e.g. sulfonamides), or <i>where water is required to aid the action</i> (e.g. methylcellulose). The patient should be advised that ‘a full glass’ means at least 150 mL. In most cases fruit juice, tea, or coffee may be used.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """27
+
+Take with a full glass of water
+
+To be used on preparations that should be well diluted (e.g. chloral hydrate), where a high fluid intake is required (e.g. sulfonamides), or where water is required to aid the action (e.g. methylcellulose). The patient should be advised that ‘a full glass’ means at least 150 mL. In most cases fruit juice, tea, or coffee may be used.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">28</p>
+  <p outputclass=\"recommendation\">Spread thinly on the affected skin only</p>
+  <p outputclass=\"labelDescription\">To be used on <i>external preparations</i> that should be applied sparingly (e.g. corticosteroids, dithranol).</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """28
+
+Spread thinly on the affected skin only
+
+To be used on external preparations that should be applied sparingly (e.g. corticosteroids, dithranol).
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">29</p>
+  <p outputclass=\"recommendation\">Do not take more than 2 at any one time. Do not take more than 8 in 24 hours</p>
+  <p outputclass=\"labelDescription\">To be used on containers of dispensed <i>solid dose preparations containing paracetamol for adults when the instruction on the label indicates that the dose can be taken on an ‘as required’ basis</i>. The dose form should be specified, e.g. tablets or capsules. This label has been introduced because of the serious consequences of overdosage with paracetamol.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """29
+
+Do not take more than 2 at any one time. Do not take more than 8 in 24 hours
+
+To be used on containers of dispensed solid dose preparations containing paracetamol for adults when the instruction on the label indicates that the dose can be taken on an ‘as required’ basis. The dose form should be specified, e.g. tablets or capsules. This label has been introduced because of the serious consequences of overdosage with paracetamol.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">30</p>
+  <p outputclass=\"recommendation\">Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well</p>
+  <p outputclass=\"labelDescription\">To be used on all containers of dispensed <i>preparations containing paracetamol</i>.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """30
+
+Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well
+
+To be used on all containers of dispensed preparations containing paracetamol.
+
+"""^^xsd:string],
+                                                           [nicebnf:hasTargetAudience "label"^^xsd:string ; 
+                                                            nicebnf:hasDitaContent """<section outputclass=\"label\">
+  <p outputclass=\"number\">32</p>
+  <p outputclass=\"recommendation\">Contains aspirin. Do not take anything else containing aspirin while taking this medicine</p>
+  <p outputclass=\"labelDescription\">To be used on containers of dispensed <i>preparations containing aspirin when the name on the label does not include the word ‘aspirin’</i>.</p>
+</section>"""^^<rdf:XMLLiteral> ; 
+                                                            nicebnf:hasTextContent """32
+
+Contains aspirin. Do not take anything else containing aspirin while taking this medicine
+
+To be used on containers of dispensed preparations containing aspirin when the name on the label does not include the word ‘aspirin’.
+
+"""^^xsd:string];
+                                        a nicebnf:Labels;
+                                        rdfs:label "labels"^^xsd:string.
+

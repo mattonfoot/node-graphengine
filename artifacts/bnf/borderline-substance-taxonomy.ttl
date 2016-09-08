@@ -1,0 +1,1220 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102478> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/fresubin-soya-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-soya>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-soya-multi-fibre>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "soya protein formula"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102482> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/nutrison-peptisorb>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/peptamen>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/survimed-opd>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "peptide-based formula"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102484> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/fresubin-1500-complete>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-original>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-original-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/jevity>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/novasource-gi-control>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/osmolite>;
+                                                                 nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102478>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102482>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds: 1 kcal/ml and less than 5 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102494> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/elemental-028-extra>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "amino acid formula (essential and non-essential amino acids)"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102496> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102494>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds: less than 1 kcal/ml and less than 5 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102498> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102484>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102496>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds (non-disease specific): less than 5 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102516> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/fresubin-2250-complete>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-energy>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-energy-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-hp-energy>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/jevity-15-kcal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/novasource-gi-forte>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-energy>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-energy-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/osmolite-15-kcal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-energy>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vital-15-kcal>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds: 1.5 kcal/ml and 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102520> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/fresubin-1000-complete>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-1200-complete>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-1800-complete>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/jevity-plus>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/jevity-plus-hp>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/jevity-promote>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-1000-complete-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-1200-complete-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-800-complete-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-mct>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-protein-plus>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutrison-protein-plus-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/osmolite-plus>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/peptamen-hn>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/perative>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds: less than 1.5 kcal/ml and 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102524> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ensure-twocal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/twocal>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds: more than 1.5 kcal/ml and 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102526> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102516>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102520>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102524>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds (non-disease specific): 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102584> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/tentrini-multi-fibre>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds, child: 1 kcal/ml and less than 4 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102592> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/peptamen-junior-advance>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds, child: 1.5 kcal/ml and more than 4 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102594> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102584>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102592>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds (non-disease specific): child under 12 years"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102596> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102498>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102526>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102594>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "enteral feeds (non-disease specific)"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102660> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ensure>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements: 1 kcal/ml and less than 5 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102664> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/aymes-shake>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ensure-plus-juce>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortijuce>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-jucy-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/providextra-juice-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-dessert-energy>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-fruit>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements: more than 1 kcal/ml and less than 5 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102666> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102660>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102664>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements: less than 5 g protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102684> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ensure-plus-commence>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ensure-plus-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ensure-plus-milkshake-style>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ensure-plus-savoury>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ensure-plus-yoghurt-style>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-bottle>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-range>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-savoury-multi-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-yoghurt-style>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-protein-energy-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-thickened>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-yocr%C3%A8me>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutriplen-protein>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements: 1.5 kcal/ml and 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102688> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ensure-plus-cr%C3%A8me>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortimel-regular>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutilis-fruit-stage-3>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/oral-impact>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-protein>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements: less than 1.5 kcal/ml and 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102692> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/complan-shake>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/foodlink-complete>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/foodlink-complete-with-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/forticreme-complete>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-compact>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-compact-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-compact-protein>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fortisip-extra>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-2-kcal-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-2-kcal-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-2-kcal-fibre-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-cr%C3%A8me>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-powder-extra>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutilis-complete-stage-1>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutilis-complete-stage-2>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutricrem>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutriplen>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/renilon-75>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-20-fibre>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vegenat-med-balanced-protein>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vegenat-med-high-protein>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements: more than 1.5 kcal/ml and 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102694> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102684>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102688>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102692>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements: 5 g (or more) protein/100 ml"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102696> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102666>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102694>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements (non-disease specific)"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102842> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/alicalm>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/forticare>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/generaid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/generaid-plus>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/heparon-junior>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ketocal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ketocal-31>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ketocal-41-lq>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/kindergen>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/modulen-ibd>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nepro>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/prosure>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/renamil>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/renapro>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/renastart>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/respifor>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/supportan>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "specialised formulas for specific clinical conditions"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102844> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102842>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "specialised formulas"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102984> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/caloreen>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/maxijul-super-soluble>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/polycal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/sos>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vitajoule>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "high-energy supplements: carbohydrate"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102994> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/duocal-super-soluble>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/energivit>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/mct-duocal>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "fat and carbohydrate"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102996> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/calogen>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fresubin-5-kcal-shot>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/liquigen>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/medium-chain-triglyceride-mct-oil>;
+                                                                 nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102994>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "high-energy supplements: fat"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103010> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/dialamine>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/prosource-liquid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/prosource-plus>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "protein and carbohydrate"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103014> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/calogen-extra>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/calogen-extra-shots>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/calshake>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/enshake>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/mct-procal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pro-cal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pro-cal-shot>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pro-cal-singles>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/scandishake-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vitasavoury>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "protein, fat, and carbohydrate"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103016> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/prosource-jelly>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/protifar>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vitapro>;
+                                                                 nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103010>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103014>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "high-energy supplements: protein"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103018> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102984>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102996>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103016>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "high-energy supplements"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103032> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/resource-optifibre>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "high-fibre supplements"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103036> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/fruitivits>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/paediatric-seravit>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/renavit>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "vitamin and mineral supplements"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103038> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103032>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103036>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "fibre, vitamin, and mineral supplements"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103040> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103018>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103038>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "feed supplements"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103058> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/colief>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fructose>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glucose>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vsl3>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "special additives for conditions of intolerance"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103062> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/carobel-instant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/multi-thick>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutilis-clear>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nutilis-powder>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-thickened-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-thickenup>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/resource-thickenup-clear>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/slo-drinks>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/thick-and-easy>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/thicken-aid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/thixo-d>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vitaquick>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "feed thickeners and pre-thickened drinks"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103066> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/flavour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/flavourpac>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/modjul-flavour-system>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "flavouring preparations"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103068> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103058>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103062>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103066>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "feed additives"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103386> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/barkat-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/dietary-specials-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ener-g-loaves>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/genius-gluten-free-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-loaves>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-select-loaves>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/lifestyle-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/livwell-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/proceli-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ultra-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/warburtons-loaf>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/wellfoods-loaf>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "loaves"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103390> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/barkat-baguettes-and-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ener-g-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-baguettes-and-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-select-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/lifestyle-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/livwell-baguettes-buns-and-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/proceli-baguettes-buns-and-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/warburtons-baguettes-and-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/wellfoods-buns-and-rolls>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "baguettes, buns and rolls"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103394> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/livwell-flat-bread>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "speciality breads"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103396> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103386>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103390>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103394>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "bread"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103400> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/juvela-fibre-flakes-and-oats>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/nairns-porridge>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "cereals"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103404> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/barkat-biscuits>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ener-g-cookies>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-cookies-and-biscuits>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-biscuits>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "cookies and biscuits"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103408> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/barkat-crackers>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/dietary-specials-cracker-bread>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-crackers>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-crispbread>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ultra-crackerbread>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/warburtons-crackers>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "crackers, crispbreads, and breadsticks"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103422> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/barkat-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/finax-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-select-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/heron-foods-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/mrs-crimbles-flour-mixes>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/orgran-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/proceli-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tobia-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tritamyl-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/wellfoods-flour-mix>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "flour mixes"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103426> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ener-g-xanthan-gum>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pure-xanthan-gum>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "xanthan gum"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103428> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103422>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103426>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "flour mixes and xanthan gum"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103432> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/barkat-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/bialimenta-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/dietary-specials-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ener-g-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/orgran-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/proceli-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/rizopia-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ultra-pasta>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "pasta"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103436> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/barkat-pizza-crust>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/dietary-specials-pizza-base>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-pizza-base>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-pizza-base>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/proceli-pizza-base>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ultra-pizza-base>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/wellfoods-pizza-base>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "pizza bases"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103440> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ener-g-bread-loaves-rolls-and-pizza-bases>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glutafin-flour-mix-fibre-and-crispbread>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/heron-foods-flour-mixes>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "gluten- and wheat-free foods"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103442> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103396>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103400>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103404>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103408>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103428>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103432>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103436>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103440>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "gluten-free foods"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103484> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ener-g-rice-bread>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-loaf-and-rolls>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/loprofin-bread>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pk-foods-loaf>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "bread"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103488> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/harifen-cracker-toast>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-cookies>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/loprofin-wafers>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pk-foods-biscuits>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/promin-cooked-and-flavoured-pasta-snax>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/taranis-cake-bars>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vita-bite>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/vitaflo-choices-mini-crackers>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "cake, biscuits, and snacks"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103492> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/loprofin-breakfast-cereal>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/promin-hot-breakfast>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "cereals"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103496> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/loprofin-powder>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pk-foods-jelly>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/promin-desserts>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "desserts"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103500> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ener-g-egg-replacer>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/fate-flour-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/juvela-mix>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/loprofin-flour-mixes-and-egg-substitutes>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pk-foods-flour-mix-and-egg-substitute>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "flour mixes and egg substitutes"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103504> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/loprofin-pasta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/promin-pasta>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "pasta"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103508> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/juvela-pizza-base>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "pizza bases"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103512> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/loprofin-snack-pot>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/promin-savoury-meals-and-mixes>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "savoury meals and mixes"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103516> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/taranis-spread>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "spreads"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103518> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103484>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103488>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103492>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103496>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103500>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103504>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103508>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103512>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103516>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "low-protein foods"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103520> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103442>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103518>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "foods for special diets"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103566> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/ga-gel>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/ga1-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xlys-low-try-maxamaid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xlys-try-glutaridon>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "glutaric aciduria (type 1)"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103570> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/corn-flour-and-corn-starch>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/glycosade>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "glycogen storage disease"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103574> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/hcu-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/hcu-cooler-15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/hcu-express-15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/hcu-express-20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/hcu-gel>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/hcu-lophlex-lq-20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/hcu-lv>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xmet-homidon>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xmet-maxamaid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xmet-maxamum>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "homocystinuria or hypermethioninaemia"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103578> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/hyper-lys-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xlys-maxamaid>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "hyperlysinaemia"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103582> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/iva-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xleu-faladon>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xleu-maxamaid>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "isovaleric acidaemia"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103586> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/msud-aid-iii>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-anamix-junior>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-anamix-junior-lq>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-cooler-15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-express-15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-express-20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-gel>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-lophlex-lq-20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-maxamaid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/msud-maxamum>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "maple syrup urine disease"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103590> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/mmapa-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xmtvi-asadon>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xmtvi-maxamaid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xmtvi-maxamum>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "methylmalonic or propionic acidaemia"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103594> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/cystine500>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/docomega>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/eaa-supplement>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/isoleucine50>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/keyomega>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/leucine100>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/low-protein-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/phenylalanine50>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/prozero>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyrosine1000>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/valine50>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "other inborn errors of metabolism"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103598> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/add-ins>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/easiphen>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/l-tyrosine>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/lophlex>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/loprofin-pku-drink>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/loprofin-sno-pro>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/milupa-pku-2-prima>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/milupa-pku-2-secunda>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/milupa-pku-3-advanta>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/phlexy-10-exchange-system>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/phlexy-vits>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pk-aid-4>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-anamix-first-spoon>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-anamix-junior>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-anamix-junior-lq>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-cooler10>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-cooler15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-cooler20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-express15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-express20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-gel>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-lophlex-lq-10>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-lophlex-lq-20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-lophlex-sensation-20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/pku-squeezie>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xp-maxamaid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xp-maxamum>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "phenylketonuria"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103602> nicebnf:hasBorderlineSubstance <http://bnf.nice.org.uk/borderline-substance/methionine-free-tyr-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-anamix-infant>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-anamix-junior>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-anamix-junior-lq>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-cooler-15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-express15>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-express20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-gel>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/tyr-lophlex-lq-20>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xphen-tyr-maxamaid>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xphen-tyr-tyrosidon>,
+                                                                                                <http://bnf.nice.org.uk/borderline-substance/xptm-tyrosidon>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "tyrosinaemia"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103604> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103566>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103570>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103574>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103578>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103582>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103586>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103590>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103594>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103598>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103602>;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "nutritional supplements for metabolic diseases"^^xsd:string.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103610> nicebnf:hasBorderlineSubstanceTaxonomy <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102596>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102696>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP102844>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103040>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103068>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103520>,
+                                                                                                        <http://bnf.nice.org.uk/borderline-substance-taxonomy/PHP103604>;
+                                                                 nicebnf:hasDitaContent """<section outputclass=\"general\">
+  <sectiondiv>
+    <p>In certain conditions some foods (and toilet preparations) have characteristics of drugs and the Advisory Committee on Borderline Substances (ACBS) advises as to the circumstances in which such substances may be regarded as drugs. Prescriptions issued in accordance with the Committee's advice and endorsed ‘ACBS’ will normally not be investigated.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Information</p>
+    <p>General Practitioners are reminded that the ACBS recommends products on the basis that they may be regarded as drugs for the management of specified conditions. Doctors should satisfy themselves that the products can safely be prescribed, that patients are adequately monitored and that, where necessary, expert hospital supervision is available.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Foods which may be prescribed on FP10, GP10 (Scotland), or WP10 (Wales)</p>
+    <p>All the food products listed in this appendix have ACBS approval. The clinical condition for which the product has been approved is included with each entry.</p>
+    <p>
+      <b>Note</b> Foods included in this appendix may contain cariogenic sugars and patients should be advised to take appropriate oral hygiene measures.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Enteral feeds and supplements</p>
+    <p>For most enteral feeds and nutritional supplements, the main source of <b>carbohydrate</b> is either maltodextrin or glucose syrup; other carbohydrate sources are listed in the relevant table, below. Feeds containing residual lactose (less than 1 g lactose/100 mL formula) are described as ‘clinically lactose-free’ or ‘lactose-free’ by some manufacturers. The presence of lactose (including residual lactose) in feeds is indicated in the relevant table, below. The primary sources of <b>protein</b> or <b>amino acids</b> are included with each product entry. The <b>fat</b> or <b>oil</b> content is derived from a variety of sources such as vegetables, soya bean, corn, palm nuts, and seeds; where the fat content is derived from animal or fish sources, this information is included in the relevant table, below. The presence of medium chain triglycerides (MCT) is also noted where the quantity exceeds 30% of the fat content. </p>
+    <p>Enteral feeds and nutritional supplements can contain varying amounts of <b>vitamins</b>, <b>minerals</b>, and <b>trace elements</b>—the manufacturer's product literature should be consulted for more detailed information. Feeds containing vitamin K may affect the INR in patients receiving warfarin.</p>
+    <p>The suitability of food products for patients requiring a vegan, kosher, halal, or other compliant diet should be confirmed with individual manufacturers.</p>
+    <p>
+      <b>Note</b> Feeds containing more than 6 g/100 mL protein or 2 g/100 mL fibre should be avoided in children unless recommended by an appropriate specialist or dietician.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Nutritional values</p>
+    <p>Nutritional values of products vary with flavour and pack size—consult product literature.</p>
+  </sectiondiv>
+  <sectiondiv>
+    <p outputclass=\"title\">Other conditions for which ACBS products can be prescribed</p>
+    <p>This is a list of clinical conditions for which the ACBS has approved toilet preparations.</p>
+    <ul>
+      <li>
+        <b>Birthmarks</b>
+      </li>
+      <li>
+        <b>Dermatitis</b>
+        <ul>
+          <li>
+            <i>Aveeno</i>
+            <tm tmtype=\"reg\" /> Bath Oil; <i>Aveeno</i><tm tmtype=\"reg\" /> Cream; <i>Aveeno</i><tm tmtype=\"reg\" /> Lotion; <i>E45</i><tm tmtype=\"reg\" /> Emollient Bath Oil; <i>E45</i><tm tmtype=\"reg\" /> Emollient Wash Cream; <i>E45</i><tm tmtype=\"reg\" /> Lotion</li>
+        </ul>
+      </li>
+      <li>
+        <b>Dermatitis herpetiformis</b>
+      </li>
+      <li>
+        <b>Disfiguring skin lesions (birthmarks, mutilating lesions, scars, vitiligo)</b>
+        <ul>
+          <li>
+            <i>Covermark</i>
+            <tm tmtype=\"reg\" /> classic foundation and finishing powder; <i>Dermablend</i><tm tmtype=\"reg\" /><i>Ultra</i> corrective foundation; <i>Dermacolor</i><tm tmtype=\"reg\" /> Camouflage cream and fixing powder; <i>Keromask</i><tm tmtype=\"reg\" /> masking cream and finishing powder; <i>Veil</i><tm tmtype=\"reg\" /> Cover cream and Finishing Powder. (Cleansing Creams, Cleansing Milks, and Cleansing Lotions are excluded).</li>
+        </ul>
+      </li>
+      <li>
+        <b>Disinfectants (antiseptics)</b>
+        <ul>
+          <li>May be prescribed on an FP10 only when ordered in such quantities and with such directions as are appropriate for the treatment of patients, but not for general hygenic purposes.</li>
+        </ul>
+      </li>
+      <li>
+        <b>Dry mouth (xerostomia)</b>
+        <ul>
+          <li>For patients suffering from dry mouth as a result of having (or having undergone) radiotherapy, or sicca syndrome.</li>
+          <li>
+            <i>AS Saliva Orthana</i>
+            <tm tmtype=\"reg\" />; <i>Biotène Oralbalance</i><tm tmtype=\"reg\" />; <i>BioXtra</i><tm tmtype=\"reg\" />; <i>Glandosane</i><tm tmtype=\"reg\" />; <i>Saliveze</i><tm tmtype=\"reg\" /></li>
+        </ul>
+      </li>
+      <li>
+        <b>Eczema</b>
+      </li>
+      <li>
+        <b>Photodermatoses (skin protection in)</b>
+        <ul>
+          <li>
+            <i>Anthelios</i>
+            <tm tmtype=\"reg\" /> XL SPF 50+ Melt-in cream; <i>Sunsense</i><tm tmtype=\"reg\" /> Ultra; <i>Uvistat</i><tm tmtype=\"reg\" /> Lipscreen SPF 50, <i>Uvistat</i><tm tmtype=\"reg\" /> Suncream SPF 30 and 50</li>
+        </ul>
+      </li>
+      <li>
+        <b>Pruritus</b>
+      </li>
+    </ul>
+  </sectiondiv>
+</section>"""^^<rdf:XMLLiteral>;
+                                                                 nicebnf:hasTextContent """In certain conditions some foods (and toilet preparations) have characteristics of drugs and the Advisory Committee on Borderline Substances (ACBS) advises as to the circumstances in which such substances may be regarded as drugs. Prescriptions issued in accordance with the Committee's advice and endorsed ‘ACBS’ will normally not be investigated.
+
+Information
+
+General Practitioners are reminded that the ACBS recommends products on the basis that they may be regarded as drugs for the management of specified conditions. Doctors should satisfy themselves that the products can safely be prescribed, that patients are adequately monitored and that, where necessary, expert hospital supervision is available.
+
+Foods which may be prescribed on FP10, GP10 (Scotland), or WP10 (Wales)
+
+All the food products listed in this appendix have ACBS approval. The clinical condition for which the product has been approved is included with each entry.
+
+Note Foods included in this appendix may contain cariogenic sugars and patients should be advised to take appropriate oral hygiene measures.
+
+Enteral feeds and supplements
+
+For most enteral feeds and nutritional supplements, the main source of carbohydrate is either maltodextrin or glucose syrup; other carbohydrate sources are listed in the relevant table, below. Feeds containing residual lactose (less than 1 g lactose/100 mL formula) are described as ‘clinically lactose-free’ or ‘lactose-free’ by some manufacturers. The presence of lactose (including residual lactose) in feeds is indicated in the relevant table, below. The primary sources of protein or amino acids are included with each product entry. The fat or oil content is derived from a variety of sources such as vegetables, soya bean, corn, palm nuts, and seeds; where the fat content is derived from animal or fish sources, this information is included in the relevant table, below. The presence of medium chain triglycerides (MCT) is also noted where the quantity exceeds 30% of the fat content. 
+
+Enteral feeds and nutritional supplements can contain varying amounts of vitamins, minerals, and trace elements—the manufacturer's product literature should be consulted for more detailed information. Feeds containing vitamin K may affect the INR in patients receiving warfarin.
+
+The suitability of food products for patients requiring a vegan, kosher, halal, or other compliant diet should be confirmed with individual manufacturers.
+
+Note Feeds containing more than 6 g/100 mL protein or 2 g/100 mL fibre should be avoided in children unless recommended by an appropriate specialist or dietician.
+
+Nutritional values
+
+Nutritional values of products vary with flavour and pack size—consult product literature.
+
+Other conditions for which ACBS products can be prescribed
+
+This is a list of clinical conditions for which the ACBS has approved toilet preparations.
+
+BirthmarksDermatitisAveeno Bath Oil; Aveeno Cream; Aveeno Lotion; E45 Emollient Bath Oil; E45 Emollient Wash Cream; E45 LotionDermatitis herpetiformisDisfiguring skin lesions (birthmarks, mutilating lesions, scars, vitiligo)Covermark classic foundation and finishing powder; DermablendUltra corrective foundation; Dermacolor Camouflage cream and fixing powder; Keromask masking cream and finishing powder; Veil Cover cream and Finishing Powder. (Cleansing Creams, Cleansing Milks, and Cleansing Lotions are excluded).Disinfectants (antiseptics)May be prescribed on an FP10 only when ordered in such quantities and with such directions as are appropriate for the treatment of patients, but not for general hygenic purposes.Dry mouth (xerostomia)For patients suffering from dry mouth as a result of having (or having undergone) radiotherapy, or sicca syndrome.AS Saliva Orthana; Biotène Oralbalance; BioXtra; Glandosane; SalivezeEczemaPhotodermatoses (skin protection in)Anthelios XL SPF 50+ Melt-in cream; Sunsense Ultra; Uvistat Lipscreen SPF 50, Uvistat Suncream SPF 30 and 50Pruritus"""^^xsd:string;
+                                                                 a nicebnf:BorderlineSubstanceTaxonomy;
+                                                                 rdfs:label "borderline substances"^^xsd:string.
+

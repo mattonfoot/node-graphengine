@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix nicebnf: <http://ld.nice.org.uk/ns/bnf#>.
+@prefix bnfsite: <http://bnf.nice.org.uk/>.
+
+<http://bnf.nice.org.uk/helicobacter-pylori-regimens/PHP183> nicebnf:hasRegimen [rdfs:label "esomeprazole with amoxicillin + clarithromycin"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Esomeprazole</b> with <b>amoxicillin</b> + <b>clarithromycin</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£6.63</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "esomeprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "20 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "amoxicillin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "1 g twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "500 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "esomeprazole with clarithromycin + metronidazole"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Esomeprazole</b> with <b>clarithromycin</b> + <b>metronidazole</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£4.30</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "esomeprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "20 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "250 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "metronidazole"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "400 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "lansoprazole with amoxicillin + clarithromycin"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Lansoprazole</b> with <b>amoxicillin</b> + <b>clarithromycin</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£5.52</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "lansoprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "30 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "amoxicillin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "1 g twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "500 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "lansoprazole with amoxicillin + metronidazole"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Lansoprazole</b> with <b>amoxicillin</b> + <b>metronidazole</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£3.70</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "lansoprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "30 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "amoxicillin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "1 g twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "metronidazole"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "400 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "lansoprazole with clarithromycin + metronidazole"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Lansoprazole</b> with <b>clarithromycin</b> + <b>metronidazole</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£3.19</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "lansoprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "30 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "250 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "metronidazole"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "400 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "omeprazole with amoxicillin + clarithromycin"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Omeprazole</b> with <b>amoxicillin</b> + <b>clarithromycin</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£5.36</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "omeprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "20 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "amoxicillin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "1 g twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "500 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "omeprazole with amoxicillin + metronidazole"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Omeprazole</b> with <b>amoxicillin</b> + <b>metronidazole</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£3.40</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "omeprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "20 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "amoxicillin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "500 mg 3 times a day"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "metronidazole"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "400 mg 3 times a day"^^xsd:string]],
+                                                                                [rdfs:label "omeprazole with clarithromycin + metronidazole"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Omeprazole</b> with <b>clarithromycin</b> + <b>metronidazole</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£3.03</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "omeprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "20 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "250 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "metronidazole"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "400 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "pantoprazole with amoxicillin + clarithromycin"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Pantoprazole</b> with <b>amoxicillin</b> + <b>clarithromycin</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£5.48</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "pantoprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "40 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "amoxicillin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "1 g twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "500 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "pantoprazole with clarithromycin + metronidazole"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Pantoprazole</b> with <b>clarithromycin</b> + <b>metronidazole</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£3.15</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "pantoprazole"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "40 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "250 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "metronidazole"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "400 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "rabeprazole sodium with amoxicillin + clarithromycin"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Rabeprazole sodium</b> with <b>amoxicillin</b> + <b>clarithromycin</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£6.04</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "rabeprazole sodium"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "20 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "amoxicillin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "1 g twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "500 mg twice daily"^^xsd:string]],
+                                                                                [rdfs:label "rabeprazole sodium with clarithromycin + metronidazole"^^xsd:string ; 
+                                                                                 nicebnf:hasTitle """<p outputclass=\"title\">
+  <b>Rabeprazole sodium</b> with <b>clarithromycin</b> + <b>metronidazole</b></p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasCourse """<p outputclass=\"course\">
+  <ph outputclass=\"price\">£3.71</ph> for 7-day course</p>"""^^<rdf:XMLLiteral> ; 
+                                                                                 nicebnf:hasAcidSuppressant [rdfs:label "rabeprazole sodium"^^xsd:string ; 
+                                                                                                             nicebnf:hasQuantity "20 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "clarithromycin"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "250 mg twice daily"^^xsd:string] ; 
+                                                                                 nicebnf:hasAntibacterial [rdfs:label "metronidazole"^^xsd:string ; 
+                                                                                                           nicebnf:hasQuantity "400 mg twice daily"^^xsd:string]];
+                                                             rdfs:label "recommended regimens for helicobacter pylori eradication"^^xsd:string.
+

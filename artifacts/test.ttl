@@ -1,0 +1,12 @@
+<http://family.com/people/elizabethsmith> <http://schema.org/children> <http://family.com/people/thomassmith> .
+<http://family.com/people/elizabethsmith> <http://schema.org/gender> "Female" .
+<http://family.com/people/elizabethsmith> <http://schema.org/name> "Elizabeth Smith" .
+<http://family.com/people/elizabethsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://family.com/people/mattsmith> <http://schema.org/children> <http://family.com/people/thomassmith> .
+<http://family.com/people/mattsmith> <http://schema.org/gender> "Male" .
+<http://family.com/people/mattsmith> <http://schema.org/name> "Matt Smith" .
+<http://family.com/people/mattsmith> <http://schema.org/spouse> <http://family.com/people/elizabethsmith> .
+<http://family.com/people/mattsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://family.com/people/thomassmith> <http://schema.org/gender> "Male" .
+<http://family.com/people/thomassmith> <http://schema.org/name> "Thomas Smith" .
+<http://family.com/people/thomassmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
